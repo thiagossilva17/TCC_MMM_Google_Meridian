@@ -1,0 +1,1822 @@
+[
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:data/metadata/MERIDIAN_LICENSE",
+    "destination": "data/metadata/MERIDIAN_LICENSE",
+    "sha256_source": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "sha256_final": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:data/metadata/execution.json",
+    "destination": "data/metadata/execution.json",
+    "sha256_source": "58ce5311f39a854efe1cd61bef1dc6611c9dfff0d67d6b23d632b7b80f82dde7",
+    "sha256_final": "58ce5311f39a854efe1cd61bef1dc6611c9dfff0d67d6b23d632b7b80f82dde7",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:data/metadata/meridian_run.json",
+    "destination": "data/metadata/meridian_run.json",
+    "sha256_source": "e8e3822bca276754e117e285d8d56c3f8a3d121139e60c5e3f8c373e51eacfb2",
+    "sha256_final": "e8e3822bca276754e117e285d8d56c3f8a3d121139e60c5e3f8c373e51eacfb2",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:data/metadata/source.json",
+    "destination": "data/metadata/source.json",
+    "sha256_source": "2fdf6099c49906ca3f6eb70ba01844cfb58534d5e32f6195c298344e0899cf98",
+    "sha256_final": "2fdf6099c49906ca3f6eb70ba01844cfb58534d5e32f6195c298344e0899cf98",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:data/metadata/validated_environment.txt",
+    "destination": "data/metadata/validated_environment.txt",
+    "sha256_source": "43b616b8068e379ab0801a7c3f28f04ea8ca9272b54b77702e85599e5de534be",
+    "sha256_final": "43b616b8068e379ab0801a7c3f28f04ea8ca9272b54b77702e85599e5de534be",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:data/processed/geo_time_panel.csv",
+    "destination": "data/processed/geo_time_panel.csv",
+    "sha256_source": "3aa1bc0ee293b7c6d46ccc5ad7c74583ec670a78153432be183d338ad11f4abc",
+    "sha256_final": "3aa1bc0ee293b7c6d46ccc5ad7c74583ec670a78153432be183d338ad11f4abc",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:data/raw/geo_all_channels.csv",
+    "destination": "data/raw/geo_all_channels.csv",
+    "sha256_source": "d9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6",
+    "sha256_final": "d9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/data_audit/missing_values.svg",
+    "destination": "outputs/figures/data_audit/missing_values.svg",
+    "sha256_source": "8da756e4b488da177979b5a233e70f489cc40c21523a8be502ab8d895ddf4bb4",
+    "sha256_final": "8da756e4b488da177979b5a233e70f489cc40c21523a8be502ab8d895ddf4bb4",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/data_audit/panel_completeness.svg",
+    "destination": "outputs/figures/data_audit/panel_completeness.svg",
+    "sha256_source": "1054422e5a36f1b7a30481a60cc88dcbeeba867455ebb250a500c9cf5cda423a",
+    "sha256_final": "1054422e5a36f1b7a30481a60cc88dcbeeba867455ebb250a500c9cf5cda423a",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/general/channel_activity.svg",
+    "destination": "outputs/figures/general/channel_activity.svg",
+    "sha256_source": "12e148aa8fd9fbf6255aaf704ef9bdc47663e2d711654aaa49e720e28e139feb",
+    "sha256_final": "12e148aa8fd9fbf6255aaf704ef9bdc47663e2d711654aaa49e720e28e139feb",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/general/kpi_distribution.svg",
+    "destination": "outputs/figures/general/kpi_distribution.svg",
+    "sha256_source": "a1d50d8bf780151f2a2bd97005fa66d4768e8697927d6cf851e253f6d3167129",
+    "sha256_final": "a1d50d8bf780151f2a2bd97005fa66d4768e8697927d6cf851e253f6d3167129",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/general/national_kpi.svg",
+    "destination": "outputs/figures/general/national_kpi.svg",
+    "sha256_source": "51fb5860186d40d79809a81598a3e445a2738fe5e2d9b53836fecb619535cdbc",
+    "sha256_final": "51fb5860186d40d79809a81598a3e445a2738fe5e2d9b53836fecb619535cdbc",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/general/spend_share.svg",
+    "destination": "outputs/figures/general/spend_share.svg",
+    "sha256_source": "d3b3ac687c9219c8907e031d1b4c3b6b29d256f14d6497040ff2feba58b230c7",
+    "sha256_final": "d3b3ac687c9219c8907e031d1b4c3b6b29d256f14d6497040ff2feba58b230c7",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/geo/competitor_sales_control_geo_time.svg",
+    "destination": "outputs/figures/geo/competitor_sales_control_geo_time.svg",
+    "sha256_source": "fb8b53a934311530bd1beaef457618800b0a7dec76a5fa3fb023e366cc0e6e11",
+    "sha256_final": "fb8b53a934311530bd1beaef457618800b0a7dec76a5fa3fb023e366cc0e6e11",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/geo/conversions_geo_time.svg",
+    "destination": "outputs/figures/geo/conversions_geo_time.svg",
+    "sha256_source": "69c2af364fae92b931af68f3924de6fda3a50ba6f39bdbaa961948a183245597",
+    "sha256_final": "69c2af364fae92b931af68f3924de6fda3a50ba6f39bdbaa961948a183245597",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/geo/geo_correlation.svg",
+    "destination": "outputs/figures/geo/geo_correlation.svg",
+    "sha256_source": "fab5b9ce299d20d1a05780952f204790216c967b4f9a274c607c7bbf047f89b1",
+    "sha256_final": "fab5b9ce299d20d1a05780952f204790216c967b4f9a274c607c7bbf047f89b1",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/geo/geo_time_r2.svg",
+    "destination": "outputs/figures/geo/geo_time_r2.svg",
+    "sha256_source": "1e5e2c1c1cea5e7957175ed0ac4e6488c41247ba6dd930948f7c07e703f044ee",
+    "sha256_final": "1e5e2c1c1cea5e7957175ed0ac4e6488c41247ba6dd930948f7c07e703f044ee",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/geo/kpi_by_geo.svg",
+    "destination": "outputs/figures/geo/kpi_by_geo.svg",
+    "sha256_source": "82ef078bc1d4e825d324dbd4acaa686a078fe95a61a3c1866ac72a084db4dbc7",
+    "sha256_final": "82ef078bc1d4e825d324dbd4acaa686a078fe95a61a3c1866ac72a084db4dbc7",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/geo/kpi_concentration.svg",
+    "destination": "outputs/figures/geo/kpi_concentration.svg",
+    "sha256_source": "2569b49d9604d7f977648a5baccbdb70a745972111a1d7468eaa30eaa2607313",
+    "sha256_final": "2569b49d9604d7f977648a5baccbdb70a745972111a1d7468eaa30eaa2607313",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/geo/kpi_pc_geo_time.svg",
+    "destination": "outputs/figures/geo/kpi_pc_geo_time.svg",
+    "sha256_source": "09f1ba3e8becc7e3a591244c69119ae48789ed2d40c81ad61abfea43f54249fb",
+    "sha256_final": "09f1ba3e8becc7e3a591244c69119ae48789ed2d40c81ad61abfea43f54249fb",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/geo/kpi_per_capita.svg",
+    "destination": "outputs/figures/geo/kpi_per_capita.svg",
+    "sha256_source": "c57fce8f0dbc84a077ce4933773e654c928f2493c6172e7cea540c2dc6d54af8",
+    "sha256_final": "c57fce8f0dbc84a077ce4933773e654c928f2493c6172e7cea540c2dc6d54af8",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/geo/kpi_small_multiples.svg",
+    "destination": "outputs/figures/geo/kpi_small_multiples.svg",
+    "sha256_source": "456b1b1b7f4920f15f04955b933253a8d08bfac8e3f48dccf5bed55fd3321181",
+    "sha256_final": "456b1b1b7f4920f15f04955b933253a8d08bfac8e3f48dccf5bed55fd3321181",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/geo/population_by_geo.svg",
+    "destination": "outputs/figures/geo/population_by_geo.svg",
+    "sha256_source": "488462d98aff86bf0ec5393363276ea01738f7b1bf0c2e7d615e66d5e55d2df1",
+    "sha256_final": "488462d98aff86bf0ec5393363276ea01738f7b1bf0c2e7d615e66d5e55d2df1",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/geo/population_kpi.svg",
+    "destination": "outputs/figures/geo/population_kpi.svg",
+    "sha256_source": "7a5663817041da845951a104bbc11afcc958071b3efae330f56c44aada1195e5",
+    "sha256_final": "7a5663817041da845951a104bbc11afcc958071b3efae330f56c44aada1195e5",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/geo/sentiment_score_control_geo_time.svg",
+    "destination": "outputs/figures/geo/sentiment_score_control_geo_time.svg",
+    "sha256_source": "f598af39f422719d302eb9fcd1f455f33fb3f8e4d8272ac8cac9f7cb6f85328f",
+    "sha256_final": "f598af39f422719d302eb9fcd1f455f33fb3f8e4d8272ac8cac9f7cb6f85328f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/geo/variance_decomposition.svg",
+    "destination": "outputs/figures/geo/variance_decomposition.svg",
+    "sha256_source": "e2f30dd202ff2b25505615b151e3c0118f153089f7d0e367a254a2e2d7b7ef51",
+    "sha256_final": "e2f30dd202ff2b25505615b151e3c0118f153089f7d0e367a254a2e2d7b7ef51",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel0_impression_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel0_impression_geo_time.svg",
+    "sha256_source": "9fc9e507f79241cecac0d14df90806ffc10c2b08db0f02f58c772bf5fca151e6",
+    "sha256_final": "9fc9e507f79241cecac0d14df90806ffc10c2b08db0f02f58c772bf5fca151e6",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel0_impression_pc_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel0_impression_pc_geo_time.svg",
+    "sha256_source": "f8bdadb299b84a45380bef1b26a037a555401869d3c40dd8352b76dfc12caeea",
+    "sha256_final": "f8bdadb299b84a45380bef1b26a037a555401869d3c40dd8352b76dfc12caeea",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel0_population.svg",
+    "destination": "outputs/figures/media_geo/Channel0_population.svg",
+    "sha256_source": "6aa543eab67b9e106109f3819dbc81e7df2e3849a64b738fa3e707e4593f7015",
+    "sha256_final": "6aa543eab67b9e106109f3819dbc81e7df2e3849a64b738fa3e707e4593f7015",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel0_spend_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel0_spend_geo_time.svg",
+    "sha256_source": "f5b6b365191e86b763dc863d5061936ffa4cab4d4a6b0bb47b8f5f950a774299",
+    "sha256_final": "f5b6b365191e86b763dc863d5061936ffa4cab4d4a6b0bb47b8f5f950a774299",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel0_spend_pc_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel0_spend_pc_geo_time.svg",
+    "sha256_source": "036f07c6c999580752302e7fbd89f26642b0af33f6545ffc8c33275278bc8d47",
+    "sha256_final": "036f07c6c999580752302e7fbd89f26642b0af33f6545ffc8c33275278bc8d47",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel1_impression_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel1_impression_geo_time.svg",
+    "sha256_source": "3a319216ef8a4362ed09ba29ce48c1165ec98f0c87304655365e5518781a5d93",
+    "sha256_final": "3a319216ef8a4362ed09ba29ce48c1165ec98f0c87304655365e5518781a5d93",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel1_impression_pc_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel1_impression_pc_geo_time.svg",
+    "sha256_source": "1f88dc151d98bf06bc29b39ecad0e620c65a371492cea7bc85a0b64543b94b24",
+    "sha256_final": "1f88dc151d98bf06bc29b39ecad0e620c65a371492cea7bc85a0b64543b94b24",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel1_population.svg",
+    "destination": "outputs/figures/media_geo/Channel1_population.svg",
+    "sha256_source": "77e71b66278fa6d375e8faa7127d61f9abcaa7f789a2b0c8ee23e188932cd234",
+    "sha256_final": "77e71b66278fa6d375e8faa7127d61f9abcaa7f789a2b0c8ee23e188932cd234",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel1_spend_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel1_spend_geo_time.svg",
+    "sha256_source": "4332a0b8cc1ea6bcea8acc0a08b5b9ea5ac14753ad8fb8058eaec55c65f0118e",
+    "sha256_final": "4332a0b8cc1ea6bcea8acc0a08b5b9ea5ac14753ad8fb8058eaec55c65f0118e",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel1_spend_pc_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel1_spend_pc_geo_time.svg",
+    "sha256_source": "e92b2793885af8941ef8d64fc72ccae165ffbe98ddfab61affeb942ceed3de06",
+    "sha256_final": "e92b2793885af8941ef8d64fc72ccae165ffbe98ddfab61affeb942ceed3de06",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel2_impression_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel2_impression_geo_time.svg",
+    "sha256_source": "76546cd1b469bb26fc0b2d2252d2581924f922189ab352340f58a5e468594e71",
+    "sha256_final": "76546cd1b469bb26fc0b2d2252d2581924f922189ab352340f58a5e468594e71",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel2_impression_pc_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel2_impression_pc_geo_time.svg",
+    "sha256_source": "26d1bbe36e67a636928332ecab5f999790e176c962fff488d9df82fb3d627c65",
+    "sha256_final": "26d1bbe36e67a636928332ecab5f999790e176c962fff488d9df82fb3d627c65",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel2_population.svg",
+    "destination": "outputs/figures/media_geo/Channel2_population.svg",
+    "sha256_source": "88349df9e1cc7ae08e342dd1eb6aa2b5775661d13296c0bd4fda532418173075",
+    "sha256_final": "88349df9e1cc7ae08e342dd1eb6aa2b5775661d13296c0bd4fda532418173075",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel2_spend_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel2_spend_geo_time.svg",
+    "sha256_source": "85700cb1d535fffeef225ce7ed4df5682f9132794e684704098d75ca613eaa00",
+    "sha256_final": "85700cb1d535fffeef225ce7ed4df5682f9132794e684704098d75ca613eaa00",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel2_spend_pc_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel2_spend_pc_geo_time.svg",
+    "sha256_source": "a16ddec5983d4f4f839472cb763f1c3edda057ca774181f3bbdb65a1ddcf519d",
+    "sha256_final": "a16ddec5983d4f4f839472cb763f1c3edda057ca774181f3bbdb65a1ddcf519d",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel3_impression_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel3_impression_geo_time.svg",
+    "sha256_source": "931885bf905e32eaa15b0de7704c7a89b3809fd4d6c26f141e36311bd5213862",
+    "sha256_final": "931885bf905e32eaa15b0de7704c7a89b3809fd4d6c26f141e36311bd5213862",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel3_impression_pc_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel3_impression_pc_geo_time.svg",
+    "sha256_source": "9721a0cfc87ef951b9ae23481ac472d4bad33fb6a3bdf7f863efacf9e8124789",
+    "sha256_final": "9721a0cfc87ef951b9ae23481ac472d4bad33fb6a3bdf7f863efacf9e8124789",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel3_population.svg",
+    "destination": "outputs/figures/media_geo/Channel3_population.svg",
+    "sha256_source": "74c6396f6c980a3ba2a6ac191f57fbea0964537cf85e208826a9bf50fc6593c3",
+    "sha256_final": "74c6396f6c980a3ba2a6ac191f57fbea0964537cf85e208826a9bf50fc6593c3",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel3_spend_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel3_spend_geo_time.svg",
+    "sha256_source": "35c5e1cf825154db1adbd9d81efc9e850f7d6e1e57afbc2a5d5c5b5ca52020d6",
+    "sha256_final": "35c5e1cf825154db1adbd9d81efc9e850f7d6e1e57afbc2a5d5c5b5ca52020d6",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel3_spend_pc_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel3_spend_pc_geo_time.svg",
+    "sha256_source": "c7ade1e7377f3f02524377f0aa9bf3428cd625807a84ab89afb12e6bea30613f",
+    "sha256_final": "c7ade1e7377f3f02524377f0aa9bf3428cd625807a84ab89afb12e6bea30613f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel4_impression_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel4_impression_geo_time.svg",
+    "sha256_source": "494440b463fd9cc50b3703c784bfe1bab1ccb7d6e68e9233698f19aa9defa66f",
+    "sha256_final": "494440b463fd9cc50b3703c784bfe1bab1ccb7d6e68e9233698f19aa9defa66f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel4_impression_pc_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel4_impression_pc_geo_time.svg",
+    "sha256_source": "a9391725997b0d5dc13eed2d80df4079b47d5d72f6c656cc1b9a7170f78a29f7",
+    "sha256_final": "a9391725997b0d5dc13eed2d80df4079b47d5d72f6c656cc1b9a7170f78a29f7",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel4_population.svg",
+    "destination": "outputs/figures/media_geo/Channel4_population.svg",
+    "sha256_source": "96bda2cae710baed761d9bead55ceda2ed016645c58b170defa838d9ce24c42b",
+    "sha256_final": "96bda2cae710baed761d9bead55ceda2ed016645c58b170defa838d9ce24c42b",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel4_spend_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel4_spend_geo_time.svg",
+    "sha256_source": "ea85bff7671e2ce65bf8aaaeacac9eb691286b84c59798aeb0705fb9bbe0c528",
+    "sha256_final": "ea85bff7671e2ce65bf8aaaeacac9eb691286b84c59798aeb0705fb9bbe0c528",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/Channel4_spend_pc_geo_time.svg",
+    "destination": "outputs/figures/media_geo/Channel4_spend_pc_geo_time.svg",
+    "sha256_source": "59233fba90d397dfd512e0468fd43669d79a90d9d5b67f6b8c15ceeb71747246",
+    "sha256_final": "59233fba90d397dfd512e0468fd43669d79a90d9d5b67f6b8c15ceeb71747246",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/geo_allocation.svg",
+    "destination": "outputs/figures/media_geo/geo_allocation.svg",
+    "sha256_source": "4359761955b2db1d63ec8909f13766bf1e2dd4adb0c2e0d76a7570d2622bb0bb",
+    "sha256_final": "4359761955b2db1d63ec8909f13766bf1e2dd4adb0c2e0d76a7570d2622bb0bb",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/media_mix.svg",
+    "destination": "outputs/figures/media_geo/media_mix.svg",
+    "sha256_source": "80b633b1001b3430988b6bdae42ceeeb4dc3efc90aca931a64c579d10f356c35",
+    "sha256_final": "80b633b1001b3430988b6bdae42ceeeb4dc3efc90aca931a64c579d10f356c35",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/mix_deviations_pp.svg",
+    "destination": "outputs/figures/media_geo/mix_deviations_pp.svg",
+    "sha256_source": "9d168b1e40a8a581e06fb77437cbcbe2c4b49062676c99409b32d76e90d13bb5",
+    "sha256_final": "9d168b1e40a8a581e06fb77437cbcbe2c4b49062676c99409b32d76e90d13bb5",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/mix_stacked.svg",
+    "destination": "outputs/figures/media_geo/mix_stacked.svg",
+    "sha256_source": "3ec5e4f96c7837834bd467f93155ec3894e3e7cdb396e1f78035c3302d788bfa",
+    "sha256_final": "3ec5e4f96c7837834bd467f93155ec3894e3e7cdb396e1f78035c3302d788bfa",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/spend_geo_channel.svg",
+    "destination": "outputs/figures/media_geo/spend_geo_channel.svg",
+    "sha256_source": "1bb57a76f97359568a77bcb413437ea2854d7ff062316b5676c5c8d40354544a",
+    "sha256_final": "1bb57a76f97359568a77bcb413437ea2854d7ff062316b5676c5c8d40354544a",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/spend_per_capita.svg",
+    "destination": "outputs/figures/media_geo/spend_per_capita.svg",
+    "sha256_source": "5531970a3c4fdf76452302e3b510bc26e1710d9592993341db3dba9ecb77cedd",
+    "sha256_final": "5531970a3c4fdf76452302e3b510bc26e1710d9592993341db3dba9ecb77cedd",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/within_cv_distribution.svg",
+    "destination": "outputs/figures/media_geo/within_cv_distribution.svg",
+    "sha256_source": "df004d165359bdcbe726e76bc6e10075fe200caa0cf55c05dcd65a6929380735",
+    "sha256_final": "df004d165359bdcbe726e76bc6e10075fe200caa0cf55c05dcd65a6929380735",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/media_geo/within_geo_cv.svg",
+    "destination": "outputs/figures/media_geo/within_geo_cv.svg",
+    "sha256_source": "9bea4d54a845cf4d072a972020d4c09d509738c7f2dac3266aae63e6e3e5a761",
+    "sha256_final": "9bea4d54a845cf4d072a972020d4c09d509738c7f2dac3266aae63e6e3e5a761",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/relationships/correlation_national.svg",
+    "destination": "outputs/figures/relationships/correlation_national.svg",
+    "sha256_source": "e7d257cfaa4a88fe5566ca3294db3aefd0b0a44b051fdb6d571bb1fc1005ff82",
+    "sha256_final": "e7d257cfaa4a88fe5566ca3294db3aefd0b0a44b051fdb6d571bb1fc1005ff82",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/relationships/correlation_overall.svg",
+    "destination": "outputs/figures/relationships/correlation_overall.svg",
+    "sha256_source": "0ea2026cb925df30ad5c7c31e0dc27b1327fc85419ff6896f22d84ef47db4c11",
+    "sha256_final": "0ea2026cb925df30ad5c7c31e0dc27b1327fc85419ff6896f22d84ef47db4c11",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/relationships/correlation_two_way.svg",
+    "destination": "outputs/figures/relationships/correlation_two_way.svg",
+    "sha256_source": "bd7a5bb2cfc913dbdd0253222cf250e277f2f12b519ee982cb3819c41cfd0490",
+    "sha256_final": "bd7a5bb2cfc913dbdd0253222cf250e277f2f12b519ee982cb3819c41cfd0490",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/relationships/correlation_within.svg",
+    "destination": "outputs/figures/relationships/correlation_within.svg",
+    "sha256_source": "cb4ee010f553a88a0807192819efdb1f60782b761a635dd2585b6635966df5e5",
+    "sha256_final": "cb4ee010f553a88a0807192819efdb1f60782b761a635dd2585b6635966df5e5",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/relationships/lags.svg",
+    "destination": "outputs/figures/relationships/lags.svg",
+    "sha256_source": "2fe363fc0485f21ac9e8314cdf8e3fa2a4416e54512a805731435420c81eea19",
+    "sha256_final": "2fe363fc0485f21ac9e8314cdf8e3fa2a4416e54512a805731435420c81eea19",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/relationships/readiness_dashboard.svg",
+    "destination": "outputs/figures/relationships/readiness_dashboard.svg",
+    "sha256_source": "0abe14cebfe026575deab21906cda170eab8d78520e9024f930e318ddf586c9b",
+    "sha256_final": "0abe14cebfe026575deab21906cda170eab8d78520e9024f930e318ddf586c9b",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/relationships/vif.svg",
+    "destination": "outputs/figures/relationships/vif.svg",
+    "sha256_source": "19a6ee6cc625a8e8a82ecf8e1c9f70b5f6a63d539bdcaf5020ce6ccd34b6a3c2",
+    "sha256_final": "19a6ee6cc625a8e8a82ecf8e1c9f70b5f6a63d539bdcaf5020ce6ccd34b6a3c2",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/Channel0_kpi_z.svg",
+    "destination": "outputs/figures/temporal/Channel0_kpi_z.svg",
+    "sha256_source": "017d8c7407585be370637ec645a84a3e9b113a4f955ad6e76bcbdf9e2503eb3c",
+    "sha256_final": "017d8c7407585be370637ec645a84a3e9b113a4f955ad6e76bcbdf9e2503eb3c",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/Channel0_timeseries.svg",
+    "destination": "outputs/figures/temporal/Channel0_timeseries.svg",
+    "sha256_source": "0b45284b1ba324c2cac24205d1765bd704b83aad928144598f46551fcfd01dc2",
+    "sha256_final": "0b45284b1ba324c2cac24205d1765bd704b83aad928144598f46551fcfd01dc2",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/Channel1_kpi_z.svg",
+    "destination": "outputs/figures/temporal/Channel1_kpi_z.svg",
+    "sha256_source": "40493d8339a857aff74dd7ff22148a2c4521f3f9be8052b4c269914c805374b3",
+    "sha256_final": "40493d8339a857aff74dd7ff22148a2c4521f3f9be8052b4c269914c805374b3",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/Channel1_timeseries.svg",
+    "destination": "outputs/figures/temporal/Channel1_timeseries.svg",
+    "sha256_source": "c1ae16a342b83dd23ed851446d0e25a1ef45d72c9de12a0aae1ae1d88081e481",
+    "sha256_final": "c1ae16a342b83dd23ed851446d0e25a1ef45d72c9de12a0aae1ae1d88081e481",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/Channel2_kpi_z.svg",
+    "destination": "outputs/figures/temporal/Channel2_kpi_z.svg",
+    "sha256_source": "562a85d01ee982efdc13054e54d889713788d94f4310e96a3d511bd799878a63",
+    "sha256_final": "562a85d01ee982efdc13054e54d889713788d94f4310e96a3d511bd799878a63",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/Channel2_timeseries.svg",
+    "destination": "outputs/figures/temporal/Channel2_timeseries.svg",
+    "sha256_source": "7eb926106d59fce0f5c1b302ce9324f5f3bf349330e7b613898c9c130c85fe43",
+    "sha256_final": "7eb926106d59fce0f5c1b302ce9324f5f3bf349330e7b613898c9c130c85fe43",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/Channel3_kpi_z.svg",
+    "destination": "outputs/figures/temporal/Channel3_kpi_z.svg",
+    "sha256_source": "f29301acc0cdc2d62017f104d1e6f4200781889aa9c13e5fbad18ca831b32fda",
+    "sha256_final": "f29301acc0cdc2d62017f104d1e6f4200781889aa9c13e5fbad18ca831b32fda",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/Channel3_timeseries.svg",
+    "destination": "outputs/figures/temporal/Channel3_timeseries.svg",
+    "sha256_source": "94a8fe4b9294ec912b66eaf60f9b7c6a13fa15ab8f7d76f502a7ce3b84cb46d8",
+    "sha256_final": "94a8fe4b9294ec912b66eaf60f9b7c6a13fa15ab8f7d76f502a7ce3b84cb46d8",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/Channel4_kpi_z.svg",
+    "destination": "outputs/figures/temporal/Channel4_kpi_z.svg",
+    "sha256_source": "d0acbbd85881f00686249e52b37782f398179fc6ca8c7c7167b9090f41b1a7bc",
+    "sha256_final": "d0acbbd85881f00686249e52b37782f398179fc6ca8c7c7167b9090f41b1a7bc",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/Channel4_timeseries.svg",
+    "destination": "outputs/figures/temporal/Channel4_timeseries.svg",
+    "sha256_source": "808d42c3fe5f7876e50a473972edfada5fd6d60b65c4133ccdd2060116840e95",
+    "sha256_final": "808d42c3fe5f7876e50a473972edfada5fd6d60b65c4133ccdd2060116840e95",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/Organic_channel0_impression_distribution.svg",
+    "destination": "outputs/figures/temporal/Organic_channel0_impression_distribution.svg",
+    "sha256_source": "b6e6d8716f403f784ba2781438b1c77392450e783e68bfc5fa4594ffbb58b6de",
+    "sha256_final": "b6e6d8716f403f784ba2781438b1c77392450e783e68bfc5fa4594ffbb58b6de",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/Organic_channel0_impression_time.svg",
+    "destination": "outputs/figures/temporal/Organic_channel0_impression_time.svg",
+    "sha256_source": "7435c6524226e2a3bef6e527f75ee2733869e82ab28fd53a5cf7bcbd2374f467",
+    "sha256_final": "7435c6524226e2a3bef6e527f75ee2733869e82ab28fd53a5cf7bcbd2374f467",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/Promo_distribution.svg",
+    "destination": "outputs/figures/temporal/Promo_distribution.svg",
+    "sha256_source": "0dc6fea85500ada6935c23aaa190c9d2d863958463c34e96cc4ba910136a45fc",
+    "sha256_final": "0dc6fea85500ada6935c23aaa190c9d2d863958463c34e96cc4ba910136a45fc",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/Promo_time.svg",
+    "destination": "outputs/figures/temporal/Promo_time.svg",
+    "sha256_source": "5223acf7e8543da0a647a2cceb893cfc4c22c1572de5765144fd5692375f6e20",
+    "sha256_final": "5223acf7e8543da0a647a2cceb893cfc4c22c1572de5765144fd5692375f6e20",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/competitor_sales_control_distribution.svg",
+    "destination": "outputs/figures/temporal/competitor_sales_control_distribution.svg",
+    "sha256_source": "6b803a5f26b6051e2b4b0d3b619660752154f6d90104a586657990b50123c731",
+    "sha256_final": "6b803a5f26b6051e2b4b0d3b619660752154f6d90104a586657990b50123c731",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/competitor_sales_control_time.svg",
+    "destination": "outputs/figures/temporal/competitor_sales_control_time.svg",
+    "sha256_source": "8b11c12dce37633b6004529f3948caff2a11b04adcaf9f4d1a30589e619dc427",
+    "sha256_final": "8b11c12dce37633b6004529f3948caff2a11b04adcaf9f4d1a30589e619dc427",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/kpi_stl_52.svg",
+    "destination": "outputs/figures/temporal/kpi_stl_52.svg",
+    "sha256_source": "319ae9e8c92681946278c15507514b645dab7a1e059b02b1b177c080391649ee",
+    "sha256_final": "319ae9e8c92681946278c15507514b645dab7a1e059b02b1b177c080391649ee",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/kpi_trend.svg",
+    "destination": "outputs/figures/temporal/kpi_trend.svg",
+    "sha256_source": "eb53c37800e11654842d1941d7e4684e1ff066eb9d7c1e15b6ccb206fe2eca39",
+    "sha256_final": "eb53c37800e11654842d1941d7e4684e1ff066eb9d7c1e15b6ccb206fe2eca39",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/sentiment_score_control_distribution.svg",
+    "destination": "outputs/figures/temporal/sentiment_score_control_distribution.svg",
+    "sha256_source": "ba31a185cf26050b19dfe0c285605cff8f9b7e95a43f30a5e00d2861abab3ac5",
+    "sha256_final": "ba31a185cf26050b19dfe0c285605cff8f9b7e95a43f30a5e00d2861abab3ac5",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/figures/temporal/sentiment_score_control_time.svg",
+    "destination": "outputs/figures/temporal/sentiment_score_control_time.svg",
+    "sha256_source": "49bedb8e16bbc80a13d0d486b5ac91ee2bf39530263e76b8b9319bc8e2b94b23",
+    "sha256_final": "49bedb8e16bbc80a13d0d486b5ac91ee2bf39530263e76b8b9319bc8e2b94b23",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/activity_intensity_summary.csv",
+    "destination": "outputs/tables/activity_intensity_summary.csv",
+    "sha256_source": "0f2900710b16f476ead698ea786d893aa9ff00624c54e1b9f7b2213daa26b8bb",
+    "sha256_final": "0f2900710b16f476ead698ea786d893aa9ff00624c54e1b9f7b2213daa26b8bb",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/activity_runs.csv",
+    "destination": "outputs/tables/activity_runs.csv",
+    "sha256_source": "508e3edc4685338035b7c252187448da96c6324cdf1f2677cfc65b122c96abc0",
+    "sha256_final": "508e3edc4685338035b7c252187448da96c6324cdf1f2677cfc65b122c96abc0",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/activity_streaks.csv",
+    "destination": "outputs/tables/activity_streaks.csv",
+    "sha256_source": "c0b1d6296a28d845eaf1a719c5e56ab3f9ecbeaf4ee19fba1269b83fcc261284",
+    "sha256_final": "c0b1d6296a28d845eaf1a719c5e56ab3f9ecbeaf4ee19fba1269b83fcc261284",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/activity_support_by_geo.csv",
+    "destination": "outputs/tables/activity_support_by_geo.csv",
+    "sha256_source": "3c2c9ed8494db5c30e7772703b2a5a2904d3033382e61b3a6efca451551c43cf",
+    "sha256_final": "3c2c9ed8494db5c30e7772703b2a5a2904d3033382e61b3a6efca451551c43cf",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/channel_activity.csv",
+    "destination": "outputs/tables/channel_activity.csv",
+    "sha256_source": "8d48a73b98d40240c4b07be28ce13f54204f7d59628b41cd29cc8296b49336f2",
+    "sha256_final": "8d48a73b98d40240c4b07be28ce13f54204f7d59628b41cd29cc8296b49336f2",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/channel_geo_concentration.csv",
+    "destination": "outputs/tables/channel_geo_concentration.csv",
+    "sha256_source": "6dba57e7d13e7dc4382e083942a73fb31222e1224c8be23841cf0066fc3fcb54",
+    "sha256_final": "6dba57e7d13e7dc4382e083942a73fb31222e1224c8be23841cf0066fc3fcb54",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/channel_geo_interpretation.csv",
+    "destination": "outputs/tables/channel_geo_interpretation.csv",
+    "sha256_source": "3fa305bc060e64d9b35cd2e4fe344141c1433889af4c85da4680d8ffdfbf67d3",
+    "sha256_final": "3fa305bc060e64d9b35cd2e4fe344141c1433889af4c85da4680d8ffdfbf67d3",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/channel_integrated_review.csv",
+    "destination": "outputs/tables/channel_integrated_review.csv",
+    "sha256_source": "652d149f4be33b0a1b92d71fb186144b0b18bb3da0d6e88986042335c9ce968a",
+    "sha256_final": "652d149f4be33b0a1b92d71fb186144b0b18bb3da0d6e88986042335c9ce968a",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/channel_summary.csv",
+    "destination": "outputs/tables/channel_summary.csv",
+    "sha256_source": "2d399a139fb2abd2734ca5f197be7e7deb040eec2c854e319cbf9919993b3937",
+    "sha256_final": "2d399a139fb2abd2734ca5f197be7e7deb040eec2c854e319cbf9919993b3937",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/control_detailed_profile.csv",
+    "destination": "outputs/tables/control_detailed_profile.csv",
+    "sha256_source": "0557374fc68bdb1573045782067016d49a213ef2b91d1a1614631c88da08991b",
+    "sha256_final": "0557374fc68bdb1573045782067016d49a213ef2b91d1a1614631c88da08991b",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/control_relationship_review.csv",
+    "destination": "outputs/tables/control_relationship_review.csv",
+    "sha256_source": "3e706722a824e762f7c976ec4c5b69685899b0a0df524eb945c4a5ba6bdf0bdf",
+    "sha256_final": "3e706722a824e762f7c976ec4c5b69685899b0a0df524eb945c4a5ba6bdf0bdf",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/control_temporal_summary.csv",
+    "destination": "outputs/tables/control_temporal_summary.csv",
+    "sha256_source": "9f22da1a93ba56276bb68c9866b6502ed7971f135cb696bc96295b9cc00e75fb",
+    "sha256_final": "9f22da1a93ba56276bb68c9866b6502ed7971f135cb696bc96295b9cc00e75fb",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/correlation_national_pearson.csv",
+    "destination": "outputs/tables/correlation_national_pearson.csv",
+    "sha256_source": "3f10c516e37351bff1aeabaa44fa41e11ef67eb2422c19923d6b90b053fabfdb",
+    "sha256_final": "3f10c516e37351bff1aeabaa44fa41e11ef67eb2422c19923d6b90b053fabfdb",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/correlation_national_spearman.csv",
+    "destination": "outputs/tables/correlation_national_spearman.csv",
+    "sha256_source": "a22cbd3599f9dca785a53d47f8029897718fd2c7ab37b06c466c14a7dead6394",
+    "sha256_final": "a22cbd3599f9dca785a53d47f8029897718fd2c7ab37b06c466c14a7dead6394",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/correlation_overall_pearson.csv",
+    "destination": "outputs/tables/correlation_overall_pearson.csv",
+    "sha256_source": "f2923ab2d65916a4e2de2dd408d9aa36b6ef61d4b212780d589a3c859439ec57",
+    "sha256_final": "f2923ab2d65916a4e2de2dd408d9aa36b6ef61d4b212780d589a3c859439ec57",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/correlation_overall_spearman.csv",
+    "destination": "outputs/tables/correlation_overall_spearman.csv",
+    "sha256_source": "6338653ebc0b4978a6b73663d1ffa7866c35cd2c5c7414b38c5023cfdb485f1c",
+    "sha256_final": "6338653ebc0b4978a6b73663d1ffa7866c35cd2c5c7414b38c5023cfdb485f1c",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/correlation_summary.csv",
+    "destination": "outputs/tables/correlation_summary.csv",
+    "sha256_source": "c8e4782ccdc8ea611c1cd749b5ab7c948749192d02358dbde48795c667a4db88",
+    "sha256_final": "c8e4782ccdc8ea611c1cd749b5ab7c948749192d02358dbde48795c667a4db88",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/correlation_two_way_pearson.csv",
+    "destination": "outputs/tables/correlation_two_way_pearson.csv",
+    "sha256_source": "edf69ac1b3863534dade9b4c71cec4e2d163e26632d7f7a8b723251b4f2ba77f",
+    "sha256_final": "edf69ac1b3863534dade9b4c71cec4e2d163e26632d7f7a8b723251b4f2ba77f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/correlation_two_way_spearman.csv",
+    "destination": "outputs/tables/correlation_two_way_spearman.csv",
+    "sha256_source": "c5c40193aaf7e82efe0acfdb2a7063a117de30e2533e7c7399ce03c7885b33a9",
+    "sha256_final": "c5c40193aaf7e82efe0acfdb2a7063a117de30e2533e7c7399ce03c7885b33a9",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/correlation_within_pearson.csv",
+    "destination": "outputs/tables/correlation_within_pearson.csv",
+    "sha256_source": "7862e239472b268a58c62d2768189d99540ca388be033490fc242f01a59c178a",
+    "sha256_final": "7862e239472b268a58c62d2768189d99540ca388be033490fc242f01a59c178a",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/correlation_within_spearman.csv",
+    "destination": "outputs/tables/correlation_within_spearman.csv",
+    "sha256_source": "daddb41f7cd743f1dd250067c7126ccdafea2bdec48161fe9c5e119da5a1978b",
+    "sha256_final": "daddb41f7cd743f1dd250067c7126ccdafea2bdec48161fe9c5e119da5a1978b",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/cost_per_media_unit.csv",
+    "destination": "outputs/tables/cost_per_media_unit.csv",
+    "sha256_source": "f5286d832bd537d59e6ffbcb181a72013f7bf7fe80d0c6613a39321eda50627f",
+    "sha256_final": "f5286d832bd537d59e6ffbcb181a72013f7bf7fe80d0c6613a39321eda50627f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/custom_official_scale_comparison.csv",
+    "destination": "outputs/tables/custom_official_scale_comparison.csv",
+    "sha256_source": "fcf76df061bb554634ac7ed53a0526e4c6361a6fb4065894ed1b27605b8b9427",
+    "sha256_final": "fcf76df061bb554634ac7ed53a0526e4c6361a6fb4065894ed1b27605b8b9427",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/custom_vs_meridian.csv",
+    "destination": "outputs/tables/custom_vs_meridian.csv",
+    "sha256_source": "4480ea3fc741f1626621537b44ba65479a08f57ff327a48fac7cf85d881cd891",
+    "sha256_final": "4480ea3fc741f1626621537b44ba65479a08f57ff327a48fac7cf85d881cd891",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/data_audit.csv",
+    "destination": "outputs/tables/data_audit.csv",
+    "sha256_source": "d5d5f69f933e3583ac358758d1b19fdf31322aa5d0a02ed2864c691752216491",
+    "sha256_final": "d5d5f69f933e3583ac358758d1b19fdf31322aa5d0a02ed2864c691752216491",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/data_dictionary.csv",
+    "destination": "outputs/tables/data_dictionary.csv",
+    "sha256_source": "643e97046fbc40c71dce7b31c76be6a420c3edba3269faee8306a95231644338",
+    "sha256_final": "643e97046fbc40c71dce7b31c76be6a420c3edba3269faee8306a95231644338",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/duplicate_summary.csv",
+    "destination": "outputs/tables/duplicate_summary.csv",
+    "sha256_source": "c1854fd2915fab19a38b6c39f9bcd6da75f7df17a20aab24f10d6f94e17c6c27",
+    "sha256_final": "c1854fd2915fab19a38b6c39f9bcd6da75f7df17a20aab24f10d6f94e17c6c27",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/exploratory_lags.csv",
+    "destination": "outputs/tables/exploratory_lags.csv",
+    "sha256_source": "88d6e0c0baad6ac1d8bc9c194aa0d85482cddb2ba4e24a65102aec701c8c1974",
+    "sha256_final": "88d6e0c0baad6ac1d8bc9c194aa0d85482cddb2ba4e24a65102aec701c8c1974",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/geo_allocation.csv",
+    "destination": "outputs/tables/geo_allocation.csv",
+    "sha256_source": "666b7c7a7bd6e92ac6faddf972888bea8d5fddf363c9adafbfd54094faa5c38c",
+    "sha256_final": "666b7c7a7bd6e92ac6faddf972888bea8d5fddf363c9adafbfd54094faa5c38c",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/geo_cpmu.csv",
+    "destination": "outputs/tables/geo_cpmu.csv",
+    "sha256_source": "24875fee30972ace523549ccb4b3eb550a19e0b4d8ae786c282798997a4b7aca",
+    "sha256_final": "24875fee30972ace523549ccb4b3eb550a19e0b4d8ae786c282798997a4b7aca",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/geo_kpi_correlation.csv",
+    "destination": "outputs/tables/geo_kpi_correlation.csv",
+    "sha256_source": "74c49029786d61d7252c99a6222f73bac75a57f6a45e398d4cb5541773c4ce92",
+    "sha256_final": "74c49029786d61d7252c99a6222f73bac75a57f6a45e398d4cb5541773c4ce92",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/geo_kpi_summary.csv",
+    "destination": "outputs/tables/geo_kpi_summary.csv",
+    "sha256_source": "24352f7d03f93fc972568b2cd3d0a10c2090f4b2d7b40650de031f58797a5ed6",
+    "sha256_final": "24352f7d03f93fc972568b2cd3d0a10c2090f4b2d7b40650de031f58797a5ed6",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/geo_media_summary.csv",
+    "destination": "outputs/tables/geo_media_summary.csv",
+    "sha256_source": "b8396126559f2469a6a59b424071a7aa7a6f89b4bd8e212cfd4d4f1a28edcbfe",
+    "sha256_final": "b8396126559f2469a6a59b424071a7aa7a6f89b4bd8e212cfd4d4f1a28edcbfe",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/geo_plot_selection.csv",
+    "destination": "outputs/tables/geo_plot_selection.csv",
+    "sha256_source": "795aa0f93eab8dc686dad62261fe89312a2b8062e796cb63e012033596018664",
+    "sha256_final": "795aa0f93eab8dc686dad62261fe89312a2b8062e796cb63e012033596018664",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/geo_synchronization_pairs.csv",
+    "destination": "outputs/tables/geo_synchronization_pairs.csv",
+    "sha256_source": "60bc960d9844085f75920f10bf2f95997376dbef6431ee1146199bc7afa332db",
+    "sha256_final": "60bc960d9844085f75920f10bf2f95997376dbef6431ee1146199bc7afa332db",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/geo_synchronization_summary.csv",
+    "destination": "outputs/tables/geo_synchronization_summary.csv",
+    "sha256_source": "38058f0d9c9f7ae1ca5878983cbf2c071cbeb94e1a0a37de675caa3b12d6febf",
+    "sha256_final": "38058f0d9c9f7ae1ca5878983cbf2c071cbeb94e1a0a37de675caa3b12d6febf",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/geo_time_r2.csv",
+    "destination": "outputs/tables/geo_time_r2.csv",
+    "sha256_source": "4e1c641902e571410c2989a44f81d54a5dcdcee06cc200cb17b45453fe704160",
+    "sha256_final": "4e1c641902e571410c2989a44f81d54a5dcdcee06cc200cb17b45453fe704160",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/geo_time_r2_per_capita.csv",
+    "destination": "outputs/tables/geo_time_r2_per_capita.csv",
+    "sha256_source": "7b2823746d506e5bdaf3c4f5f94c0b2108329e133a2c09a6d68e042383ea9349",
+    "sha256_final": "7b2823746d506e5bdaf3c4f5f94c0b2108329e133a2c09a6d68e042383ea9349",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/impression_correlation_national_pearson.csv",
+    "destination": "outputs/tables/impression_correlation_national_pearson.csv",
+    "sha256_source": "7ad83ea8f7f5d086ecb377c4c0909c0ab55de4d24b5420e04e8559f78e465ab9",
+    "sha256_final": "7ad83ea8f7f5d086ecb377c4c0909c0ab55de4d24b5420e04e8559f78e465ab9",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/impression_correlation_national_spearman.csv",
+    "destination": "outputs/tables/impression_correlation_national_spearman.csv",
+    "sha256_source": "10eb4c035efd9dab71d4f399a950eaf0836728f46d8a5052807fd388be81edea",
+    "sha256_final": "10eb4c035efd9dab71d4f399a950eaf0836728f46d8a5052807fd388be81edea",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/impression_correlation_overall_pearson.csv",
+    "destination": "outputs/tables/impression_correlation_overall_pearson.csv",
+    "sha256_source": "58183d9622641fa0f05fec361b00327a2246c39e7f8a9f72aa048ae023c2ea17",
+    "sha256_final": "58183d9622641fa0f05fec361b00327a2246c39e7f8a9f72aa048ae023c2ea17",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/impression_correlation_overall_spearman.csv",
+    "destination": "outputs/tables/impression_correlation_overall_spearman.csv",
+    "sha256_source": "13f5a3ae68935cd6f43b45b40ca769c75e895393153732e6496eb1b57be8db84",
+    "sha256_final": "13f5a3ae68935cd6f43b45b40ca769c75e895393153732e6496eb1b57be8db84",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/impression_correlation_two_way_pearson.csv",
+    "destination": "outputs/tables/impression_correlation_two_way_pearson.csv",
+    "sha256_source": "111e7ef5691c268e303bb54ec1a8d0343b247efcfcb01ea8d32b78a10756e2d0",
+    "sha256_final": "111e7ef5691c268e303bb54ec1a8d0343b247efcfcb01ea8d32b78a10756e2d0",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/impression_correlation_two_way_spearman.csv",
+    "destination": "outputs/tables/impression_correlation_two_way_spearman.csv",
+    "sha256_source": "3442bcd4a681e028576b71abd4cdb06b60a451a5e27623503190a391fa1a2d2f",
+    "sha256_final": "3442bcd4a681e028576b71abd4cdb06b60a451a5e27623503190a391fa1a2d2f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/impression_correlation_within_pearson.csv",
+    "destination": "outputs/tables/impression_correlation_within_pearson.csv",
+    "sha256_source": "21fdc5679757fc449e3a4459558d7982a524e5deb1856cd3acfe0e8a478ac99d",
+    "sha256_final": "21fdc5679757fc449e3a4459558d7982a524e5deb1856cd3acfe0e8a478ac99d",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/impression_correlation_within_spearman.csv",
+    "destination": "outputs/tables/impression_correlation_within_spearman.csv",
+    "sha256_source": "c9d43e208537ab9a77293b94528935e1a7091a8c5c4aac27e38773a6e40182f6",
+    "sha256_final": "c9d43e208537ab9a77293b94528935e1a7091a8c5c4aac27e38773a6e40182f6",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/kpi_acf.csv",
+    "destination": "outputs/tables/kpi_acf.csv",
+    "sha256_source": "806d262bf3bea8e979dab6b1a77bb32bba8bc970fafdfbf4e49d8115b4335b22",
+    "sha256_final": "806d262bf3bea8e979dab6b1a77bb32bba8bc970fafdfbf4e49d8115b4335b22",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/kpi_concentration.csv",
+    "destination": "outputs/tables/kpi_concentration.csv",
+    "sha256_source": "41332d0a4e94d80fb0026d5ea950ca6f6cec5a1f33ac29ac98e80d042925749f",
+    "sha256_final": "41332d0a4e94d80fb0026d5ea950ca6f6cec5a1f33ac29ac98e80d042925749f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/kpi_level_changes.csv",
+    "destination": "outputs/tables/kpi_level_changes.csv",
+    "sha256_source": "8076f409dc5bbf4796a20d259471c033c501e1557f4b80a93e371b26a34ce8b9",
+    "sha256_final": "8076f409dc5bbf4796a20d259471c033c501e1557f4b80a93e371b26a34ce8b9",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/kpi_stl_52.csv",
+    "destination": "outputs/tables/kpi_stl_52.csv",
+    "sha256_source": "f34e5ad2d79a8716b01e7e09bf98a42d66154bad666ccd5fcea3263b963803e9",
+    "sha256_final": "f34e5ad2d79a8716b01e7e09bf98a42d66154bad666ccd5fcea3263b963803e9",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/media_mix.csv",
+    "destination": "outputs/tables/media_mix.csv",
+    "sha256_source": "d2a07f85389881dba7ff855c32ec630db3f2c06e61153e7fa79631170fbb18ff",
+    "sha256_final": "d2a07f85389881dba7ff855c32ec630db3f2c06e61153e7fa79631170fbb18ff",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/meridian_data_adequacy.csv",
+    "destination": "outputs/tables/meridian_data_adequacy.csv",
+    "sha256_source": "3427e2cf7bf4ab563171571201910379172d0cf70b7d5752ef8ce231e8bc6f6c",
+    "sha256_final": "3427e2cf7bf4ab563171571201910379172d0cf70b7d5752ef8ce231e8bc6f6c",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/meridian_eda_checks.csv",
+    "destination": "outputs/tables/meridian_eda_checks.csv",
+    "sha256_source": "8a89c4fdbd828d1173c0ecab41bced1eeeb494a9d15851ed95adc44ffc304df2",
+    "sha256_final": "8a89c4fdbd828d1173c0ecab41bced1eeeb494a9d15851ed95adc44ffc304df2",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/meridian_warnings.csv",
+    "destination": "outputs/tables/meridian_warnings.csv",
+    "sha256_source": "a933b13b6ead728c746a6a9f2643ac7a1f15a21bedd2408629f3e57e14128817",
+    "sha256_final": "a933b13b6ead728c746a6a9f2643ac7a1f15a21bedd2408629f3e57e14128817",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/missing_by_channel.csv",
+    "destination": "outputs/tables/missing_by_channel.csv",
+    "sha256_source": "76ec621cd70b0f011c4b622e5dfbd77b3f606c59f4fb3151d26666fa999418b1",
+    "sha256_final": "76ec621cd70b0f011c4b622e5dfbd77b3f606c59f4fb3151d26666fa999418b1",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/missing_by_geo.csv",
+    "destination": "outputs/tables/missing_by_geo.csv",
+    "sha256_source": "94a3805b7876e40ab48a4a8b4b32901f82890ea8fb9d914e1877370a18308d74",
+    "sha256_final": "94a3805b7876e40ab48a4a8b4b32901f82890ea8fb9d914e1877370a18308d74",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/missing_by_time.csv",
+    "destination": "outputs/tables/missing_by_time.csv",
+    "sha256_source": "8eed33ea6d1ff822b917c6aa2383222afd97fc0a81da08a17f784e6ff5348873",
+    "sha256_final": "8eed33ea6d1ff822b917c6aa2383222afd97fc0a81da08a17f784e6ff5348873",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/missing_summary.csv",
+    "destination": "outputs/tables/missing_summary.csv",
+    "sha256_source": "616d03d175163cbdab4ba7158770c1eb54a54f7f353587b71cf0b3f8943df6e4",
+    "sha256_final": "616d03d175163cbdab4ba7158770c1eb54a54f7f353587b71cf0b3f8943df6e4",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/national_cpmu.csv",
+    "destination": "outputs/tables/national_cpmu.csv",
+    "sha256_source": "94e0148289fbeaa287f9ea9d5455c998459489f32b25ac9a503115d41a4478df",
+    "sha256_final": "94e0148289fbeaa287f9ea9d5455c998459489f32b25ac9a503115d41a4478df",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/national_descriptive.csv",
+    "destination": "outputs/tables/national_descriptive.csv",
+    "sha256_source": "e267fc398cfcc8802d705733eb36c423c80b2cc6db34cc6b582086daed8108d1",
+    "sha256_final": "e267fc398cfcc8802d705733eb36c423c80b2cc6db34cc6b582086daed8108d1",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/national_timeseries.csv",
+    "destination": "outputs/tables/national_timeseries.csv",
+    "sha256_source": "4dc104d1dfabfc7ae5366f8d86e71d7e1b29da810d7ead8673c900cea14d13a7",
+    "sha256_final": "4dc104d1dfabfc7ae5366f8d86e71d7e1b29da810d7ead8673c900cea14d13a7",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/national_zero_media_weeks.csv",
+    "destination": "outputs/tables/national_zero_media_weeks.csv",
+    "sha256_source": "0c9dfebb82c4556c9e587a417854010bfe86a7e8166f14e6761b9286a977c5d5",
+    "sha256_final": "0c9dfebb82c4556c9e587a417854010bfe86a7e8166f14e6761b9286a977c5d5",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_cost_per_media_unit_0_cost_media_unit_inconsistency_df.csv",
+    "destination": "outputs/tables/official_check_geo_cost_per_media_unit_0_cost_media_unit_inconsistency_df.csv",
+    "sha256_source": "524d4ce3c8ed410a2731e4cc073d2740ae6d734d93c48c6745087ba9fbcab888",
+    "sha256_final": "524d4ce3c8ed410a2731e4cc073d2740ae6d734d93c48c6745087ba9fbcab888",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_cost_per_media_unit_0_cost_per_media_unit_da.csv",
+    "destination": "outputs/tables/official_check_geo_cost_per_media_unit_0_cost_per_media_unit_da.csv",
+    "sha256_source": "db5d352effb1dd16a97b620aa7219b95e16c95c88553e11fc01409bb96018c0d",
+    "sha256_final": "db5d352effb1dd16a97b620aa7219b95e16c95c88553e11fc01409bb96018c0d",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_cost_per_media_unit_0_outlier_df.csv",
+    "destination": "outputs/tables/official_check_geo_cost_per_media_unit_0_outlier_df.csv",
+    "sha256_source": "0711fba1c42bfbe00df20206b98bce59b8f9b4f001d2b46d71c239d19d6cebaf",
+    "sha256_final": "0711fba1c42bfbe00df20206b98bce59b8f9b4f001d2b46d71c239d19d6cebaf",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_pairwise_corr_0_corr_matrix.csv",
+    "destination": "outputs/tables/official_check_geo_pairwise_corr_0_corr_matrix.csv",
+    "sha256_source": "9231cac4280ae10b63758b48afe54b7f20eddeb164e39c9998d077d36dd5b673",
+    "sha256_final": "9231cac4280ae10b63758b48afe54b7f20eddeb164e39c9998d077d36dd5b673",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_pairwise_corr_0_extreme_corr_var_pairs.csv",
+    "destination": "outputs/tables/official_check_geo_pairwise_corr_0_extreme_corr_var_pairs.csv",
+    "sha256_source": "f4f0fe3a546c2642e93957580cafaa5f859295ea666cfe1d041f77c635d364a2",
+    "sha256_final": "f4f0fe3a546c2642e93957580cafaa5f859295ea666cfe1d041f77c635d364a2",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_pairwise_corr_1_corr_matrix.csv",
+    "destination": "outputs/tables/official_check_geo_pairwise_corr_1_corr_matrix.csv",
+    "sha256_source": "5f3d06e603e106a2002efe9b9eb54bd7ee837d448b46277c832d218358c38497",
+    "sha256_final": "5f3d06e603e106a2002efe9b9eb54bd7ee837d448b46277c832d218358c38497",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_pairwise_corr_1_extreme_corr_var_pairs.csv",
+    "destination": "outputs/tables/official_check_geo_pairwise_corr_1_extreme_corr_var_pairs.csv",
+    "sha256_source": "3a7483ba15f18ac3f23eda6fafda4826375b6a319325c2e04337fdca921bf824",
+    "sha256_final": "3a7483ba15f18ac3f23eda6fafda4826375b6a319325c2e04337fdca921bf824",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_std_0_outlier_df.csv",
+    "destination": "outputs/tables/official_check_geo_std_0_outlier_df.csv",
+    "sha256_source": "f2a82241076f1ebdb82f3ed09a1d702ad0a686466d837eb7d26c0cf7d448f6e1",
+    "sha256_final": "f2a82241076f1ebdb82f3ed09a1d702ad0a686466d837eb7d26c0cf7d448f6e1",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_std_0_std_ds.csv",
+    "destination": "outputs/tables/official_check_geo_std_0_std_ds.csv",
+    "sha256_source": "3184a9574eee41ee5e8041fa4b1fd51206e2dbf866323e18cd9fc1389637fdae",
+    "sha256_final": "3184a9574eee41ee5e8041fa4b1fd51206e2dbf866323e18cd9fc1389637fdae",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_std_1_outlier_df.csv",
+    "destination": "outputs/tables/official_check_geo_std_1_outlier_df.csv",
+    "sha256_source": "7bc50ffa65d405dda39ebaa0e6bbe36a7567372fa88d0dc91759508efcabdb1f",
+    "sha256_final": "7bc50ffa65d405dda39ebaa0e6bbe36a7567372fa88d0dc91759508efcabdb1f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_std_1_std_ds.csv",
+    "destination": "outputs/tables/official_check_geo_std_1_std_ds.csv",
+    "sha256_source": "6d098c0c2fc1c1dd7a3b7d0551cbf1db117b56abb766f4cd38957e16b64beba9",
+    "sha256_final": "6d098c0c2fc1c1dd7a3b7d0551cbf1db117b56abb766f4cd38957e16b64beba9",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_vif_0_outlier_df.csv",
+    "destination": "outputs/tables/official_check_geo_vif_0_outlier_df.csv",
+    "sha256_source": "8a76276b58c685c4665eab476adffec870063e47764a2608b59a0c5e46d233ca",
+    "sha256_final": "8a76276b58c685c4665eab476adffec870063e47764a2608b59a0c5e46d233ca",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_vif_0_vif_da.csv",
+    "destination": "outputs/tables/official_check_geo_vif_0_vif_da.csv",
+    "sha256_source": "531d7ad40c4b9c4a77e060d5a3ad2ca157822c954c43681b7ac9bdc78a3c8c3f",
+    "sha256_final": "531d7ad40c4b9c4a77e060d5a3ad2ca157822c954c43681b7ac9bdc78a3c8c3f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_vif_1_outlier_df.csv",
+    "destination": "outputs/tables/official_check_geo_vif_1_outlier_df.csv",
+    "sha256_source": "e1f1d0efb1ce33b7e89bd707bb94be05fc728eef01d79e3d50687a52ac1f0cea",
+    "sha256_final": "e1f1d0efb1ce33b7e89bd707bb94be05fc728eef01d79e3d50687a52ac1f0cea",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_geo_vif_1_vif_da.csv",
+    "destination": "outputs/tables/official_check_geo_vif_1_vif_da.csv",
+    "sha256_source": "b0d4ec9eaa8843d86045e044d88920950baac206bd555ca0e1e0f7bce4f83521",
+    "sha256_final": "b0d4ec9eaa8843d86045e044d88920950baac206bd555ca0e1e0f7bce4f83521",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_national_cost_per_media_unit_0_cost_media_unit_inconsistency_df.csv",
+    "destination": "outputs/tables/official_check_national_cost_per_media_unit_0_cost_media_unit_inconsistency_df.csv",
+    "sha256_source": "e0209cef58d7f1ad1f46c0691b5deb27904954b37bdb42f85b3f5b1a04cdf65f",
+    "sha256_final": "e0209cef58d7f1ad1f46c0691b5deb27904954b37bdb42f85b3f5b1a04cdf65f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_national_cost_per_media_unit_0_cost_per_media_unit_da.csv",
+    "destination": "outputs/tables/official_check_national_cost_per_media_unit_0_cost_per_media_unit_da.csv",
+    "sha256_source": "0b8354d8f352dca3a791c85c37bc7281324ccc884b56681bd034fee27dd85b8d",
+    "sha256_final": "0b8354d8f352dca3a791c85c37bc7281324ccc884b56681bd034fee27dd85b8d",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_national_cost_per_media_unit_0_outlier_df.csv",
+    "destination": "outputs/tables/official_check_national_cost_per_media_unit_0_outlier_df.csv",
+    "sha256_source": "c9a77f54a15bb1d1d71ceff7ddf86c030db1dc4ad8ae534fe78daf59e982ce4e",
+    "sha256_final": "c9a77f54a15bb1d1d71ceff7ddf86c030db1dc4ad8ae534fe78daf59e982ce4e",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_national_pairwise_corr_0_corr_matrix.csv",
+    "destination": "outputs/tables/official_check_national_pairwise_corr_0_corr_matrix.csv",
+    "sha256_source": "bb5fc5745053af6aac095af4228a7cb8cc5f26ff55a5b6cd88dfe9785c469313",
+    "sha256_final": "bb5fc5745053af6aac095af4228a7cb8cc5f26ff55a5b6cd88dfe9785c469313",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_national_pairwise_corr_0_extreme_corr_var_pairs.csv",
+    "destination": "outputs/tables/official_check_national_pairwise_corr_0_extreme_corr_var_pairs.csv",
+    "sha256_source": "f4f0fe3a546c2642e93957580cafaa5f859295ea666cfe1d041f77c635d364a2",
+    "sha256_final": "f4f0fe3a546c2642e93957580cafaa5f859295ea666cfe1d041f77c635d364a2",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_national_std_0_outlier_df.csv",
+    "destination": "outputs/tables/official_check_national_std_0_outlier_df.csv",
+    "sha256_source": "8d023432696b6af3387a9edd5adb793f53339acd726a4e80acaf25a914f21a58",
+    "sha256_final": "8d023432696b6af3387a9edd5adb793f53339acd726a4e80acaf25a914f21a58",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_national_std_0_std_ds.csv",
+    "destination": "outputs/tables/official_check_national_std_0_std_ds.csv",
+    "sha256_source": "6a5061061118fb6046491717a20bb73c08461e133a94bacebb651943190476c2",
+    "sha256_final": "6a5061061118fb6046491717a20bb73c08461e133a94bacebb651943190476c2",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_national_std_1_outlier_df.csv",
+    "destination": "outputs/tables/official_check_national_std_1_outlier_df.csv",
+    "sha256_source": "929ae7a3bb14ba1f53f55840bbe59353fe29c6da2f73d0b2c7ec0b432eb778ca",
+    "sha256_final": "929ae7a3bb14ba1f53f55840bbe59353fe29c6da2f73d0b2c7ec0b432eb778ca",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_national_std_1_std_ds.csv",
+    "destination": "outputs/tables/official_check_national_std_1_std_ds.csv",
+    "sha256_source": "e6fb0e611bf027e29c41b503426c78c79540260723962f89c482d675e366a6f2",
+    "sha256_final": "e6fb0e611bf027e29c41b503426c78c79540260723962f89c482d675e366a6f2",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_national_vif_0_outlier_df.csv",
+    "destination": "outputs/tables/official_check_national_vif_0_outlier_df.csv",
+    "sha256_source": "8a76276b58c685c4665eab476adffec870063e47764a2608b59a0c5e46d233ca",
+    "sha256_final": "8a76276b58c685c4665eab476adffec870063e47764a2608b59a0c5e46d233ca",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_national_vif_0_vif_da.csv",
+    "destination": "outputs/tables/official_check_national_vif_0_vif_da.csv",
+    "sha256_source": "fb434d06a9f2cb6b9717c2324392f7c00a7d59ea60afcb78f0429923bdd8968f",
+    "sha256_final": "fb434d06a9f2cb6b9717c2324392f7c00a7d59ea60afcb78f0429923bdd8968f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_overall_kpi_invariability_0_kpi_da.csv",
+    "destination": "outputs/tables/official_check_overall_kpi_invariability_0_kpi_da.csv",
+    "sha256_source": "880146600217a975cbbc4b3587ed5559f5dede2b6bafa1a040254eaa21ace0c7",
+    "sha256_final": "880146600217a975cbbc4b3587ed5559f5dede2b6bafa1a040254eaa21ace0c7",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_overall_kpi_invariability_0_kpi_stdev.csv",
+    "destination": "outputs/tables/official_check_overall_kpi_invariability_0_kpi_stdev.csv",
+    "sha256_source": "2a665a1b17f9a3d111cb41de9805567b46dce33fc1cc8c77d2fccc98bc7c1b7a",
+    "sha256_final": "2a665a1b17f9a3d111cb41de9805567b46dce33fc1cc8c77d2fccc98bc7c1b7a",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_population_corr_raw_media_0_correlation_ds.csv",
+    "destination": "outputs/tables/official_check_population_corr_raw_media_0_correlation_ds.csv",
+    "sha256_source": "5880fd9b524cb00b7efd95ab85c42a399a1e90d4ec731f3d5741b4f194c37ee4",
+    "sha256_final": "5880fd9b524cb00b7efd95ab85c42a399a1e90d4ec731f3d5741b4f194c37ee4",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_population_corr_scaled_treatment_control_0_correlation_ds.csv",
+    "destination": "outputs/tables/official_check_population_corr_scaled_treatment_control_0_correlation_ds.csv",
+    "sha256_source": "664496b154831b49a10838fddcd98efa0f31d52989a902871aa1869fc9a18a61",
+    "sha256_final": "664496b154831b49a10838fddcd98efa0f31d52989a902871aa1869fc9a18a61",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_check_variable_geo_time_collinearity_0_rsquared_ds.csv",
+    "destination": "outputs/tables/official_check_variable_geo_time_collinearity_0_rsquared_ds.csv",
+    "sha256_source": "4fd7187365ecc5d1afd743f078d526d73f62da489dd8e83236599a95b8a3d96f",
+    "sha256_final": "4fd7187365ecc5d1afd743f078d526d73f62da489dd8e83236599a95b8a3d96f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_correlation_reconciliation.csv",
+    "destination": "outputs/tables/official_correlation_reconciliation.csv",
+    "sha256_source": "160c43d33c523f615a0d9d81dda80c87c8c9ad71eb20b036b3b0f926d20297e7",
+    "sha256_final": "160c43d33c523f615a0d9d81dda80c87c8c9ad71eb20b036b3b0f926d20297e7",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_cpmu_cases_geo.csv",
+    "destination": "outputs/tables/official_cpmu_cases_geo.csv",
+    "sha256_source": "0711fba1c42bfbe00df20206b98bce59b8f9b4f001d2b46d71c239d19d6cebaf",
+    "sha256_final": "0711fba1c42bfbe00df20206b98bce59b8f9b4f001d2b46d71c239d19d6cebaf",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_cpmu_cases_national.csv",
+    "destination": "outputs/tables/official_cpmu_cases_national.csv",
+    "sha256_source": "c9a77f54a15bb1d1d71ceff7ddf86c030db1dc4ad8ae534fe78daf59e982ce4e",
+    "sha256_final": "c9a77f54a15bb1d1d71ceff7ddf86c030db1dc4ad8ae534fe78daf59e982ce4e",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_outlier_cases.csv",
+    "destination": "outputs/tables/official_outlier_cases.csv",
+    "sha256_source": "0027924cf83d0a191c4728f6b6178f64138cd3cce566c95d4de53789d8065f6d",
+    "sha256_final": "0027924cf83d0a191c4728f6b6178f64138cd3cce566c95d4de53789d8065f6d",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_outlier_reconciliation.csv",
+    "destination": "outputs/tables/official_outlier_reconciliation.csv",
+    "sha256_source": "4be1e70354639a93b263c40ed685446669273cf3a78843456399f799822d86d2",
+    "sha256_final": "4be1e70354639a93b263c40ed685446669273cf3a78843456399f799822d86d2",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_outlier_selected_cases.csv",
+    "destination": "outputs/tables/official_outlier_selected_cases.csv",
+    "sha256_source": "32c96f69101a29930a034192e31bd91051206ddbf337bf33df932b7de6579aa3",
+    "sha256_final": "32c96f69101a29930a034192e31bd91051206ddbf337bf33df932b7de6579aa3",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_r2_reconciliation.csv",
+    "destination": "outputs/tables/official_r2_reconciliation.csv",
+    "sha256_source": "e18d30c263d385c7b6b0eb8d40c61a1a9336d321be6e05bbf7806c634aa0ba41",
+    "sha256_final": "e18d30c263d385c7b6b0eb8d40c61a1a9336d321be6e05bbf7806c634aa0ba41",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_review_resolution.csv",
+    "destination": "outputs/tables/official_review_resolution.csv",
+    "sha256_source": "ff5c319243aa43547b56fe9aafe9aa26cba9f1c79ebc9abe82fe24e50bd06fc2",
+    "sha256_final": "ff5c319243aa43547b56fe9aafe9aa26cba9f1c79ebc9abe82fe24e50bd06fc2",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_thresholds.csv",
+    "destination": "outputs/tables/official_thresholds.csv",
+    "sha256_source": "17d540f1b588780fb8d8bf1245b39ba5834518b5553c8a647ee0d25fd932e192",
+    "sha256_final": "17d540f1b588780fb8d8bf1245b39ba5834518b5553c8a647ee0d25fd932e192",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/official_vif_reconciliation.csv",
+    "destination": "outputs/tables/official_vif_reconciliation.csv",
+    "sha256_source": "d828c91c807acc34147b1be47849133e47338391b74c957e8358c8792e051d3b",
+    "sha256_final": "d828c91c807acc34147b1be47849133e47338391b74c957e8358c8792e051d3b",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/outlier_case_review.csv",
+    "destination": "outputs/tables/outlier_case_review.csv",
+    "sha256_source": "c5358f9db269ea2d09e99cd3a2a83566f553c4bc2a5718d271a3c4a018246fec",
+    "sha256_final": "c5358f9db269ea2d09e99cd3a2a83566f553c4bc2a5718d271a3c4a018246fec",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/outlier_case_windows.csv",
+    "destination": "outputs/tables/outlier_case_windows.csv",
+    "sha256_source": "094bf8c63c240efb69790d597241d6ebdf6e8b07b25c7bb3cccc6e394fc6769a",
+    "sha256_final": "094bf8c63c240efb69790d597241d6ebdf6e8b07b25c7bb3cccc6e394fc6769a",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/outlier_coincidence.csv",
+    "destination": "outputs/tables/outlier_coincidence.csv",
+    "sha256_source": "5e8d91fab192677ffb133051c5c8b1bcf3069e759081352a7ddb2f6a410f1bb9",
+    "sha256_final": "5e8d91fab192677ffb133051c5c8b1bcf3069e759081352a7ddb2f6a410f1bb9",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/outlier_group_review.csv",
+    "destination": "outputs/tables/outlier_group_review.csv",
+    "sha256_source": "44f8b41dbf3ad83d0231a51ea7dface56398c8d06bc3ce7e36815172342c57e5",
+    "sha256_final": "44f8b41dbf3ad83d0231a51ea7dface56398c8d06bc3ce7e36815172342c57e5",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/outliers.csv",
+    "destination": "outputs/tables/outliers.csv",
+    "sha256_source": "71f6766369327ebaa3c4c8284784c819224f55d8e3e12067852cb29aa9bb3803",
+    "sha256_final": "71f6766369327ebaa3c4c8284784c819224f55d8e3e12067852cb29aa9bb3803",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/per_capita_panel.csv",
+    "destination": "outputs/tables/per_capita_panel.csv",
+    "sha256_source": "33b935b69a3156ed962e66fbd7faf753a373c7c8290a5c00caa7474b07a55f58",
+    "sha256_final": "33b935b69a3156ed962e66fbd7faf753a373c7c8290a5c00caa7474b07a55f58",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/population_kpi_correlation.csv",
+    "destination": "outputs/tables/population_kpi_correlation.csv",
+    "sha256_source": "d6db1e7d3ebf1d2fd74b867bc8de6988a9186c3e1f92aa7f052ddac73d17965c",
+    "sha256_final": "d6db1e7d3ebf1d2fd74b867bc8de6988a9186c3e1f92aa7f052ddac73d17965c",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/population_media_correlation.csv",
+    "destination": "outputs/tables/population_media_correlation.csv",
+    "sha256_source": "13ceba4d2d366b2493025d84edfa94b9d3d2766fa6ba6e4caa4070318f740c95",
+    "sha256_final": "13ceba4d2d366b2493025d84edfa94b9d3d2766fa6ba6e4caa4070318f740c95",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/population_summary.csv",
+    "destination": "outputs/tables/population_summary.csv",
+    "sha256_source": "f4926fefc17ca3dcb1b385e62d2bc388d6efc79a8d7a249007604cf5a18104cc",
+    "sha256_final": "f4926fefc17ca3dcb1b385e62d2bc388d6efc79a8d7a249007604cf5a18104cc",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/predictor_kpi_comparison.csv",
+    "destination": "outputs/tables/predictor_kpi_comparison.csv",
+    "sha256_source": "13a68bc3069192c1eb4afb49292825599ac9da5e217a896366c84586a2220901",
+    "sha256_final": "13a68bc3069192c1eb4afb49292825599ac9da5e217a896366c84586a2220901",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/readiness_actions.csv",
+    "destination": "outputs/tables/readiness_actions.csv",
+    "sha256_source": "73772c80a005a76b00cb90ac285b70f8c8b45aacd1dd84dd7f297b715e8be92b",
+    "sha256_final": "73772c80a005a76b00cb90ac285b70f8c8b45aacd1dd84dd7f297b715e8be92b",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/readiness_report.csv",
+    "destination": "outputs/tables/readiness_report.csv",
+    "sha256_source": "4954d76aeab79161ba1ecb7abb2e2af9b7b376168518fdef885f4aa564ab1f95",
+    "sha256_final": "4954d76aeab79161ba1ecb7abb2e2af9b7b376168518fdef885f4aa564ab1f95",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/spend_correlation_national_pearson.csv",
+    "destination": "outputs/tables/spend_correlation_national_pearson.csv",
+    "sha256_source": "00538b705e18dee31b08a3642fd95804fb81bde3590b605802c79943d42132a7",
+    "sha256_final": "00538b705e18dee31b08a3642fd95804fb81bde3590b605802c79943d42132a7",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/spend_correlation_national_spearman.csv",
+    "destination": "outputs/tables/spend_correlation_national_spearman.csv",
+    "sha256_source": "a203d3222581d70890c7cbca52bec3be22a361e66030b81e2ec947c8b8057627",
+    "sha256_final": "a203d3222581d70890c7cbca52bec3be22a361e66030b81e2ec947c8b8057627",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/spend_correlation_overall_pearson.csv",
+    "destination": "outputs/tables/spend_correlation_overall_pearson.csv",
+    "sha256_source": "0f61a27ff0de46725e17bc6f0f64361610905ce3e47e07fb6f4ddae34f6bf527",
+    "sha256_final": "0f61a27ff0de46725e17bc6f0f64361610905ce3e47e07fb6f4ddae34f6bf527",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/spend_correlation_overall_spearman.csv",
+    "destination": "outputs/tables/spend_correlation_overall_spearman.csv",
+    "sha256_source": "198e0d450c0dac6810b8ed477b7d6b6d4d4f8b407b868d24362242a16ff55d44",
+    "sha256_final": "198e0d450c0dac6810b8ed477b7d6b6d4d4f8b407b868d24362242a16ff55d44",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/spend_correlation_two_way_pearson.csv",
+    "destination": "outputs/tables/spend_correlation_two_way_pearson.csv",
+    "sha256_source": "9a8bb10825ecf8b4ebc5faae51a186aee1bcb3ced9b9e7af7810ced75667e171",
+    "sha256_final": "9a8bb10825ecf8b4ebc5faae51a186aee1bcb3ced9b9e7af7810ced75667e171",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/spend_correlation_two_way_spearman.csv",
+    "destination": "outputs/tables/spend_correlation_two_way_spearman.csv",
+    "sha256_source": "338cc4a96a19e606a62a6290850dc20d81164db7b10fef597364e1d79725fb58",
+    "sha256_final": "338cc4a96a19e606a62a6290850dc20d81164db7b10fef597364e1d79725fb58",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/spend_correlation_within_pearson.csv",
+    "destination": "outputs/tables/spend_correlation_within_pearson.csv",
+    "sha256_source": "5bc1969c4c857f34c1724b7047312debb178299fc4ddced1eeefe699e309bf42",
+    "sha256_final": "5bc1969c4c857f34c1724b7047312debb178299fc4ddced1eeefe699e309bf42",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/spend_correlation_within_spearman.csv",
+    "destination": "outputs/tables/spend_correlation_within_spearman.csv",
+    "sha256_source": "56bec0d495c2749f8ee2efa6c5e115c81948be590bd3ed5fce5c45aafc420cfb",
+    "sha256_final": "56bec0d495c2749f8ee2efa6c5e115c81948be590bd3ed5fce5c45aafc420cfb",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/spend_share.csv",
+    "destination": "outputs/tables/spend_share.csv",
+    "sha256_source": "f1f42a2ee9a54512bb93f3b88d3e8ec864a8b1400e24d91cd28eca3f28ef9b0e",
+    "sha256_final": "f1f42a2ee9a54512bb93f3b88d3e8ec864a8b1400e24d91cd28eca3f28ef9b0e",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/substantive_pair_comparison.csv",
+    "destination": "outputs/tables/substantive_pair_comparison.csv",
+    "sha256_source": "ae02c45fb3d8a859404072baa93a91f8ae221d5c177f9c3d800a9e913476434a",
+    "sha256_final": "ae02c45fb3d8a859404072baa93a91f8ae221d5c177f9c3d800a9e913476434a",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/temporal_interpretation.csv",
+    "destination": "outputs/tables/temporal_interpretation.csv",
+    "sha256_source": "94f59cfb8ae14ff7449240b7f625a65cccc32165a1e4bc548bc3e638ccc69d42",
+    "sha256_final": "94f59cfb8ae14ff7449240b7f625a65cccc32165a1e4bc548bc3e638ccc69d42",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/vif_summary.csv",
+    "destination": "outputs/tables/vif_summary.csv",
+    "sha256_source": "407a36a49ab93bd031f1bedc55b37e900bd4b1698dacc92e0c4efa7768222f5e",
+    "sha256_final": "407a36a49ab93bd031f1bedc55b37e900bd4b1698dacc92e0c4efa7768222f5e",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/within_between_variance.csv",
+    "destination": "outputs/tables/within_between_variance.csv",
+    "sha256_source": "379bf6b26112146ceb95d8f3b9672a8f55ed2ace75bc49d426e412f71168dbce",
+    "sha256_final": "379bf6b26112146ceb95d8f3b9672a8f55ed2ace75bc49d426e412f71168dbce",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/tables/within_geo_cv.csv",
+    "destination": "outputs/tables/within_geo_cv.csv",
+    "sha256_source": "b78330cad964d745254b67fcb38f815d5438e260db8cc7b2877a1c8b29d3cc8c",
+    "sha256_final": "b78330cad964d745254b67fcb38f815d5438e260db8cc7b2877a1c8b29d3cc8c",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/reports/00_data_audit.md",
+    "destination": "outputs/reports/00_data_audit.md",
+    "sha256_source": "1b0739041149fc26fbf218ad631bac69f3d2c187d5c0ed1d08e4675d02c2f451",
+    "sha256_final": "1b0739041149fc26fbf218ad631bac69f3d2c187d5c0ed1d08e4675d02c2f451",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/reports/01_eda_general.md",
+    "destination": "outputs/reports/01_eda_general.md",
+    "sha256_source": "544a3798828057b7d7281e853a1cac0bb0d7811cef993f9a9a9dde49cc8b04b5",
+    "sha256_final": "544a3798828057b7d7281e853a1cac0bb0d7811cef993f9a9a9dde49cc8b04b5",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/reports/02_eda_temporal.md",
+    "destination": "outputs/reports/02_eda_temporal.md",
+    "sha256_source": "5a48c54958eaac08356df63a121d3f7fcc0f04311fe290e8882f708f6150ab1f",
+    "sha256_final": "5a48c54958eaac08356df63a121d3f7fcc0f04311fe290e8882f708f6150ab1f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/reports/03_eda_geo.md",
+    "destination": "outputs/reports/03_eda_geo.md",
+    "sha256_source": "03f087c5e6aa49a79cce46d1b49d43dd7bd15e7ba2578673a48f5fdfe19259e5",
+    "sha256_final": "03f087c5e6aa49a79cce46d1b49d43dd7bd15e7ba2578673a48f5fdfe19259e5",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/reports/04_eda_media_geo.md",
+    "destination": "outputs/reports/04_eda_media_geo.md",
+    "sha256_source": "b9ed46d33737478ad0de30d4bccb57b6552b0a540608ea2e53ec370740d5ceff",
+    "sha256_final": "b9ed46d33737478ad0de30d4bccb57b6552b0a540608ea2e53ec370740d5ceff",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/reports/05_eda_relationships.md",
+    "destination": "outputs/reports/05_eda_relationships.md",
+    "sha256_source": "14e54b1f61ac3dff33126a4a0cdb7cdf84ea52dd65c0dee2f592e8ad078b4df2",
+    "sha256_final": "14e54b1f61ac3dff33126a4a0cdb7cdf84ea52dd65c0dee2f592e8ad078b4df2",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/reports/06_meridian_official_eda.md",
+    "destination": "outputs/reports/06_meridian_official_eda.md",
+    "sha256_source": "b36bb4d8721117af7211cf1257b2eafc3dc5b940db3d39f40422a271a98ba447",
+    "sha256_final": "b36bb4d8721117af7211cf1257b2eafc3dc5b940db3d39f40422a271a98ba447",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/reports/07_eda_conclusions.md",
+    "destination": "outputs/reports/07_eda_conclusions.md",
+    "sha256_source": "751138374cc9d9c36171b29f4f225a808009b927d5ce6a1eb7838f1e0a439db8",
+    "sha256_final": "751138374cc9d9c36171b29f4f225a808009b927d5ce6a1eb7838f1e0a439db8",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/reports/meridian_eda_report.html",
+    "destination": "outputs/reports/meridian_eda_report.html",
+    "sha256_source": "5817cb5b5ae1c9518f7b35fc4b78ee956bf3e353a377383631c220590db8ee1c",
+    "sha256_final": "5817cb5b5ae1c9518f7b35fc4b78ee956bf3e353a377383631c220590db8ee1c",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/artifact_validation.json",
+    "destination": "outputs/logs/artifact_validation.json",
+    "sha256_source": "99467ec12e9da0dc01b2cdeda73d5bd8ee40de6e58d766b7a909ac7b94c61413",
+    "sha256_final": "99467ec12e9da0dc01b2cdeda73d5bd8ee40de6e58d766b7a909ac7b94c61413",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/cell_execution/00_data_audit.ipynb.log",
+    "destination": "outputs/logs/cell_execution/00_data_audit.ipynb.log",
+    "sha256_source": "5409a2476559e4150b368e53830e5b7bdf3af4feb4ff6f5b9b65cb9f55da1c2d",
+    "sha256_final": "5409a2476559e4150b368e53830e5b7bdf3af4feb4ff6f5b9b65cb9f55da1c2d",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/cell_execution/01_eda_general.ipynb.log",
+    "destination": "outputs/logs/cell_execution/01_eda_general.ipynb.log",
+    "sha256_source": "9004bdcd1c49498704609ddb504eabc1635b9a986355bbdbe032f5b12f2f8b0e",
+    "sha256_final": "9004bdcd1c49498704609ddb504eabc1635b9a986355bbdbe032f5b12f2f8b0e",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/cell_execution/02_eda_temporal.ipynb.log",
+    "destination": "outputs/logs/cell_execution/02_eda_temporal.ipynb.log",
+    "sha256_source": "9004bdcd1c49498704609ddb504eabc1635b9a986355bbdbe032f5b12f2f8b0e",
+    "sha256_final": "9004bdcd1c49498704609ddb504eabc1635b9a986355bbdbe032f5b12f2f8b0e",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/cell_execution/03_eda_geo.ipynb.log",
+    "destination": "outputs/logs/cell_execution/03_eda_geo.ipynb.log",
+    "sha256_source": "9004bdcd1c49498704609ddb504eabc1635b9a986355bbdbe032f5b12f2f8b0e",
+    "sha256_final": "9004bdcd1c49498704609ddb504eabc1635b9a986355bbdbe032f5b12f2f8b0e",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/cell_execution/04_eda_media_geo.ipynb.log",
+    "destination": "outputs/logs/cell_execution/04_eda_media_geo.ipynb.log",
+    "sha256_source": "9004bdcd1c49498704609ddb504eabc1635b9a986355bbdbe032f5b12f2f8b0e",
+    "sha256_final": "9004bdcd1c49498704609ddb504eabc1635b9a986355bbdbe032f5b12f2f8b0e",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/cell_execution/05_eda_relationships.ipynb.log",
+    "destination": "outputs/logs/cell_execution/05_eda_relationships.ipynb.log",
+    "sha256_source": "9004bdcd1c49498704609ddb504eabc1635b9a986355bbdbe032f5b12f2f8b0e",
+    "sha256_final": "9004bdcd1c49498704609ddb504eabc1635b9a986355bbdbe032f5b12f2f8b0e",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/cell_execution/06_meridian_official_eda.ipynb.log",
+    "destination": "outputs/logs/cell_execution/06_meridian_official_eda.ipynb.log",
+    "sha256_source": "0c924f2eee115c85e66dcd4621ba15cca2fb28f0eaaeb8cb555f84fe3c4d8e21",
+    "sha256_final": "0c924f2eee115c85e66dcd4621ba15cca2fb28f0eaaeb8cb555f84fe3c4d8e21",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/cell_execution/07_eda_conclusions.ipynb.log",
+    "destination": "outputs/logs/cell_execution/07_eda_conclusions.ipynb.log",
+    "sha256_source": "9004bdcd1c49498704609ddb504eabc1635b9a986355bbdbe032f5b12f2f8b0e",
+    "sha256_final": "9004bdcd1c49498704609ddb504eabc1635b9a986355bbdbe032f5b12f2f8b0e",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/cell_execution/EDA_COMPLETE_COLAB.ipynb.log",
+    "destination": "outputs/logs/cell_execution/EDA_COMPLETE_COLAB.ipynb.log",
+    "sha256_source": "e3baa809a679a1a2944c9d76398130b0206abaecdb9e9815e51c9d0ea05fbeb8",
+    "sha256_final": "e3baa809a679a1a2944c9d76398130b0206abaecdb9e9815e51c9d0ea05fbeb8",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/execution.log",
+    "destination": "outputs/logs/execution.log",
+    "sha256_source": "17b3010a245d53e0129b95dc5ea25d6bdf2605d83cdebb23bc65c54176e4b8e3",
+    "sha256_final": "17b3010a245d53e0129b95dc5ea25d6bdf2605d83cdebb23bc65c54176e4b8e3",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/heatmap_axes.json",
+    "destination": "outputs/logs/heatmap_axes.json",
+    "sha256_source": "e129b9ee332cdd9e2feb7e94bb756c4a3760f72d8d3e3ab8f82f2af420f8505b",
+    "sha256_final": "e129b9ee332cdd9e2feb7e94bb756c4a3760f72d8d3e3ab8f82f2af420f8505b",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/nbclient_attempt.txt",
+    "destination": "outputs/logs/nbclient_attempt.txt",
+    "sha256_source": "c6902b0ad565b11f2c0c0e34a09290068a3b220dec91e770f40a3b094af0feac",
+    "sha256_final": "c6902b0ad565b11f2c0c0e34a09290068a3b220dec91e770f40a3b094af0feac",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/notebook_validation.json",
+    "destination": "outputs/logs/notebook_validation.json",
+    "sha256_source": "bbf53146fe790909c4b512d0498ae84ef13dcd613758f819288253bafef1cbac",
+    "sha256_final": "bbf53146fe790909c4b512d0498ae84ef13dcd613758f819288253bafef1cbac",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/pytest.txt",
+    "destination": "outputs/logs/pytest.txt",
+    "sha256_source": "82bc86ac28a5391c3013e272798fff16d47f218911ae17ecd2b0412493a70a97",
+    "sha256_final": "82bc86ac28a5391c3013e272798fff16d47f218911ae17ecd2b0412493a70a97",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/pytest_revision.txt",
+    "destination": "outputs/logs/pytest_revision.txt",
+    "sha256_source": "7ad693ab0953af12d43cc97c5eb470b60e061bc35b92bacc671cb6ff9eb4741a",
+    "sha256_final": "7ad693ab0953af12d43cc97c5eb470b60e061bc35b92bacc671cb6ff9eb4741a",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "github:thiagossilva17/MMM_Google_Meridian_Project@ef39d0a7629e849d31582cea6cefccb581f7a445:outputs/logs/run_manifest.json",
+    "destination": "outputs/logs/run_manifest.json",
+    "sha256_source": "b7c69cd2a857280841e7064b612f3cf23d22fcfb18235457a093bf5fd743f34b",
+    "sha256_final": "b7c69cd2a857280841e7064b612f3cf23d22fcfb18235457a093bf5fd743f34b",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "historico:docs/EDA_DIDACTIC_GUIDE.md",
+    "destination": "docs/EDA_DIDACTIC_GUIDE.md",
+    "sha256_source": "b4175822b5342ec9c81011d42839ea821f137c8fc1376041a5d51c4a0dcf23b2",
+    "sha256_final": "67bc76accfcae478aae408d6dd0603f1562b03cfb3d69f339e7427c42918e0a8",
+    "transformation": "links_de_navegacao_e_nota_editorial"
+  },
+  {
+    "source": "historico:docs/data_dictionary.md",
+    "destination": "docs/data_dictionary.md",
+    "sha256_source": "2bcd1f2a14effa8363519a3b6494291e7e79096f62c0d1abeab524fe80ef412c",
+    "sha256_final": "2bcd1f2a14effa8363519a3b6494291e7e79096f62c0d1abeab524fe80ef412c",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "historico:docs/methodology_eda.md",
+    "destination": "docs/methodology_eda.md",
+    "sha256_source": "669714b5b20fca47e761f70b4cad05b768a89b4307535079d35ba03880bf628b",
+    "sha256_final": "669714b5b20fca47e761f70b4cad05b768a89b4307535079d35ba03880bf628b",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "historico:docs/COLAB_VALIDATION.md",
+    "destination": "docs/COLAB_VALIDATION.md",
+    "sha256_source": "e8649a112f314c86ab860c1083b71901df20276318c3e2956efa64407fc6d971",
+    "sha256_final": "e8649a112f314c86ab860c1083b71901df20276318c3e2956efa64407fc6d971",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "historico:docs/EDA_AUDIT_REPORT.md",
+    "destination": "docs/EDA_AUDIT_REPORT.md",
+    "sha256_source": "0b5f8652f8c25ceb428bc98f3948de18a095e7fe421b90e7d312332d3b323999",
+    "sha256_final": "0b5f8652f8c25ceb428bc98f3948de18a095e7fe421b90e7d312332d3b323999",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "historico:docs/AUDIT_RESPONSE.md",
+    "destination": "docs/AUDIT_RESPONSE.md",
+    "sha256_source": "49c745c126b620131e49409393e0d1ab64e5910755ce79c173b83c8ed592689c",
+    "sha256_final": "49c745c126b620131e49409393e0d1ab64e5910755ce79c173b83c8ed592689c",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "historico:docs/validation.md",
+    "destination": "docs/validation.md",
+    "sha256_source": "919f5780f852335cf08320960858fd7b4cf86ee943afbf191a090b732831e48f",
+    "sha256_final": "919f5780f852335cf08320960858fd7b4cf86ee943afbf191a090b732831e48f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "historico:docs/decisions.md",
+    "destination": "docs/decisions.md",
+    "sha256_source": "680557c58e3cd8dfca06df1f456f3259afaf9f656cfaae824de7d90e638bc148",
+    "sha256_final": "680557c58e3cd8dfca06df1f456f3259afaf9f656cfaae824de7d90e638bc148",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "historico:docs/coverage.md",
+    "destination": "docs/coverage.md",
+    "sha256_source": "44deccc3fc8ef48208aefe4917f9dae0b9c529b1a09364f00839e8e6475a0a5a",
+    "sha256_final": "44deccc3fc8ef48208aefe4917f9dae0b9c529b1a09364f00839e8e6475a0a5a",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "historico:docs/channel_review.md",
+    "destination": "docs/channel_review.md",
+    "sha256_source": "b60e17a032594bc725d0ae8ebfbc04c9418f7ba390e70e530bb1ec08f918d63f",
+    "sha256_final": "b60e17a032594bc725d0ae8ebfbc04c9418f7ba390e70e530bb1ec08f918d63f",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "historico:docs/findings.md",
+    "destination": "docs/findings.md",
+    "sha256_source": "a19c806565ec08517ccc456caab8d4d40e11984f2fbc7470ee52c410ef695d9b",
+    "sha256_final": "a19c806565ec08517ccc456caab8d4d40e11984f2fbc7470ee52c410ef695d9b",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "historico:docs/eda_story.md",
+    "destination": "docs/eda_story.md",
+    "sha256_source": "308433a6739e1bd493d821336717cdabc24e63808de4a09475d0d8da7fedca6a",
+    "sha256_final": "308433a6739e1bd493d821336717cdabc24e63808de4a09475d0d8da7fedca6a",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "anexo:01_Introducao_Revisada_ABNT(4).md",
+    "destination": "tcc/01_introducao.md",
+    "sha256_source": "04bc9a7320cfa8f90c6053119198cf3483047d501c4eaf13cc9db3890166634e",
+    "sha256_final": "04bc9a7320cfa8f90c6053119198cf3483047d501c4eaf13cc9db3890166634e",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "anexo:02_Referencial_Teorico_Revisado_ABNT(4).md",
+    "destination": "tcc/02_referencial_teorico.md",
+    "sha256_source": "873c88aa3081fa6af26562e8fff931a70c3e8142a3cde4a75921a1dcc85d51c2",
+    "sha256_final": "873c88aa3081fa6af26562e8fff931a70c3e8142a3cde4a75921a1dcc85d51c2",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "anexo:03_Referencias_Bibliograficas_Revisadas_ABNT(4).md",
+    "destination": "tcc/referencias.md",
+    "sha256_source": "f65156fd2b5f4287b04edbdcdbd1d5863448e623940542f10fa380c1d4b856d9",
+    "sha256_final": "f65156fd2b5f4287b04edbdcdbd1d5863448e623940542f10fa380c1d4b856d9",
+    "transformation": "copia_integral"
+  },
+  {
+    "source": "anexo:04_EDA_Metodologia(5).md",
+    "destination": "tcc/03_material_e_metodos.md",
+    "sha256_source": "256a2c732652097631546fa1419da28130d342a8935ef79519bc37ebf80be9dc",
+    "sha256_final": "e82da5a62336fa3bf619789b7385e868ab816dcb163d99901861dd6f212cdaae",
+    "transformation": "segmentacao_editorial_sem_reescrita"
+  },
+  {
+    "source": "anexo:04_EDA_Metodologia(5).md",
+    "destination": "tcc/04_resultados_eda.md",
+    "sha256_source": "256a2c732652097631546fa1419da28130d342a8935ef79519bc37ebf80be9dc",
+    "sha256_final": "a396ea60ff4a34a340a061dfa6bf4534051ec9986511de01bf48140fe4cdbb84",
+    "transformation": "segmentacao_editorial_sem_reescrita"
+  },
+  {
+    "source": "anexo:04_EDA_Metodologia(5).md",
+    "destination": "docs/proveniencia/referencias_auxiliares_capitulos_3_4.md",
+    "sha256_source": "256a2c732652097631546fa1419da28130d342a8935ef79519bc37ebf80be9dc",
+    "sha256_final": "aa5da75f5f023a7d9d9b8c9f5ec8081f67d8edd3c12c85ef48d4bac5550ce808",
+    "transformation": "segmentacao_editorial_sem_reescrita"
+  },
+  {
+    "source": "historico:docs/execution_specification.md",
+    "destination": "docs/proveniencia/execution_specification_historica.md",
+    "sha256_source": "c5bb0c71a23d75078f52d8c5e89f34f25acfe4f09d1c02b60f5064bb5a9f6daf",
+    "sha256_final": "c5bb0c71a23d75078f52d8c5e89f34f25acfe4f09d1c02b60f5064bb5a9f6daf",
+    "transformation": "copia_integral_proveniencia"
+  }
+]

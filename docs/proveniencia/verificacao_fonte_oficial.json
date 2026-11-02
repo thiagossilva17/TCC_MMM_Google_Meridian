@@ -1,0 +1,6 @@
+{
+  "method": "download independente da fonte oficial fixada; compara\u00e7\u00e3o com c\u00f3pia migrada",
+  "url": "https://raw.githubusercontent.com/google/meridian/02111531f8661373aa7b6ba31c316c67d72d1dd2/meridian/data/simulated_data/csv/geo_all_channels.csv",
+  "sha256": "d9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6",
+  "match": true
+}

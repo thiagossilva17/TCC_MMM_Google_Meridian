@@ -1,0 +1,77 @@
+[
+  {
+    "file": "tc_geo_media_persistence.csv",
+    "rows": 3600,
+    "status": "equivalent"
+  },
+  {
+    "file": "tc_geo_trend_profile.csv",
+    "rows": 40,
+    "status": "equivalent"
+  },
+  {
+    "file": "tc_geo_trend_summary.csv",
+    "rows": 3,
+    "status": "equivalent"
+  },
+  {
+    "file": "tc_instability_windows.csv",
+    "rows": 205,
+    "status": "equivalent"
+  },
+  {
+    "file": "tc_kpi_pacf.csv",
+    "rows": 14,
+    "status": "equivalent"
+  },
+  {
+    "file": "tc_mapeamento_tcc.csv",
+    "rows": 5,
+    "status": "equivalent"
+  },
+  {
+    "file": "tc_media_persistence_summary.csv",
+    "rows": 90,
+    "status": "equivalent"
+  },
+  {
+    "file": "tc_media_temporal_persistence.csv",
+    "rows": 120,
+    "status": "equivalent"
+  },
+  {
+    "file": "tc_rolling_statistics.csv",
+    "rows": 6396,
+    "status": "equivalent"
+  },
+  {
+    "file": "tc_seasonality_diagnostic.csv",
+    "rows": 246,
+    "status": "equivalent"
+  },
+  {
+    "file": "tc_seasonality_summary.csv",
+    "rows": 6,
+    "status": "equivalent"
+  },
+  {
+    "file": "tc_stationarity_geo.csv",
+    "rows": 480,
+    "status": "equivalent"
+  },
+  {
+    "file": "tc_stationarity_national.csv",
+    "rows": 12,
+    "status": "equivalent"
+  },
+  {
+    "file": "tc_stationarity_summary.csv",
+    "rows": 12,
+    "status": "equivalent"
+  },
+  {
+    "file": "tc_temporal_acf_summary.csv",
+    "rows": 36,
+    "status": "equivalent"
+  }
+]

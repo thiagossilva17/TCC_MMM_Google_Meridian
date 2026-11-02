@@ -1,0 +1,61 @@
+Executando célula 4
+Executando célula 6
+Executando célula 7
+Executando célula 9
+Executando célula 11
+Executando célula 13
+Executando célula 15
+Executando célula 17
+Executando célula 19
+Executando célula 21
+Executando célula 22
+Executando célula 28
+Executando célula 29
+Executando célula 31
+Executando célula 35
+Executando célula 37
+Executando célula 39
+Executando célula 40
+Executando célula 42
+Executando célula 47
+Executando célula 49
+Executando célula 50
+Executando célula 52
+Executando célula 61
+Executando célula 63
+Executando célula 64
+Executando célula 66
+Executando célula 73
+Executando célula 75
+Executando célula 77
+Executando célula 78
+Executando célula 80
+Executando célula 87
+Executando célula 89
+Executando célula 91
+Executando célula 92
+Executando célula 94
+Executando célula 99
+Executando célula 101
+Executando célula 102
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793564959.255015       5 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1793564959.255524       5 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793564960.658744       5 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1793564960.659172       5 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+Executando célula 104
+Executando célula 106
+Executando célula 113
+Executando célula 115
+Executando célula 116
+Executando célula 118
+Executando célula 120
+Executando célula 123
+Executando célula 125
+Executando célula 127
+Executando célula 129
+Executando célula 131
+Executando célula 133
+Executando célula 135
+Diretório da execução: /workspace/scratch/a8bf2545705a/TCC_MMM_Google_Meridian/validation_runs/q0vqcs1o

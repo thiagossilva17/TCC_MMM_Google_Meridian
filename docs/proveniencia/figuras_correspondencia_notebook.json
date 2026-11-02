@@ -1,0 +1,100 @@
+[
+  {
+    "figure": "fig01_populacao_kpi.png",
+    "cell": 66,
+    "output": 44,
+    "mse_thumbnail": 4.3364,
+    "original_size": [
+      950,
+      739
+    ],
+    "editorial_size": [
+      1245,
+      968
+    ]
+  },
+  {
+    "figure": "fig02_decomposicao_bruta.png",
+    "cell": 66,
+    "output": 48,
+    "mse_thumbnail": 11.713888888888889,
+    "original_size": [
+      950,
+      402
+    ],
+    "editorial_size": [
+      2291,
+      968
+    ]
+  },
+  {
+    "figure": "fig03_geo_time.png",
+    "cell": 66,
+    "output": 30,
+    "mse_thumbnail": 7.088577777777778,
+    "original_size": [
+      950,
+      481
+    ],
+    "editorial_size": [
+      2290,
+      1159
+    ]
+  },
+  {
+    "figure": "fig04_channel2_calendario.png",
+    "cell": 80,
+    "output": 51,
+    "mse_thumbnail": 3.5691333333333333,
+    "original_size": [
+      950,
+      739
+    ],
+    "editorial_size": [
+      2274,
+      1770
+    ]
+  },
+  {
+    "figure": "fig05_channel3_calendario.png",
+    "cell": 80,
+    "output": 61,
+    "mse_thumbnail": 3.4646666666666666,
+    "original_size": [
+      950,
+      734
+    ],
+    "editorial_size": [
+      2291,
+      1770
+    ]
+  },
+  {
+    "figure": "fig06_correlacao_residual.png",
+    "cell": 94,
+    "output": 21,
+    "mse_thumbnail": 18.05191111111111,
+    "original_size": [
+      950,
+      326
+    ],
+    "editorial_size": [
+      2264,
+      777
+    ]
+  },
+  {
+    "figure": "fig07_stl.png",
+    "cell": 52,
+    "output": 62,
+    "mse_thumbnail": 0.7089555555555556,
+    "original_size": [
+      950,
+      697
+    ],
+    "editorial_size": [
+      2099,
+      1540
+    ]
+  }
+]

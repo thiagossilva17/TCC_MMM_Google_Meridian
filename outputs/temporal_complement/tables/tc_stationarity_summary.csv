@@ -1,0 +1,13 @@
+scale,test,regression,n_geos,reject_unadjusted,reject_BY
+difference,ADF,c,40,40,40
+difference,ADF,ct,40,40,40
+difference,KPSS,c,40,6,0
+difference,KPSS,ct,40,22,0
+level,ADF,c,40,40,40
+level,ADF,ct,40,40,40
+level,KPSS,c,40,3,0
+level,KPSS,ct,40,0,0
+per_1000,ADF,c,40,40,40
+per_1000,ADF,ct,40,40,40
+per_1000,KPSS,c,40,3,0
+per_1000,KPSS,ct,40,0,0

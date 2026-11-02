@@ -1,0 +1,879 @@
+geo,scale,test,regression,n_input,n_effective,lags,selection,statistic,p_value,p_bound,p_conservative,reject_5pct,critical_values,aic,null_hypothesis,alternative,warnings,p_by_conservative,reject_by_5pct
+Geo0,level,ADF,c,156,155,0,AIC; maxlag=14,-13.778191531463776,9.403709343742023e-26,exact_approximation,9.403709343742023e-26,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4231.489810330879,raiz unitária,estacionariedade em torno de constante,,1.6093670061139355e-23,True
+Geo0,level,KPSS,c,156,156,4,Hobijn et al.; nlags=auto,0.2700003672171055,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo0,level,ADF,ct,156,155,0,AIC; maxlag=14,-13.940993606742007,1.2422645569265813e-21,exact_approximation,1.2422645569265813e-21,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4232.569287798833,raiz unitária,estacionariedade em torno de tendência determinística,,1.3733772275891956e-19,True
+Geo0,level,KPSS,ct,156,156,5,Hobijn et al.; nlags=auto,0.03338704388432237,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo0,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-13.778191531463778,9.403709343741758e-26,exact_approximation,9.403709343741758e-26,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2844.733339179668,raiz unitária,estacionariedade em torno de constante,,1.6093670061138902e-23,True
+Geo0,per_1000,KPSS,c,156,156,4,Hobijn et al.; nlags=auto,0.27000036721710147,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo0,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-13.940993606741998,1.2422645569265813e-21,exact_approximation,1.2422645569265813e-21,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2845.8128166476217,raiz unitária,estacionariedade em torno de tendência determinística,,1.3733772275899453e-19,True
+Geo0,per_1000,KPSS,ct,156,156,5,Hobijn et al.; nlags=auto,0.03338704388432185,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo0,difference,ADF,c,155,143,11,AIC; maxlag=14,-6.264491093456938,4.1458829909846835e-08,exact_approximation,4.1458829909846835e-08,True,"{""1%"": -3.4769274060112707, ""5%"": -2.8819726324025625, ""10%"": -2.577665408088415}",4230.016811709374,raiz unitária,estacionariedade em torno de constante,,2.1501016740996655e-07,True
+Geo0,difference,KPSS,c,155,155,141,Hobijn et al.; nlags=auto,0.45197904663964755,0.05475041093118641,interpolated,0.05475041093118641,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo0,difference,ADF,ct,155,143,11,AIC; maxlag=14,-6.254494580223247,6.312458706974972e-07,exact_approximation,6.312458706974972e-07,True,"{""1%"": -4.023514459232879, ""5%"": -3.441649494385999, ""10%"": -3.145330713164287}",4231.71427718116,raiz unitária,estacionariedade em torno de tendência determinística,,3.273712273854677e-06,True
+Geo0,difference,KPSS,ct,155,155,141,Hobijn et al.; nlags=auto,0.4503354907330628,0.01,p_le_0.01,0.01,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.15558338323405002,False
+Geo1,level,ADF,c,156,155,0,AIC; maxlag=14,-11.487134220904887,4.8349120240110816e-21,exact_approximation,4.8349120240110816e-21,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4437.755027871593,raiz unitária,estacionariedade em torno de constante,,3.4477298640337334e-20,True
+Geo1,level,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.18552969304716307,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo1,level,ADF,ct,156,155,0,AIC; maxlag=14,-11.60462858999717,1.7671352751090815e-18,exact_approximation,1.7671352751090815e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4438.780334342693,raiz unitária,estacionariedade em torno de tendência determinística,,1.3149155356829354e-17,True
+Geo1,level,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.04025156696905556,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo1,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-11.48713422090489,4.834912024011013e-21,exact_approximation,4.834912024011013e-21,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2943.887819754999,raiz unitária,estacionariedade em torno de constante,,3.4477298640336847e-20,True
+Geo1,per_1000,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.1855296930471625,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo1,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-11.60462858996039,1.7671352753687885e-18,exact_approximation,1.7671352753687885e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2944.9131262260994,raiz unitária,estacionariedade em torno de tendência determinística,,1.314915535876182e-17,True
+Geo1,per_1000,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.04025156696905537,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo1,difference,ADF,c,155,143,11,AIC; maxlag=14,-6.510733792042304,1.1020929433060912e-08,exact_approximation,1.1020929433060912e-08,True,"{""1%"": -3.4769274060112707, ""5%"": -2.8819726324025625, ""10%"": -2.577665408088415}",4427.618941963346,raiz unitária,estacionariedade em torno de constante,,6.287136121124237e-08,True
+Geo1,difference,KPSS,c,155,155,42,Hobijn et al.; nlags=auto,0.2576441295143357,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo1,difference,ADF,ct,155,143,11,AIC; maxlag=14,-6.484638887234085,1.9943340486549934e-07,exact_approximation,1.9943340486549934e-07,True,"{""1%"": -4.023514459232879, ""5%"": -3.441649494385999, ""10%"": -3.145330713164287}",4429.618609347809,raiz unitária,estacionariedade em torno de tendência determinística,,1.1377125414915495e-06,True
+Geo1,difference,KPSS,ct,155,155,42,Hobijn et al.; nlags=auto,0.14132847931758946,0.05865096422668617,interpolated,0.05865096422668617,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,0.4364185647286862,False
+Geo10,level,ADF,c,156,155,0,AIC; maxlag=14,-12.6920601618268,1.1265698041315823e-23,exact_approximation,1.1265698041315823e-23,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4830.0962314477265,raiz unitária,estacionariedade em torno de constante,,2.410038696671549e-22,True
+Geo10,level,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.1966401342336521,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo10,level,ADF,ct,156,155,0,AIC; maxlag=14,-12.77047044064794,2.7300216587624183e-20,exact_approximation,2.7300216587624183e-20,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4829.976898256912,raiz unitária,estacionariedade em torno de tendência determinística,,5.191340072997104e-19,True
+Geo10,level,KPSS,ct,156,156,0,Hobijn et al.; nlags=auto,0.05918624759919922,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo10,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-12.692060161826804,1.1265698041315335e-23,exact_approximation,1.1265698041315335e-23,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2883.792455126045,raiz unitária,estacionariedade em torno de constante,,2.4100386966714445e-22,True
+Geo10,per_1000,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.19664013423365262,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo10,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-12.77047044064838,2.730021658758629e-20,exact_approximation,2.730021658758629e-20,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2883.6731219352305,raiz unitária,estacionariedade em torno de tendência determinística,,5.191340072989898e-19,True
+Geo10,per_1000,KPSS,ct,156,156,0,Hobijn et al.; nlags=auto,0.05918624759919931,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo10,difference,ADF,c,155,150,4,AIC; maxlag=14,-10.393826623812528,1.9889536203980205e-18,exact_approximation,1.9889536203980205e-18,True,"{""1%"": -3.474714913481481, ""5%"": -2.881008708148148, ""10%"": -2.5771508444444446}",4814.374003232329,raiz unitária,estacionariedade em torno de constante,,8.509823667321254e-17,True
+Geo10,difference,KPSS,c,155,155,154,Hobijn et al.; nlags=auto,0.4999999999999901,0.04166666666666889,interpolated,0.04166666666666889,True,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo10,difference,ADF,ct,155,150,4,AIC; maxlag=14,-10.369309294318837,3.9222538282311704e-16,exact_approximation,3.9222538282311704e-16,True,"{""1%"": -4.020427216296296, ""5%"": -3.4401743774814815, ""10%"": -3.144468408888889}",4816.262067624622,raiz unitária,estacionariedade em torno de tendência determinística,,1.6781531813720024e-14,True
+Geo10,difference,KPSS,ct,155,155,154,Hobijn et al.; nlags=auto,0.4999999999999893,0.01,p_le_0.01,0.01,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.15558338323405002,False
+Geo11,level,ADF,c,156,155,0,AIC; maxlag=14,-11.241676938852619,1.8006338192229407e-20,exact_approximation,1.8006338192229407e-20,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4651.365128490734,raiz unitária,estacionariedade em torno de constante,,1.1005841847013906e-19,True
+Geo11,level,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.23105156063467996,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo11,level,ADF,ct,156,155,0,AIC; maxlag=14,-11.316890797087465,5.733188517465491e-18,exact_approximation,5.733188517465491e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4651.853833018201,raiz unitária,estacionariedade em torno de tendência determinística,,3.383406044456819e-17,True
+Geo11,level,KPSS,ct,156,156,1,Hobijn et al.; nlags=auto,0.10500147335052808,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo11,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-11.241676938852624,1.8006338192228757e-20,exact_approximation,1.8006338192228757e-20,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2820.6688822548685,raiz unitária,estacionariedade em torno de constante,,1.100584184701351e-19,True
+Geo11,per_1000,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.23105156063468157,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo11,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-11.316890797088034,5.733188517451911e-18,exact_approximation,5.733188517451911e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2821.1575867823367,raiz unitária,estacionariedade em torno de tendência determinística,,3.383406044448805e-17,True
+Geo11,per_1000,KPSS,ct,156,156,1,Hobijn et al.; nlags=auto,0.10500147335052673,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo11,difference,ADF,c,155,142,12,AIC; maxlag=14,-6.957936946525763,9.324007269539e-10,exact_approximation,9.324007269539e-10,True,"{""1%"": -3.477261624048995, ""5%"": -2.8821181874544233, ""10%"": -2.5777431104939494}",4638.75646995859,raiz unitária,estacionariedade em torno de constante,,7.384672687768621e-09,True
+Geo11,difference,KPSS,c,155,155,88,Hobijn et al.; nlags=auto,0.29618079639287803,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo11,difference,ADF,ct,155,142,12,AIC; maxlag=14,-6.930206334977351,2.0313824446759497e-08,exact_approximation,2.0313824446759497e-08,True,"{""1%"": -4.023980918147249, ""5%"": -3.4418722820477714, ""10%"": -3.1454609207316904}",4640.752927460999,raiz unitária,estacionariedade em torno de tendência determinística,,1.5802467669246985e-07,True
+Geo11,difference,KPSS,ct,155,155,89,Hobijn et al.; nlags=auto,0.2671799970188875,0.01,p_le_0.01,0.01,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.15558338323405002,False
+Geo12,level,ADF,c,156,155,0,AIC; maxlag=14,-12.329022035086924,6.490156748276894e-23,exact_approximation,6.490156748276894e-23,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4601.039166412249,raiz unitária,estacionariedade em torno de constante,,8.555574449420241e-22,True
+Geo12,level,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.11790002534370386,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo12,level,ADF,ct,156,155,0,AIC; maxlag=14,-12.308772078837306,1.2609880157851156e-19,exact_approximation,1.2609880157851156e-19,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4603.037281845786,raiz unitária,estacionariedade em torno de tendência determinística,,1.4387177325652263e-18,True
+Geo12,level,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.03658244481143782,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo12,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-12.329022035086927,6.490156748276801e-23,exact_approximation,6.490156748276801e-23,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2816.0630235083354,raiz unitária,estacionariedade em torno de constante,,8.555574449420241e-22,True
+Geo12,per_1000,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.11790002534370381,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo12,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-12.308772078834686,1.2609880157966502e-19,exact_approximation,1.2609880157966502e-19,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2818.061138941873,raiz unitária,estacionariedade em torno de tendência determinística,,1.4387177325783868e-18,True
+Geo12,per_1000,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.036582444811437013,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo12,difference,ADF,c,155,142,12,AIC; maxlag=14,-7.086912467261139,4.5136247960485677e-10,exact_approximation,4.5136247960485677e-10,True,"{""1%"": -3.477261624048995, ""5%"": -2.8821181874544233, ""10%"": -2.5777431104939494}",4600.308008276454,raiz unitária,estacionariedade em torno de constante,,3.862347590300843e-09,True
+Geo12,difference,KPSS,c,155,155,52,Hobijn et al.; nlags=auto,0.2777277873680323,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo12,difference,ADF,ct,155,142,12,AIC; maxlag=14,-7.108869218712213,8.002711843619889e-09,exact_approximation,8.002711843619889e-09,True,"{""1%"": -4.023980918147249, ""5%"": -3.4418722820477714, ""10%"": -3.1454609207316904}",4600.668527080828,raiz unitária,estacionariedade em torno de tendência determinística,,6.847989410226713e-08,True
+Geo12,difference,KPSS,ct,155,155,52,Hobijn et al.; nlags=auto,0.15288896577235855,0.0442591951897012,interpolated,0.0442591951897012,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,0.36069499331013793,False
+Geo13,level,ADF,c,156,155,0,AIC; maxlag=14,-11.710150454805143,1.4957068209244327e-21,exact_approximation,1.4957068209244327e-21,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4638.950987167603,raiz unitária,estacionariedade em torno de constante,,1.3472517909380817e-20,True
+Geo13,level,KPSS,c,156,156,0,Hobijn et al.; nlags=auto,0.20481153100504632,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo13,level,ADF,ct,156,155,0,AIC; maxlag=14,-11.758708341896705,9.624549171683967e-19,exact_approximation,9.624549171683967e-19,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4640.7274220487725,raiz unitária,estacionariedade em torno de tendência determinística,,7.90657517508461e-18,True
+Geo13,level,KPSS,ct,156,156,0,Hobijn et al.; nlags=auto,0.04963271004475229,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo13,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-11.710150454805142,1.4957068209244767e-21,exact_approximation,1.4957068209244767e-21,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2919.766154035605,raiz unitária,estacionariedade em torno de constante,,1.3472517909381214e-20,True
+Geo13,per_1000,KPSS,c,156,156,0,Hobijn et al.; nlags=auto,0.20481153100504576,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo13,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-11.75870834189749,9.62454917165425e-19,exact_approximation,9.62454917165425e-19,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2921.5425889167745,raiz unitária,estacionariedade em torno de tendência determinística,,7.906575175048484e-18,True
+Geo13,per_1000,KPSS,ct,156,156,0,Hobijn et al.; nlags=auto,0.049632710044753614,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo13,difference,ADF,c,155,143,11,AIC; maxlag=14,-6.634816365452109,5.597069869397214e-09,exact_approximation,5.597069869397214e-09,True,"{""1%"": -3.4769274060112707, ""5%"": -2.8819726324025625, ""10%"": -2.577665408088415}",4625.01457913563,raiz unitária,estacionariedade em torno de constante,,3.5477487893555524e-08,True
+Geo13,difference,KPSS,c,155,155,57,Hobijn et al.; nlags=auto,0.18437693687121448,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo13,difference,ADF,ct,155,143,11,AIC; maxlag=14,-6.6110348154113066,1.0500861913997524e-07,exact_approximation,1.0500861913997524e-07,True,"{""1%"": -4.023514459232879, ""5%"": -3.441649494385999, ""10%"": -3.145330713164287}",4626.9164372573805,raiz unitária,estacionariedade em torno de tendência determinística,,6.65605772518018e-07,True
+Geo13,difference,KPSS,ct,155,155,57,Hobijn et al.; nlags=auto,0.18379765315216673,0.022075880067937474,interpolated,0.022075880067937474,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,0.21048455507429525,False
+Geo14,level,ADF,c,156,155,0,AIC; maxlag=14,-12.630524037852513,1.5083607099780886e-23,exact_approximation,1.5083607099780886e-23,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4742.416620335518,raiz unitária,estacionariedade em torno de constante,,2.581434486352752e-22,True
+Geo14,level,KPSS,c,156,156,2,Hobijn et al.; nlags=auto,0.10531673508844577,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo14,level,ADF,ct,156,155,0,AIC; maxlag=14,-12.613721213097303,4.50446677197833e-20,exact_approximation,4.50446677197833e-20,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4744.141587291194,raiz unitária,estacionariedade em torno de tendência determinística,,6.424184983789365e-19,True
+Geo14,level,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.04901031526524221,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo14,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-12.630524037852508,1.5083607099781312e-23,exact_approximation,1.5083607099781312e-23,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2869.8065015945685,raiz unitária,estacionariedade em torno de constante,,2.5814344863528255e-22,True
+Geo14,per_1000,KPSS,c,156,156,2,Hobijn et al.; nlags=auto,0.10531673508844533,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo14,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-12.61372121309757,4.504466771974477e-20,exact_approximation,4.504466771974477e-20,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2871.5314685502444,raiz unitária,estacionariedade em torno de tendência determinística,,6.42418498378387e-19,True
+Geo14,per_1000,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.04901031526524256,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo14,difference,ADF,c,155,140,14,AIC; maxlag=14,-5.603703002138941,1.2480179915201279e-06,exact_approximation,1.2480179915201279e-06,True,"{""1%"": -3.4779446621720114, ""5%"": -2.8824156122448983, ""10%"": -2.577901887755102}",4727.2329823932,raiz unitária,estacionariedade em torno de constante,,5.476614041113641e-06,True
+Geo14,difference,KPSS,c,155,155,52,Hobijn et al.; nlags=auto,0.17798522672920464,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo14,difference,ADF,ct,155,140,14,AIC; maxlag=14,-5.593641813142715,1.5006572556143549e-05,exact_approximation,1.5006572556143549e-05,True,"{""1%"": -4.024934298469388, ""5%"": -3.4423275561224487, ""10%"": -3.1457269825072887}",4729.100781526873,raiz unitária,estacionariedade em torno de tendência determinística,,6.585258107526322e-05,True
+Geo14,difference,KPSS,ct,155,155,52,Hobijn et al.; nlags=auto,0.17043605190300842,0.02963662341415964,interpolated,0.02963662341415964,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,0.2536031376124631,False
+Geo15,level,ADF,c,156,151,4,AIC; maxlag=14,-6.879039456401341,1.4493250426393814e-09,exact_approximation,1.4493250426393814e-09,True,"{""1%"": -3.4744158894942156, ""5%"": -2.880878382771059, ""10%"": -2.577081275821236}",4687.506587364133,raiz unitária,estacionariedade em torno de constante,,7.086856654103876e-09,True
+Geo15,level,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.23847181663339415,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo15,level,ADF,ct,156,151,4,AIC; maxlag=14,-7.158327172806211,6.175947816210213e-09,exact_approximation,6.175947816210213e-09,True,"{""1%"": -4.020010057177695, ""5%"": -3.4399749739075576, ""10%"": -3.144351820618417}",4687.966666253827,raiz unitária,estacionariedade em torno de tendência determinística,,3.019892404329202e-08,True
+Geo15,level,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.025787967668734972,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo15,per_1000,ADF,c,156,151,4,AIC; maxlag=14,-6.879039456401346,1.4493250426393497e-09,exact_approximation,1.4493250426393497e-09,True,"{""1%"": -3.4744158894942156, ""5%"": -2.880878382771059, ""10%"": -2.577081275821236}",2848.176180949958,raiz unitária,estacionariedade em torno de constante,,7.086856654103721e-09,True
+Geo15,per_1000,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.23847181663339603,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo15,per_1000,ADF,ct,156,151,4,AIC; maxlag=14,-7.158327172806206,6.175947816210345e-09,exact_approximation,6.175947816210345e-09,True,"{""1%"": -4.020010057177695, ""5%"": -3.4399749739075576, ""10%"": -3.144351820618417}",2848.6362598396513,raiz unitária,estacionariedade em torno de tendência determinística,,3.019892404329267e-08,True
+Geo15,per_1000,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.02578796766873466,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo15,difference,ADF,c,155,144,10,AIC; maxlag=14,-6.674483526235552,4.501125849998393e-09,exact_approximation,4.501125849998393e-09,True,"{""1%"": -3.476597917537401, ""5%"": -2.8818291230495543, ""10%"": -2.5775887982253085}",4677.220286369894,raiz unitária,estacionariedade em torno de constante,,2.9628093342903387e-08,True
+Geo15,difference,KPSS,c,155,155,58,Hobijn et al.; nlags=auto,0.302351782353962,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo15,difference,ADF,ct,155,144,10,AIC; maxlag=14,-6.651500797620394,8.541396404980411e-08,exact_approximation,8.541396404980411e-08,True,"{""1%"": -4.023054627312136, ""5%"": -3.4414298484385712, ""10%"": -3.1452023349086935}",4679.219926972971,raiz unitária,estacionariedade em torno de tendência determinística,,5.622266481742327e-07,True
+Geo15,difference,KPSS,ct,155,155,58,Hobijn et al.; nlags=auto,0.175963942182093,0.025030048181589167,interpolated,0.025030048181589167,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,0.22545713349806404,False
+Geo16,level,ADF,c,156,155,0,AIC; maxlag=14,-10.58636974582963,6.700677259149497e-19,exact_approximation,6.700677259149497e-19,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4499.070206017807,raiz unitária,estacionariedade em torno de constante,,3.699243360424949e-18,True
+Geo16,level,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.37249180234815027,0.08901215416028005,interpolated,0.08901215416028005,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo16,level,ADF,ct,156,155,0,AIC; maxlag=14,-10.683136790343776,9.161159194211475e-17,exact_approximation,9.161159194211475e-17,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4499.03582424798,raiz unitária,estacionariedade em torno de tendência determinística,,4.899551737372685e-16,True
+Geo16,level,KPSS,ct,156,156,1,Hobijn et al.; nlags=auto,0.046247637875572185,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo16,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-10.586369745829629,6.700677259149643e-19,exact_approximation,6.700677259149643e-19,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2826.6502475136285,raiz unitária,estacionariedade em torno de constante,,3.6992433604250295e-18,True
+Geo16,per_1000,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.3724918023481516,0.08901215416027948,interpolated,0.08901215416027948,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo16,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-10.683136790337446,9.161159194475391e-17,exact_approximation,9.161159194475391e-17,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2826.6158657438014,raiz unitária,estacionariedade em torno de tendência determinística,,4.899551737513832e-16,True
+Geo16,per_1000,KPSS,ct,156,156,1,Hobijn et al.; nlags=auto,0.046247637875572255,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo16,difference,ADF,c,155,141,13,AIC; maxlag=14,-6.289282634012629,3.632700360261146e-08,exact_approximation,3.632700360261146e-08,True,"{""1%"": -3.4776006742422374, ""5%"": -2.882265832283648, ""10%"": -2.5778219289774156}",4487.71273619065,raiz unitária,estacionariedade em torno de constante,,1.942833104867124e-07,True
+Geo16,difference,KPSS,c,155,155,154,Hobijn et al.; nlags=auto,0.4999999999999997,0.041666666666666734,interpolated,0.041666666666666734,True,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo16,difference,ADF,ct,155,141,13,AIC; maxlag=14,-6.257318492058563,6.224671050427501e-07,exact_approximation,6.224671050427501e-07,True,"{""1%"": -4.024454148377884, ""5%"": -3.442098279332953, ""10%"": -3.145592997002377}",4489.000650918171,raiz unitária,estacionariedade em torno de tendência determinística,,3.273712273854677e-06,True
+Geo16,difference,KPSS,ct,155,155,154,Hobijn et al.; nlags=auto,0.4999999999999896,0.01,p_le_0.01,0.01,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.15558338323405002,False
+Geo17,level,ADF,c,156,155,0,AIC; maxlag=14,-12.188676782734658,1.3008451376826033e-22,exact_approximation,1.3008451376826033e-22,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4700.0860469525105,raiz unitária,estacionariedade em torno de constante,,1.5902062595903242e-21,True
+Geo17,level,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.14720160240377717,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo17,level,ADF,ct,156,155,0,AIC; maxlag=14,-12.271118610818329,1.438993914727691e-19,exact_approximation,1.438993914727691e-19,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4701.589499533417,raiz unitária,estacionariedade em torno de tendência determinística,,1.5391993492324918e-18,True
+Geo17,level,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.03632791519898777,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo17,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-12.188676782734658,1.3008451376826033e-22,exact_approximation,1.3008451376826033e-22,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2823.0559734249928,raiz unitária,estacionariedade em torno de constante,,1.5902062595903242e-21,True
+Geo17,per_1000,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.1472016024037773,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo17,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-12.271118610818556,1.4389939147265215e-19,exact_approximation,1.4389939147265215e-19,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2824.5594260058997,raiz unitária,estacionariedade em torno de tendência determinística,,1.5391993492312409e-18,True
+Geo17,per_1000,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.03632791519898766,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo17,difference,ADF,c,155,146,8,AIC; maxlag=14,-7.971297902276067,2.7766785611544742e-12,exact_approximation,2.7766785611544742e-12,True,"{""1%"": -3.4759527332353084, ""5%"": -2.881548071241103, ""10%"": -2.577438765246763}",4682.910919714205,raiz unitária,estacionariedade em torno de constante,,3.168036994451026e-11,True
+Geo17,difference,KPSS,c,155,155,13,Hobijn et al.; nlags=auto,0.04933204041699206,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo17,difference,ADF,ct,155,146,8,AIC; maxlag=14,-7.94666341642011,9.491215034950224e-11,exact_approximation,9.491215034950224e-11,True,"{""1%"": -4.022154287383327, ""5%"": -3.4409997194981194, ""10%"": -3.144950914227399}",4684.905215708154,raiz unitária,estacionariedade em torno de tendência determinística,,1.082895253835588e-09,True
+Geo17,difference,KPSS,ct,155,155,13,Hobijn et al.; nlags=auto,0.04729088553920536,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo18,level,ADF,c,156,152,3,AIC; maxlag=14,-4.426385031954133,0.0002664932640643041,exact_approximation,0.0002664932640643041,True,"{""1%"": -3.474120870218417, ""5%"": -2.880749791423677, ""10%"": -2.5770126333102494}",4642.480294644401,raiz unitária,estacionariedade em torno de constante,,0.0011694388716777043,True
+Geo18,level,KPSS,c,156,156,5,Hobijn et al.; nlags=auto,0.10589181570605703,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo18,level,ADF,ct,156,152,3,AIC; maxlag=14,-4.403859458224239,0.00215886653544253,exact_approximation,0.00215886653544253,True,"{""1%"": -4.019598505829475, ""5%"": -3.4397782320445764, ""10%"": -3.1442367831043154}",4644.477748159597,raiz unitária,estacionariedade em torno de tendência determinística,,0.009236803387210326,True
+Geo18,level,KPSS,ct,156,156,5,Hobijn et al.; nlags=auto,0.059650504637127684,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo18,per_1000,ADF,c,156,152,3,AIC; maxlag=14,-4.426385031954132,0.0002664932640643067,exact_approximation,0.0002664932640643067,True,"{""1%"": -3.474120870218417, ""5%"": -2.880749791423677, ""10%"": -2.5770126333102494}",2837.4557277159643,raiz unitária,estacionariedade em torno de constante,,0.0011694388716777158,True
+Geo18,per_1000,KPSS,c,156,156,5,Hobijn et al.; nlags=auto,0.10589181570605796,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo18,per_1000,ADF,ct,156,152,3,AIC; maxlag=14,-4.403859458224239,0.00215886653544253,exact_approximation,0.00215886653544253,True,"{""1%"": -4.019598505829475, ""5%"": -3.4397782320445764, ""10%"": -3.1442367831043154}",2839.4531812311598,raiz unitária,estacionariedade em torno de tendência determinística,,0.009236803387210326,True
+Geo18,per_1000,KPSS,ct,156,156,5,Hobijn et al.; nlags=auto,0.05965050463712788,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo18,difference,ADF,c,155,152,2,AIC; maxlag=14,-14.482204402388868,6.345410299507234e-27,exact_approximation,6.345410299507234e-27,True,"{""1%"": -3.474120870218417, ""5%"": -2.880749791423677, ""10%"": -2.5770126333102494}",4623.856737887161,raiz unitária,estacionariedade em torno de constante,,1.0859644426460743e-24,True
+Geo18,difference,KPSS,c,155,155,68,Hobijn et al.; nlags=auto,0.2336438705031646,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo18,difference,ADF,ct,155,152,2,AIC; maxlag=14,-14.440447692288126,4.806753468160828e-22,exact_approximation,4.806753468160828e-22,True,"{""1%"": -4.019598505829475, ""5%"": -3.4397782320445764, ""10%"": -3.1442367831043154}",4625.850230424737,raiz unitária,estacionariedade em torno de tendência determinística,,8.226360636433118e-20,True
+Geo18,difference,KPSS,ct,155,155,68,Hobijn et al.; nlags=auto,0.21078337382035633,0.011956234817366374,interpolated,0.011956234817366374,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,0.1705175508324388,False
+Geo19,level,ADF,c,156,155,0,AIC; maxlag=14,-12.560129634988122,2.1115231045140216e-23,exact_approximation,2.1115231045140216e-23,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4577.696201117258,raiz unitária,estacionariedade em torno de constante,,3.285179083771561e-22,True
+Geo19,level,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.1882643791672477,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo19,level,ADF,ct,156,155,0,AIC; maxlag=14,-12.634002884910757,4.2172177044511854e-20,exact_approximation,4.2172177044511854e-20,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4577.339564696296,raiz unitária,estacionariedade em torno de tendência determinística,,6.424184983789365e-19,True
+Geo19,level,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.07438968106772623,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo19,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-12.560129634988119,2.111523104514037e-23,exact_approximation,2.111523104514037e-23,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2870.3066153120535,raiz unitária,estacionariedade em torno de constante,,3.2851790837715844e-22,True
+Geo19,per_1000,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.18826437916724706,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo19,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-12.634002884906801,4.2172177045053335e-20,exact_approximation,4.2172177045053335e-20,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2869.9499788910916,raiz unitária,estacionariedade em torno de tendência determinística,,6.42418498378387e-19,True
+Geo19,per_1000,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.07438968106772537,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo19,difference,ADF,c,155,143,11,AIC; maxlag=14,-5.550559574738541,1.623461949604181e-06,exact_approximation,1.623461949604181e-06,True,"{""1%"": -3.4769274060112707, ""5%"": -2.8819726324025625, ""10%"": -2.577665408088415}",4558.684758235872,raiz unitária,estacionariedade em torno de constante,,6.946051823457046e-06,True
+Geo19,difference,KPSS,c,155,155,154,Hobijn et al.; nlags=auto,0.5000000000000016,0.04166666666666632,interpolated,0.04166666666666632,True,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo19,difference,ADF,ct,155,143,11,AIC; maxlag=14,-5.527368716901035,2.0341544543102163e-05,exact_approximation,2.0341544543102163e-05,True,"{""1%"": -4.023514459232879, ""5%"": -3.441649494385999, ""10%"": -3.145330713164287}",4560.556263331374,raiz unitária,estacionariedade em torno de tendência determinística,,8.703217380610398e-05,True
+Geo19,difference,KPSS,ct,155,155,154,Hobijn et al.; nlags=auto,0.4999999999999992,0.01,p_le_0.01,0.01,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.15558338323405002,False
+Geo2,level,ADF,c,156,155,0,AIC; maxlag=14,-13.330297133354916,6.2026634265624555e-25,exact_approximation,6.2026634265624555e-25,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4734.76658349077,raiz unitária,estacionariedade em torno de constante,,2.7039222757054357e-23,True
+Geo2,level,KPSS,c,156,156,2,Hobijn et al.; nlags=auto,0.1560522747777208,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo2,level,ADF,ct,156,155,0,AIC; maxlag=14,-13.311778926295258,5.65233640180321e-21,exact_approximation,5.65233640180321e-21,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4736.59774149052,raiz unitária,estacionariedade em torno de tendência determinística,,1.5126799393575023e-19,True
+Geo2,level,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.10534094646197315,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo2,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-13.330297133354915,6.202663426562548e-25,exact_approximation,6.202663426562548e-25,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2818.8923432686975,raiz unitária,estacionariedade em torno de constante,,2.7039222757054357e-23,True
+Geo2,per_1000,KPSS,c,156,156,2,Hobijn et al.; nlags=auto,0.15605227477772174,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo2,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-13.311778926294743,5.652336401810968e-21,exact_approximation,5.652336401810968e-21,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2820.7235012684473,raiz unitária,estacionariedade em torno de tendência determinística,,1.5126799393586655e-19,True
+Geo2,per_1000,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.10534094646196744,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo2,difference,ADF,c,155,145,9,AIC; maxlag=14,-7.230817447980276,1.996896260843379e-10,exact_approximation,1.996896260843379e-10,True,"{""1%"": -3.476273058920005, ""5%"": -2.881687616548444, ""10%"": -2.5775132580261593}",4719.200000496087,raiz unitária,estacionariedade em torno de constante,,1.7986961255388457e-09,True
+Geo2,difference,KPSS,c,155,155,14,Hobijn et al.; nlags=auto,0.07082679317030473,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo2,difference,ADF,ct,155,145,9,AIC; maxlag=14,-7.19984854399051,4.9666691182418665e-09,exact_approximation,4.9666691182418665e-09,True,"{""1%"": -4.022601282135389, ""5%"": -3.441213278199188, ""10%"": -3.1450757476731313}",4721.0512331363,raiz unitária,estacionariedade em torno de tendência determinística,,4.473706859485054e-08,True
+Geo2,difference,KPSS,ct,155,155,14,Hobijn et al.; nlags=auto,0.055371738952627474,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo20,level,ADF,c,156,155,0,AIC; maxlag=14,-11.789759856474916,9.890516321524816e-22,exact_approximation,9.890516321524816e-22,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4613.901917083616,raiz unitária,estacionariedade em torno de constante,,9.403777724210358e-21,True
+Geo20,level,KPSS,c,156,156,4,Hobijn et al.; nlags=auto,0.04091885686232395,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo20,level,ADF,ct,156,155,0,AIC; maxlag=14,-11.756654406546389,9.70178850404021e-19,exact_approximation,9.70178850404021e-19,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4615.73664573564,raiz unitária,estacionariedade em torno de tendência determinística,,7.90657517508461e-18,True
+Geo20,level,KPSS,ct,156,156,4,Hobijn et al.; nlags=auto,0.029864795343645372,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo20,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-11.78975985647491,9.890516321524957e-22,exact_approximation,9.890516321524957e-22,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2828.621890170442,raiz unitária,estacionariedade em torno de constante,,9.403777724210492e-21,True
+Geo20,per_1000,KPSS,c,156,156,4,Hobijn et al.; nlags=auto,0.040918856862323806,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo20,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-11.756654406547566,9.701788503995881e-19,exact_approximation,9.701788503995881e-19,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2830.456618822466,raiz unitária,estacionariedade em torno de tendência determinística,,7.906575175048484e-18,True
+Geo20,per_1000,KPSS,ct,156,156,4,Hobijn et al.; nlags=auto,0.02986479534364542,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo20,difference,ADF,c,155,142,12,AIC; maxlag=14,-6.759367975247708,2.8178023393790517e-09,exact_approximation,2.8178023393790517e-09,True,"{""1%"": -3.477261624048995, ""5%"": -2.8821181874544233, ""10%"": -2.5777431104939494}",4606.409881947374,raiz unitária,estacionariedade em torno de constante,,1.9289741734798203e-08,True
+Geo20,difference,KPSS,c,155,155,12,Hobijn et al.; nlags=auto,0.05711148045903343,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo20,difference,ADF,ct,155,142,12,AIC; maxlag=14,-6.7325978818708885,5.637320161045736e-08,exact_approximation,5.637320161045736e-08,True,"{""1%"": -4.023980918147249, ""5%"": -3.4418722820477714, ""10%"": -3.1454609207316904}",4608.39523551965,raiz unitária,estacionariedade em torno de tendência determinística,,3.8591227093276673e-07,True
+Geo20,difference,KPSS,ct,155,155,12,Hobijn et al.; nlags=auto,0.04889728632368866,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo21,level,ADF,c,156,155,0,AIC; maxlag=14,-11.8116671177481,8.830871487499143e-22,exact_approximation,8.830871487499143e-22,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4643.89153034244,raiz unitária,estacionariedade em torno de constante,,8.890179701313219e-21,True
+Geo21,level,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.07043795982610554,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo21,level,ADF,ct,156,155,0,AIC; maxlag=14,-11.774337711370913,9.057456464945276e-19,exact_approximation,9.057456464945276e-19,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4645.658498922951,raiz unitária,estacionariedade em torno de tendência determinística,,7.90657517508461e-18,True
+Geo21,level,KPSS,ct,156,156,1,Hobijn et al.; nlags=auto,0.07027442484918708,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo21,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-11.811667117748092,8.830871487499583e-22,exact_approximation,8.830871487499583e-22,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2860.523952451754,raiz unitária,estacionariedade em torno de constante,,8.890179701313661e-21,True
+Geo21,per_1000,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.0704379598261064,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo21,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-11.774337711372027,9.057456464906428e-19,exact_approximation,9.057456464906428e-19,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2862.290921032266,raiz unitária,estacionariedade em torno de tendência determinística,,7.906575175048484e-18,True
+Geo21,per_1000,KPSS,ct,156,156,1,Hobijn et al.; nlags=auto,0.07027442484918817,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo21,difference,ADF,c,155,147,7,AIC; maxlag=14,-7.629900973739907,2.0218351705340508e-11,exact_approximation,2.0218351705340508e-11,True,"{""1%"": -3.4756368462466662, ""5%"": -2.8814104466172608, ""10%"": -2.5773652982553568}",4630.913969682182,raiz unitária,estacionariedade em torno de constante,,2.035413834062401e-10,True
+Geo21,difference,KPSS,c,155,155,67,Hobijn et al.; nlags=auto,0.2408107687183012,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo21,difference,ADF,ct,155,147,7,AIC; maxlag=14,-7.61186463449609,5.631217395028209e-10,exact_approximation,5.631217395028209e-10,True,"{""1%"": -4.021713510530224, ""5%"": -3.44078910993876, ""10%"": -3.144827798366327}",4632.911677209076,raiz unitária,estacionariedade em torno de tendência determinística,,5.669036702643618e-09,True
+Geo21,difference,KPSS,ct,155,155,67,Hobijn et al.; nlags=auto,0.22837373558041735,0.01,p_le_0.01,0.01,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.15558338323405002,False
+Geo22,level,ADF,c,156,155,0,AIC; maxlag=14,-13.454715842944601,3.6262295814380007e-25,exact_approximation,3.6262295814380007e-25,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4628.370225550991,raiz unitária,estacionariedade em torno de constante,,2.7039222757054357e-23,True
+Geo22,level,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.25914949737933884,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo22,level,ADF,ct,156,155,0,AIC; maxlag=14,-13.607478478166724,2.6556284513868673e-21,exact_approximation,2.6556284513868673e-21,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4628.585953931094,raiz unitária,estacionariedade em torno de tendência determinística,,1.3733772275891956e-19,True
+Geo22,level,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.07985169328391663,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo22,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-13.454715842944607,3.6262295814379475e-25,exact_approximation,3.6262295814379475e-25,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2931.0988914068107,raiz unitária,estacionariedade em torno de constante,,2.7039222757054357e-23,True
+Geo22,per_1000,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.25914949737933674,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo22,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-13.607478478160264,2.6556284514284768e-21,exact_approximation,2.6556284514284768e-21,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2931.314619786914,raiz unitária,estacionariedade em torno de tendência determinística,,1.3733772275899453e-19,True
+Geo22,per_1000,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.0798516932839149,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo22,difference,ADF,c,155,151,3,AIC; maxlag=14,-11.378202724008947,8.640376751303077e-21,exact_approximation,8.640376751303077e-21,True,"{""1%"": -3.4744158894942156, ""5%"": -2.880878382771059, ""10%"": -2.577081275821236}",4610.407314199316,raiz unitária,estacionariedade em torno de constante,,7.393644760615096e-19,True
+Geo22,difference,KPSS,c,155,155,68,Hobijn et al.; nlags=auto,0.3743114878668056,0.0882278069539631,interpolated,0.0882278069539631,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo22,difference,ADF,ct,155,151,3,AIC; maxlag=14,-11.338343443586123,5.2419011305404284e-18,exact_approximation,5.2419011305404284e-18,True,"{""1%"": -4.020010057177695, ""5%"": -3.4399749739075576, ""10%"": -3.144351820618417}",4612.370020733811,raiz unitária,estacionariedade em torno de tendência determinística,,4.485539918573294e-16,True
+Geo22,difference,KPSS,ct,155,155,68,Hobijn et al.; nlags=auto,0.1968013681494586,0.017199486943953027,interpolated,0.017199486943953027,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,0.20071672369129762,False
+Geo23,level,ADF,c,156,155,0,AIC; maxlag=14,-11.6299777804736,2.2749100679837713e-21,exact_approximation,2.2749100679837713e-21,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4771.075531047922,raiz unitária,estacionariedade em torno de constante,,1.9466601271156483e-20,True
+Geo23,level,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.13693076427458492,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo23,level,ADF,ct,156,155,0,AIC; maxlag=14,-11.64340412609203,1.5142623588583468e-18,exact_approximation,1.5142623588583468e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4772.771434992243,raiz unitária,estacionariedade em torno de tendência determinística,,1.1779703044757737e-17,True
+Geo23,level,KPSS,ct,156,156,4,Hobijn et al.; nlags=auto,0.04803054896370101,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo23,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-11.629977780473606,2.2749100679837385e-21,exact_approximation,2.2749100679837385e-21,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2828.3340332584226,raiz unitária,estacionariedade em torno de constante,,1.9466601271156203e-20,True
+Geo23,per_1000,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.13693076427458634,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo23,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-11.643404126092125,1.5142623588577806e-18,exact_approximation,1.5142623588577806e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2830.0299372027425,raiz unitária,estacionariedade em torno de tendência determinística,,1.1779703044753332e-17,True
+Geo23,per_1000,KPSS,ct,156,156,4,Hobijn et al.; nlags=auto,0.048030548963700834,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo23,difference,ADF,c,155,141,13,AIC; maxlag=14,-6.023312594514559,1.4759880979789735e-07,exact_approximation,1.4759880979789735e-07,True,"{""1%"": -3.4776006742422374, ""5%"": -2.882265832283648, ""10%"": -2.5778219289774156}",4762.585031348191,raiz unitária,estacionariedade em torno de constante,,7.016754002400976e-07,True
+Geo23,difference,KPSS,c,155,155,63,Hobijn et al.; nlags=auto,0.1995535903550106,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo23,difference,ADF,ct,155,141,13,AIC; maxlag=14,-5.9957927789652015,2.2420323660777104e-06,exact_approximation,2.2420323660777104e-06,True,"{""1%"": -4.024454148377884, ""5%"": -3.442098279332953, ""10%"": -3.145592997002377}",4764.580295765568,raiz unitária,estacionariedade em torno de tendência determinística,,1.0658479969946488e-05,True
+Geo23,difference,KPSS,ct,155,155,63,Hobijn et al.; nlags=auto,0.19551399665311608,0.017682251255081466,interpolated,0.017682251255081466,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,0.20071672369129762,False
+Geo24,level,ADF,c,156,155,0,AIC; maxlag=14,-12.085737178472348,2.179793416905917e-22,exact_approximation,2.179793416905917e-22,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4224.596016020732,raiz unitária,estacionariedade em torno de constante,,2.487023986725906e-21,True
+Geo24,level,KPSS,c,156,156,2,Hobijn et al.; nlags=auto,0.04585871603826235,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo24,level,ADF,ct,156,155,0,AIC; maxlag=14,-12.052736555200468,3.16018776143759e-19,exact_approximation,3.16018776143759e-19,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4225.956368853046,raiz unitária,estacionariedade em torno de tendência determinística,,3.004666521873495e-18,True
+Geo24,level,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.04487946195059543,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo24,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-12.085737178472346,2.179793416905917e-22,exact_approximation,2.179793416905917e-22,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2827.8222249560213,raiz unitária,estacionariedade em torno de constante,,2.487023986725906e-21,True
+Geo24,per_1000,KPSS,c,156,156,2,Hobijn et al.; nlags=auto,0.04585871603826209,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo24,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-12.05273655519597,3.160187761489897e-19,exact_approximation,3.160187761489897e-19,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2829.182577788335,raiz unitária,estacionariedade em torno de tendência determinística,,3.0046665219232285e-18,True
+Geo24,per_1000,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.044879461950596736,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo24,difference,ADF,c,155,141,13,AIC; maxlag=14,-6.533559694365875,9.734084149659899e-09,exact_approximation,9.734084149659899e-09,True,"{""1%"": -3.4776006742422374, ""5%"": -2.882265832283648, ""10%"": -2.5778219289774156}",4224.193107002972,raiz unitária,estacionariedade em torno de constante,,5.74451006606183e-08,True
+Geo24,difference,KPSS,c,155,155,28,Hobijn et al.; nlags=auto,0.11360185994656777,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo24,difference,ADF,ct,155,141,13,AIC; maxlag=14,-6.532396039078785,1.566155653862103e-07,exact_approximation,1.566155653862103e-07,True,"{""1%"": -4.024454148377884, ""5%"": -3.442098279332953, ""10%"": -3.145592997002377}",4225.95403085344,raiz unitária,estacionariedade em torno de tendência determinística,,9.572663386746499e-07,True
+Geo24,difference,KPSS,ct,155,155,28,Hobijn et al.; nlags=auto,0.11026189166764232,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo25,level,ADF,c,156,155,0,AIC; maxlag=14,-13.072022823248638,1.9481937317398805e-24,exact_approximation,1.9481937317398805e-24,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4712.924440139909,raiz unitária,estacionariedade em torno de constante,,4.7631032739629417e-23,True
+Geo25,level,KPSS,c,156,156,2,Hobijn et al.; nlags=auto,0.2575267301260863,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo25,level,ADF,ct,156,155,0,AIC; maxlag=14,-13.101387860809757,1.0126585689503508e-20,exact_approximation,1.0126585689503508e-20,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4713.475240968533,raiz unitária,estacionariedade em torno de tendência determinística,,2.1663516355008975e-19,True
+Geo25,level,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.0938844277482027,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo25,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-13.07202282324864,1.9481937317398805e-24,exact_approximation,1.9481937317398805e-24,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2835.2994846240845,raiz unitária,estacionariedade em torno de constante,,4.7631032739629417e-23,True
+Geo25,per_1000,KPSS,c,156,156,2,Hobijn et al.; nlags=auto,0.25752673012608385,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo25,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-13.101387860809579,1.0126585689509037e-20,exact_approximation,1.0126585689509037e-20,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2835.850285452709,raiz unitária,estacionariedade em torno de tendência determinística,,2.1663516355020805e-19,True
+Geo25,per_1000,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.0938844277482023,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo25,difference,ADF,c,155,149,5,AIC; maxlag=14,-9.094641795686838,3.74349167337116e-15,exact_approximation,3.74349167337116e-15,True,"{""1%"": -3.4750180242954167, ""5%"": -2.8811408028842043, ""10%"": -2.577221358046935}",4690.669993589514,raiz unitária,estacionariedade em torno de constante,,5.824250996515804e-14,True
+Geo25,difference,KPSS,c,155,155,51,Hobijn et al.; nlags=auto,0.18848506285835304,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo25,difference,ADF,ct,155,149,5,AIC; maxlag=14,-9.056700895910376,2.7028452864282195e-13,exact_approximation,2.7028452864282195e-13,True,"{""1%"": -4.020850098604906, ""5%"": -3.4403764971618362, ""10%"": -3.1445865794938195}",4692.634796114537,raiz unitária,estacionariedade em torno de tendência determinística,,4.2051781402070736e-12,True
+Geo25,difference,KPSS,ct,155,155,52,Hobijn et al.; nlags=auto,0.19410965545617861,0.018208879203933017,interpolated,0.018208879203933017,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,0.20071672369129762,False
+Geo26,level,ADF,c,156,152,3,AIC; maxlag=14,-5.31450757268917,5.1092125783655555e-06,exact_approximation,5.1092125783655555e-06,True,"{""1%"": -3.474120870218417, ""5%"": -2.880749791423677, ""10%"": -2.5770126333102494}",4420.587087719668,raiz unitária,estacionariedade em torno de constante,,2.3010511485907494e-05,True
+Geo26,level,KPSS,c,156,156,6,Hobijn et al.; nlags=auto,0.3765839829768614,0.0872482831996287,interpolated,0.0872482831996287,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo26,level,ADF,ct,156,152,3,AIC; maxlag=14,-5.437574954461222,3.057906840663584e-05,exact_approximation,3.057906840663584e-05,True,"{""1%"": -4.019598505829475, ""5%"": -3.4397782320445764, ""10%"": -3.1442367831043154}",4421.850476170613,raiz unitária,estacionariedade em torno de tendência determinística,,0.0001341885746342267,True
+Geo26,level,KPSS,ct,156,156,5,Hobijn et al.; nlags=auto,0.05968498790308993,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo26,per_1000,ADF,c,156,152,3,AIC; maxlag=14,-5.314507572689168,5.1092125783655835e-06,exact_approximation,5.1092125783655835e-06,True,"{""1%"": -3.474120870218417, ""5%"": -2.880749791423677, ""10%"": -2.5770126333102494}",2840.4041800922278,raiz unitária,estacionariedade em torno de constante,,2.3010511485907622e-05,True
+Geo26,per_1000,KPSS,c,156,156,6,Hobijn et al.; nlags=auto,0.3765839829768588,0.08724828319962982,interpolated,0.08724828319962982,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo26,per_1000,ADF,ct,156,152,3,AIC; maxlag=14,-5.437574954461226,3.057906840663532e-05,exact_approximation,3.057906840663532e-05,True,"{""1%"": -4.019598505829475, ""5%"": -3.4397782320445764, ""10%"": -3.1442367831043154}",2841.667568543173,raiz unitária,estacionariedade em torno de tendência determinística,,0.00013418857463422444,True
+Geo26,per_1000,KPSS,ct,156,156,5,Hobijn et al.; nlags=auto,0.05968498790308932,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo26,difference,ADF,c,155,142,12,AIC; maxlag=14,-6.170182679796587,6.835239046777486e-08,exact_approximation,6.835239046777486e-08,True,"{""1%"": -3.477261624048995, ""5%"": -2.8821181874544233, ""10%"": -2.5777431104939494}",4407.130833581303,raiz unitária,estacionariedade em torno de constante,,3.3422702220635337e-07,True
+Geo26,difference,KPSS,c,155,155,5,Hobijn et al.; nlags=auto,0.03780641941133834,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo26,difference,ADF,ct,155,142,12,AIC; maxlag=14,-6.224132101354309,7.336641942823314e-07,exact_approximation,7.336641942823314e-07,True,"{""1%"": -4.023980918147249, ""5%"": -3.4418722820477714, ""10%"": -3.1454609207316904}",4408.524268483564,raiz unitária,estacionariedade em torno de tendência determinística,,3.692957448662981e-06,True
+Geo26,difference,KPSS,ct,155,155,5,Hobijn et al.; nlags=auto,0.023186763487598027,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo27,level,ADF,c,156,155,0,AIC; maxlag=14,-10.568662328018206,7.402624476481781e-19,exact_approximation,7.402624476481781e-19,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4612.5643744800855,raiz unitária,estacionariedade em torno de constante,,3.9590559279638945e-18,True
+Geo27,level,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.14632125834248821,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo27,level,ADF,ct,156,155,0,AIC; maxlag=14,-10.584188773077274,1.4411807488815864e-16,exact_approximation,1.4411807488815864e-16,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4613.632521004269,raiz unitária,estacionariedade em torno de tendência determinística,,7.474125892092638e-16,True
+Geo27,level,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.11592182896360934,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo27,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-10.56866232801821,7.402624476481674e-19,exact_approximation,7.402624476481674e-19,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2828.1023665746175,raiz unitária,estacionariedade em torno de constante,,3.9590559279638374e-18,True
+Geo27,per_1000,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.1463212583424861,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo27,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-10.584188773077512,1.4411807488800072e-16,exact_approximation,1.4411807488800072e-16,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2829.1705130988,raiz unitária,estacionariedade em torno de tendência determinística,,7.474125892084447e-16,True
+Geo27,per_1000,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.11592182896360813,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo27,difference,ADF,c,155,150,4,AIC; maxlag=14,-10.209100856080566,5.7003763452897965e-18,exact_approximation,5.7003763452897965e-18,True,"{""1%"": -3.474714913481481, ""5%"": -2.881008708148148, ""10%"": -2.5771508444444446}",4590.931696717606,raiz unitária,estacionariedade em torno de constante,,1.951144442516579e-16,True
+Geo27,difference,KPSS,c,155,155,33,Hobijn et al.; nlags=auto,0.10637209573257664,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo27,difference,ADF,ct,155,150,4,AIC; maxlag=14,-10.17261818947372,1.0001476440355114e-15,exact_approximation,1.0001476440355114e-15,True,"{""1%"": -4.020427216296296, ""5%"": -3.4401743774814815, ""10%"": -3.144468408888889}",4592.904794083108,raiz unitária,estacionariedade em torno de tendência determinística,,3.4233397922374026e-14,True
+Geo27,difference,KPSS,ct,155,155,33,Hobijn et al.; nlags=auto,0.10484298308601796,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo28,level,ADF,c,156,155,0,AIC; maxlag=14,-11.136635655972636,3.183255123194042e-20,exact_approximation,3.183255123194042e-20,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4745.881716352984,raiz unitária,estacionariedade em torno de constante,,1.8785784894483342e-19,True
+Geo28,level,KPSS,c,156,156,5,Hobijn et al.; nlags=auto,0.1174462690638425,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo28,level,ADF,ct,156,155,0,AIC; maxlag=14,-11.15613474042437,1.1321845512533343e-17,exact_approximation,1.1321845512533343e-17,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4747.86835163275,raiz unitária,estacionariedade em torno de tendência determinística,,6.458800440741677e-17,True
+Geo28,level,KPSS,ct,156,156,4,Hobijn et al.; nlags=auto,0.11900383479921947,0.09999289851996394,interpolated,0.09999289851996394,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,1.0,False
+Geo28,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-11.136635655972634,3.183255123194088e-20,exact_approximation,3.183255123194088e-20,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2906.9063747238497,raiz unitária,estacionariedade em torno de constante,,1.8785784894483614e-19,True
+Geo28,per_1000,KPSS,c,156,156,5,Hobijn et al.; nlags=auto,0.11744626906384317,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo28,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-11.156134740424823,1.1321845512511483e-17,exact_approximation,1.1321845512511483e-17,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2908.893010003616,raiz unitária,estacionariedade em torno de tendência determinística,,6.458800440729207e-17,True
+Geo28,per_1000,KPSS,ct,156,156,4,Hobijn et al.; nlags=auto,0.11900383479921957,0.09999289851996376,interpolated,0.09999289851996376,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,1.0,False
+Geo28,difference,ADF,c,155,151,3,AIC; maxlag=14,-11.06231807080345,4.775306625075367e-20,exact_approximation,4.775306625075367e-20,True,"{""1%"": -3.4744158894942156, ""5%"": -2.880878382771059, ""10%"": -2.577081275821236}",4724.132497761398,raiz unitária,estacionariedade em torno de constante,,2.7241806559337295e-18,True
+Geo28,difference,KPSS,c,155,155,55,Hobijn et al.; nlags=auto,0.20864362399983202,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo28,difference,ADF,ct,155,151,3,AIC; maxlag=14,-11.02575963631622,1.9888641355975764e-17,exact_approximation,1.9888641355975764e-17,True,"{""1%"": -4.020010057177695, ""5%"": -3.4399749739075576, ""10%"": -3.144351820618417}",4726.087940156993,raiz unitária,estacionariedade em torno de tendência determinística,,1.1345921070334966e-15,True
+Geo28,difference,KPSS,ct,155,155,55,Hobijn et al.; nlags=auto,0.19262677302631323,0.018764960115132536,interpolated,0.018764960115132536,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,0.20071672369129762,False
+Geo29,level,ADF,c,156,154,1,AIC; maxlag=14,-7.996611007337947,2.3948304125451408e-12,exact_approximation,2.3948304125451408e-12,True,"{""1%"": -3.473542528196209, ""5%"": -2.880497674144038, ""10%"": -2.576878053634677}",4571.065693780793,raiz unitária,estacionariedade em torno de constante,,1.2054570577680166e-11,True
+Geo29,level,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.11150928427266112,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo29,level,ADF,ct,156,154,1,AIC; maxlag=14,-8.004046001655349,6.992791334302224e-11,exact_approximation,6.992791334302224e-11,True,"{""1%"": -4.018791780079424, ""5%"": -3.439392523037765, ""10%"": -3.1440112381799343}",4572.889331165404,raiz unitária,estacionariedade em torno de tendência determinística,,3.5198774924839283e-10,True
+Geo29,level,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.09314352342510847,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo29,per_1000,ADF,c,156,154,1,AIC; maxlag=14,-7.996611007337953,2.394830412545054e-12,exact_approximation,2.394830412545054e-12,True,"{""1%"": -3.473542528196209, ""5%"": -2.880497674144038, ""10%"": -2.576878053634677}",2861.9291543280524,raiz unitária,estacionariedade em torno de constante,,1.2054570577679728e-11,True
+Geo29,per_1000,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.11150928427266134,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo29,per_1000,ADF,ct,156,154,1,AIC; maxlag=14,-8.004046001655354,6.992791334301996e-11,exact_approximation,6.992791334301996e-11,True,"{""1%"": -4.018791780079424, ""5%"": -3.439392523037765, ""10%"": -3.1440112381799343}",2863.752791712664,raiz unitária,estacionariedade em torno de tendência determinística,,3.519877492483814e-10,True
+Geo29,per_1000,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.09314352342510893,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo29,difference,ADF,c,155,149,5,AIC; maxlag=14,-8.888331007806405,1.2623131532246214e-14,exact_approximation,1.2623131532246214e-14,True,"{""1%"": -3.4750180242954167, ""5%"": -2.8811408028842043, ""10%"": -2.577221358046935}",4555.979970050113,raiz unitária,estacionariedade em torno de constante,,1.8002870515623439e-13,True
+Geo29,difference,KPSS,c,155,155,138,Hobijn et al.; nlags=auto,0.4429040535152949,0.0586620458985798,interpolated,0.0586620458985798,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo29,difference,ADF,ct,155,149,5,AIC; maxlag=14,-8.852283853049052,7.847870576139228e-13,exact_approximation,7.847870576139228e-13,True,"{""1%"": -4.020850098604906, ""5%"": -3.4403764971618362, ""10%"": -3.1445865794938195}",4557.812593539543,raiz unitária,estacionariedade em torno de tendência determinística,,1.1192484008004701e-11,True
+Geo29,difference,KPSS,ct,155,155,137,Hobijn et al.; nlags=auto,0.4297679428538218,0.01,p_le_0.01,0.01,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.15558338323405002,False
+Geo3,level,ADF,c,156,155,0,AIC; maxlag=14,-11.347203903267872,1.0201459560053412e-20,exact_approximation,1.0201459560053412e-20,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4373.479614693866,raiz unitária,estacionariedade em torno de constante,,6.714982121178072e-20,True
+Geo3,level,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.06597349978972443,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo3,level,ADF,ct,156,155,0,AIC; maxlag=14,-11.321173516570006,5.6314317175602395e-18,exact_approximation,5.6314317175602395e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4375.147782415021,raiz unitária,estacionariedade em torno de tendência determinística,,3.383406044456819e-17,True
+Geo3,level,KPSS,ct,156,156,1,Hobijn et al.; nlags=auto,0.06186420231664855,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo3,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-11.347203903267875,1.0201459560053118e-20,exact_approximation,1.0201459560053118e-20,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2840.828700774776,raiz unitária,estacionariedade em torno de constante,,6.714982121177878e-20,True
+Geo3,per_1000,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.06597349978972383,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo3,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-11.321173516557709,5.6314317178496975e-18,exact_approximation,5.6314317178496975e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2842.49686849593,raiz unitária,estacionariedade em torno de tendência determinística,,3.383406044448805e-17,True
+Geo3,per_1000,KPSS,ct,156,156,1,Hobijn et al.; nlags=auto,0.061864202316648464,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo3,difference,ADF,c,155,149,5,AIC; maxlag=14,-9.607697772048402,1.8471395345601042e-16,exact_approximation,1.8471395345601042e-16,True,"{""1%"": -3.4750180242954167, ""5%"": -2.8811408028842043, ""10%"": -2.577221358046935}",4360.986821013754,raiz unitária,estacionariedade em torno de constante,,3.951532998768156e-15,True
+Geo3,difference,KPSS,c,155,155,41,Hobijn et al.; nlags=auto,0.20587754674309217,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo3,difference,ADF,ct,155,149,5,AIC; maxlag=14,-9.579327270301235,1.860706204347822e-14,exact_approximation,1.860706204347822e-14,True,"{""1%"": -4.020850098604906, ""5%"": -3.4403764971618362, ""10%"": -3.1445865794938195}",4362.98213025188,raiz unitária,estacionariedade em torno de tendência determinística,,3.98055578905905e-13,True
+Geo3,difference,KPSS,ct,155,155,41,Hobijn et al.; nlags=auto,0.13744368499384052,0.06584502778918422,interpolated,0.06584502778918422,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,0.4695346421599773,False
+Geo30,level,ADF,c,156,155,0,AIC; maxlag=14,-11.493945528087464,4.6632847257086575e-21,exact_approximation,4.6632847257086575e-21,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4514.0501723557,raiz unitária,estacionariedade em torno de constante,,3.4477298640337334e-20,True
+Geo30,level,KPSS,c,156,156,4,Hobijn et al.; nlags=auto,0.06302917422859136,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo30,level,ADF,ct,156,155,0,AIC; maxlag=14,-11.487278938027986,2.8372412575044693e-18,exact_approximation,2.8372412575044693e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4515.949180951323,raiz unitária,estacionariedade em torno de tendência determinística,,1.8675782818582824e-17,True
+Geo30,level,KPSS,ct,156,156,4,Hobijn et al.; nlags=auto,0.04577616509598897,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo30,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-11.493945528087465,4.6632847257085236e-21,exact_approximation,4.6632847257085236e-21,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2934.317251303763,raiz unitária,estacionariedade em torno de constante,,3.4477298640336847e-20,True
+Geo30,per_1000,KPSS,c,156,156,4,Hobijn et al.; nlags=auto,0.06302917422859204,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo30,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-11.48727893802362,2.837241257554936e-18,exact_approximation,2.837241257554936e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2936.2162598993855,raiz unitária,estacionariedade em torno de tendência determinística,,1.8675782818915014e-17,True
+Geo30,per_1000,KPSS,ct,156,156,4,Hobijn et al.; nlags=auto,0.045776165095988884,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo30,difference,ADF,c,155,149,5,AIC; maxlag=14,-7.8713892523178535,4.974234581057161e-12,exact_approximation,4.974234581057161e-12,True,"{""1%"": -3.4750180242954167, ""5%"": -2.8811408028842043, ""10%"": -2.577221358046935}",4508.891214069944,raiz unitária,estacionariedade em torno de constante,,5.320619185204679e-11,True
+Geo30,difference,KPSS,c,155,155,34,Hobijn et al.; nlags=auto,0.129744867075456,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo30,difference,ADF,ct,155,149,5,AIC; maxlag=14,-7.845434617193559,1.6268040562694458e-10,exact_approximation,1.6268040562694458e-10,True,"{""1%"": -4.020850098604906, ""5%"": -3.4403764971618362, ""10%"": -3.1445865794938195}",4510.750921460154,raiz unitária,estacionariedade em torno de tendência determinística,,1.7400877926662744e-09,True
+Geo30,difference,KPSS,ct,155,155,34,Hobijn et al.; nlags=auto,0.10954768217407418,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo31,level,ADF,c,156,155,0,AIC; maxlag=14,-13.208225183223512,1.0600557602901363e-24,exact_approximation,1.0600557602901363e-24,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4737.337287962245,raiz unitária,estacionariedade em torno de constante,,3.0236627960491806e-23,True
+Geo31,level,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.4142381183184548,0.0710180524489419,interpolated,0.0710180524489419,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo31,level,ADF,ct,156,155,0,AIC; maxlag=14,-13.53040748021221,3.209917990986507e-21,exact_approximation,3.209917990986507e-21,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4734.8132025596005,raiz unitária,estacionariedade em torno de tendência determinística,,1.3733772275891956e-19,True
+Geo31,level,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.02865748002199221,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo31,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-13.20822518322351,1.0600557602901666e-24,exact_approximation,1.0600557602901666e-24,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2827.532064501759,raiz unitária,estacionariedade em torno de constante,,3.023662796049267e-23,True
+Geo31,per_1000,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.41423811831845464,0.07101805244894197,interpolated,0.07101805244894197,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo31,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-13.530407480211998,3.2099179909882593e-21,exact_approximation,3.2099179909882593e-21,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2825.0079790991153,raiz unitária,estacionariedade em torno de tendência determinística,,1.3733772275899453e-19,True
+Geo31,per_1000,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.02865748002199302,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo31,difference,ADF,c,155,144,10,AIC; maxlag=14,-6.848175998561498,1.7212641290773428e-09,exact_approximation,1.7212641290773428e-09,True,"{""1%"": -3.476597917537401, ""5%"": -2.8818291230495543, ""10%"": -2.5775887982253085}",4730.187193432396,raiz unitária,estacionariedade em torno de constante,,1.2274171096057916e-08,True
+Geo31,difference,KPSS,c,155,155,13,Hobijn et al.; nlags=auto,0.057496106202762826,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo31,difference,ADF,ct,155,144,10,AIC; maxlag=14,-6.813872278625178,3.7096983675196686e-08,exact_approximation,3.7096983675196686e-08,True,"{""1%"": -4.023054627312136, ""5%"": -3.4414298484385712, ""10%"": -3.1452023349086935}",4732.078420492359,raiz unitária,estacionariedade em torno de tendência determinística,,2.6453506878174864e-07,True
+Geo31,difference,KPSS,ct,155,155,13,Hobijn et al.; nlags=auto,0.05606845475912994,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo32,level,ADF,c,156,155,0,AIC; maxlag=14,-11.258746265532302,1.6420439339386968e-20,exact_approximation,1.6420439339386968e-20,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4667.520415498876,raiz unitária,estacionariedade em torno de constante,,1.0408230582490538e-19,True
+Geo32,level,KPSS,c,156,156,4,Hobijn et al.; nlags=auto,0.361819454650465,0.09361230402997198,interpolated,0.09361230402997198,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo32,level,ADF,ct,156,155,0,AIC; maxlag=14,-11.505147455047357,2.6383430483038632e-18,exact_approximation,2.6383430483038632e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4666.08518516516,raiz unitária,estacionariedade em torno de tendência determinística,,1.8290373882529998e-17,True
+Geo32,level,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.09815289128594874,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo32,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-11.258746265532297,1.6420439339387558e-20,exact_approximation,1.6420439339387558e-20,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2814.229912451409,raiz unitária,estacionariedade em torno de constante,,1.0408230582490912e-19,True
+Geo32,per_1000,KPSS,c,156,156,4,Hobijn et al.; nlags=auto,0.36181945465046433,0.09361230402997227,interpolated,0.09361230402997227,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo32,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-11.505147455046151,2.6383430483167573e-18,exact_approximation,2.6383430483167573e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2812.794682117693,raiz unitária,estacionariedade em torno de tendência determinística,,1.829037388263677e-17,True
+Geo32,per_1000,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.09815289128595073,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo32,difference,ADF,c,155,147,7,AIC; maxlag=14,-6.937664878759177,1.0445062902554056e-09,exact_approximation,1.0445062902554056e-09,True,"{""1%"": -3.4756368462466662, ""5%"": -2.8814104466172608, ""10%"": -2.5773652982553568}",4655.25644197419,raiz unitária,estacionariedade em torno de constante,,7.772113247473955e-09,True
+Geo32,difference,KPSS,c,155,155,67,Hobijn et al.; nlags=auto,0.2593700990148438,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo32,difference,ADF,ct,155,147,7,AIC; maxlag=14,-6.906443611336443,2.2979703991114816e-08,exact_approximation,2.2979703991114816e-08,True,"{""1%"": -4.021713510530224, ""5%"": -3.44078910993876, ""10%"": -3.144827798366327}",4657.240603727817,raiz unitária,estacionariedade em torno de tendência determinística,,1.7099070008348306e-07,True
+Geo32,difference,KPSS,ct,155,155,66,Hobijn et al.; nlags=auto,0.1836322094248985,0.02213792146566306,interpolated,0.02213792146566306,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,0.21048455507429525,False
+Geo33,level,ADF,c,156,155,0,AIC; maxlag=14,-11.54648975532751,3.5308861031359774e-21,exact_approximation,3.5308861031359774e-21,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4587.472220464684,raiz unitária,estacionariedade em torno de constante,,2.877532982447547e-20,True
+Geo33,level,KPSS,c,156,156,5,Hobijn et al.; nlags=auto,0.8019408750233749,0.01,p_le_0.01,0.01,True,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",1.0,False
+Geo33,level,ADF,ct,156,155,0,AIC; maxlag=14,-12.20656782368615,1.809043048444603e-19,exact_approximation,1.809043048444603e-19,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4581.937954633997,raiz unitária,estacionariedade em torno de tendência determinística,,1.8211925981315053e-18,True
+Geo33,level,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.08692906524247282,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo33,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-11.546489755327501,3.530886103136155e-21,exact_approximation,3.530886103136155e-21,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2789.812088334078,raiz unitária,estacionariedade em torno de constante,,2.877532982447692e-20,True
+Geo33,per_1000,KPSS,c,156,156,5,Hobijn et al.; nlags=auto,0.8019408750233784,0.01,p_le_0.01,0.01,True,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",1.0,False
+Geo33,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-12.206567823686619,1.8090430484415838e-19,exact_approximation,1.8090430484415838e-19,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2784.277822503391,raiz unitária,estacionariedade em torno de tendência determinística,,1.821192598128466e-18,True
+Geo33,per_1000,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.08692906524247337,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo33,difference,ADF,c,155,150,4,AIC; maxlag=14,-9.656674181444695,1.3881977706785154e-16,exact_approximation,1.3881977706785154e-16,True,"{""1%"": -3.474714913481481, ""5%"": -2.881008708148148, ""10%"": -2.5771508444444446}",4571.304966545714,raiz unitária,estacionariedade em torno de constante,,3.3939793762306046e-15,True
+Geo33,difference,KPSS,c,155,155,154,Hobijn et al.; nlags=auto,0.49999999999997397,0.041666666666672535,interpolated,0.041666666666672535,True,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo33,difference,ADF,ct,155,150,4,AIC; maxlag=14,-9.62516263674299,1.4774544147898604e-14,exact_approximation,1.4774544147898604e-14,True,"{""1%"": -4.020427216296296, ""5%"": -3.4401743774814815, ""10%"": -3.144468408888889}",4573.017174085725,raiz unitária,estacionariedade em torno de tendência determinística,,3.612201315282843e-13,True
+Geo33,difference,KPSS,ct,155,155,154,Hobijn et al.; nlags=auto,0.5000000000000703,0.01,p_le_0.01,0.01,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.15558338323405002,False
+Geo34,level,ADF,c,156,151,4,AIC; maxlag=14,-6.376698728571872,2.2745139589343274e-08,exact_approximation,2.2745139589343274e-08,True,"{""1%"": -3.4744158894942156, ""5%"": -2.880878382771059, ""10%"": -2.577081275821236}",4616.678061545557,raiz unitária,estacionariedade em torno de constante,,1.0812895406624538e-07,True
+Geo34,level,KPSS,c,156,156,6,Hobijn et al.; nlags=auto,0.05007020137176157,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo34,level,ADF,ct,156,151,4,AIC; maxlag=14,-6.358990752043208,3.7510325177632185e-07,exact_approximation,3.7510325177632185e-07,True,"{""1%"": -4.020010057177695, ""5%"": -3.4399749739075576, ""10%"": -3.144351820618417}",4618.103638781785,raiz unitária,estacionariedade em torno de tendência determinística,,1.6893635860736638e-06,True
+Geo34,level,KPSS,ct,156,156,6,Hobijn et al.; nlags=auto,0.04189777887886101,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo34,per_1000,ADF,c,156,151,4,AIC; maxlag=14,-6.376698728571873,2.2745139589343506e-08,exact_approximation,2.2745139589343506e-08,True,"{""1%"": -3.4744158894942156, ""5%"": -2.880878382771059, ""10%"": -2.577081275821236}",2809.447651871061,raiz unitária,estacionariedade em torno de constante,,1.0812895406624648e-07,True
+Geo34,per_1000,KPSS,c,156,156,6,Hobijn et al.; nlags=auto,0.05007020137176116,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo34,per_1000,ADF,ct,156,151,4,AIC; maxlag=14,-6.35899075204321,3.7510325177631846e-07,exact_approximation,3.7510325177631846e-07,True,"{""1%"": -4.020010057177695, ""5%"": -3.4399749739075576, ""10%"": -3.144351820618417}",2810.873229107289,raiz unitária,estacionariedade em torno de tendência determinística,,1.6893635860736486e-06,True
+Geo34,per_1000,KPSS,ct,156,156,6,Hobijn et al.; nlags=auto,0.04189777887886171,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo34,difference,ADF,c,155,141,13,AIC; maxlag=14,-5.865866987428979,3.3267717230881185e-07,exact_approximation,3.3267717230881185e-07,True,"{""1%"": -3.4776006742422374, ""5%"": -2.882265832283648, ""10%"": -2.5778219289774156}",4604.585260429995,raiz unitária,estacionariedade em torno de constante,,1.4982879997841097e-06,True
+Geo34,difference,KPSS,c,155,155,23,Hobijn et al.; nlags=auto,0.09891092834644984,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo34,difference,ADF,ct,155,141,13,AIC; maxlag=14,-5.823298268651321,5.123896368208363e-06,exact_approximation,5.123896368208363e-06,True,"{""1%"": -4.024454148377884, ""5%"": -3.442098279332953, ""10%"": -3.145592997002377}",4606.581620658609,raiz unitária,estacionariedade em torno de tendência determinística,,2.3076643303609757e-05,True
+Geo34,difference,KPSS,ct,155,155,23,Hobijn et al.; nlags=auto,0.0753371313265039,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo35,level,ADF,c,156,152,3,AIC; maxlag=14,-4.353192380324106,0.0003588687057697905,exact_approximation,0.0003588687057697905,True,"{""1%"": -3.474120870218417, ""5%"": -2.880749791423677, ""10%"": -2.5770126333102494}",4683.287943430077,raiz unitária,estacionariedade em torno de constante,,0.0015354352029634437,True
+Geo35,level,KPSS,c,156,156,5,Hobijn et al.; nlags=auto,0.6904175756628557,0.014416584030649484,interpolated,0.014416584030649484,True,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo35,level,ADF,ct,156,155,0,AIC; maxlag=14,-13.394539594750816,4.540451143318544e-21,exact_approximation,4.540451143318544e-21,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4679.3033466561965,raiz unitária,estacionariedade em torno de tendência determinística,,1.5126799393575023e-19,True
+Geo35,level,KPSS,ct,156,156,4,Hobijn et al.; nlags=auto,0.14145842431366193,0.058410325345070485,interpolated,0.058410325345070485,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,1.0,False
+Geo35,per_1000,ADF,c,156,152,3,AIC; maxlag=14,-4.353192380324104,0.000358868705769792,exact_approximation,0.000358868705769792,True,"{""1%"": -3.474120870218417, ""5%"": -2.880749791423677, ""10%"": -2.5770126333102494}",2819.3881621816504,raiz unitária,estacionariedade em torno de constante,,0.00153543520296345,True
+Geo35,per_1000,KPSS,c,156,156,5,Hobijn et al.; nlags=auto,0.6904175756628562,0.014416584030649432,interpolated,0.014416584030649432,True,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo35,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-13.394539594752052,4.540451143303959e-21,exact_approximation,4.540451143303959e-21,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2815.4035654077707,raiz unitária,estacionariedade em torno de tendência determinística,,1.5126799393586655e-19,True
+Geo35,per_1000,KPSS,ct,156,156,4,Hobijn et al.; nlags=auto,0.1414584243136636,0.058410325345067404,interpolated,0.058410325345067404,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,1.0,False
+Geo35,difference,ADF,c,155,150,4,AIC; maxlag=14,-9.256265561197084,1.446913693456764e-15,exact_approximation,1.446913693456764e-15,True,"{""1%"": -3.474714913481481, ""5%"": -2.881008708148148, ""10%"": -2.5771508444444446}",4660.490873506167,raiz unitária,estacionariedade em torno de constante,,2.4762730044324637e-14,True
+Geo35,difference,KPSS,c,155,155,31,Hobijn et al.; nlags=auto,0.15437044366749172,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo35,difference,ADF,ct,155,150,4,AIC; maxlag=14,-9.253071483492578,9.798830510908143e-14,exact_approximation,9.798830510908143e-14,True,"{""1%"": -4.020427216296296, ""5%"": -3.4401743774814815, ""10%"": -3.144468408888889}",4662.487650941405,raiz unitária,estacionariedade em torno de tendência determinística,,1.6769887228865363e-12,True
+Geo35,difference,KPSS,ct,155,155,31,Hobijn et al.; nlags=auto,0.10480158025839663,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo36,level,ADF,c,156,155,0,AIC; maxlag=14,-13.306726481600665,6.874029945831242e-25,exact_approximation,6.874029945831242e-25,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4783.244324784198,raiz unitária,estacionariedade em torno de constante,,2.7039222757054357e-23,True
+Geo36,level,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.09875341617142132,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo36,level,ADF,ct,156,155,0,AIC; maxlag=14,-13.27825302186301,6.187129286266819e-21,exact_approximation,6.187129286266819e-21,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4785.151323937797,raiz unitária,estacionariedade em torno de tendência determinística,,1.5126799393575023e-19,True
+Geo36,level,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.09809594773338527,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo36,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-13.306726481600661,6.874029945831294e-25,exact_approximation,6.874029945831294e-25,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2843.879831459779,raiz unitária,estacionariedade em torno de constante,,2.7039222757054357e-23,True
+Geo36,per_1000,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.09875341617142226,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo36,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-13.278253021862733,6.187129286271577e-21,exact_approximation,6.187129286271577e-21,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2845.786830613378,raiz unitária,estacionariedade em torno de tendência determinística,,1.5126799393586655e-19,True
+Geo36,per_1000,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.09809594773338841,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo36,difference,ADF,c,155,143,11,AIC; maxlag=14,-6.954733666498318,9.492880967448273e-10,exact_approximation,9.492880967448273e-10,True,"{""1%"": -3.4769274060112707, ""5%"": -2.8819726324025625, ""10%"": -2.577665408088415}",4767.305150506998,raiz unitária,estacionariedade em torno de constante,,7.384672687768621e-09,True
+Geo36,difference,KPSS,c,155,155,10,Hobijn et al.; nlags=auto,0.046475064628677336,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo36,difference,ADF,ct,155,143,11,AIC; maxlag=14,-6.96226612595622,1.7196529866649258e-08,exact_approximation,1.7196529866649258e-08,True,"{""1%"": -4.023514459232879, ""5%"": -3.441649494385999, ""10%"": -3.145330713164287}",4768.271318622611,raiz unitária,estacionariedade em torno de tendência determinística,,1.4014493934250222e-07,True
+Geo36,difference,KPSS,ct,155,155,10,Hobijn et al.; nlags=auto,0.034984560844342864,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo37,level,ADF,c,156,155,0,AIC; maxlag=14,-11.518347581734385,4.097562592475441e-21,exact_approximation,4.097562592475441e-21,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4508.624894703593,raiz unitária,estacionariedade em torno de constante,,3.18756325575307e-20,True
+Geo37,level,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.09200584533382598,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo37,level,ADF,ct,156,155,0,AIC; maxlag=14,-11.502044195741346,2.671816918177609e-18,exact_approximation,2.671816918177609e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4510.326568473942,raiz unitária,estacionariedade em torno de tendência determinística,,1.8290373882529998e-17,True
+Geo37,level,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.05066206441974203,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo37,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-11.51834758173438,4.09756259247556e-21,exact_approximation,4.09756259247556e-21,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2875.0079021879014,raiz unitária,estacionariedade em torno de constante,,3.187563255753163e-20,True
+Geo37,per_1000,KPSS,c,156,156,3,Hobijn et al.; nlags=auto,0.09200584533382786,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo37,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-11.50204419573991,2.671816918193206e-18,exact_approximation,2.671816918193206e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2876.7095759582508,raiz unitária,estacionariedade em torno de tendência determinística,,1.829037388263677e-17,True
+Geo37,per_1000,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.05066206441974246,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo37,difference,ADF,c,155,150,4,AIC; maxlag=14,-9.542809636827343,2.6982064254893363e-16,exact_approximation,2.6982064254893363e-16,True,"{""1%"": -3.474714913481481, ""5%"": -2.881008708148148, ""10%"": -2.5771508444444446}",4496.866176514918,raiz unitária,estacionariedade em torno de constante,,5.130841030840356e-15,True
+Geo37,difference,KPSS,c,155,155,154,Hobijn et al.; nlags=auto,0.49999999999998335,0.04166666666667042,interpolated,0.04166666666667042,True,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo37,difference,ADF,ct,155,150,4,AIC; maxlag=14,-9.50648132397177,2.688473661179117e-14,exact_approximation,2.688473661179117e-14,True,"{""1%"": -4.020427216296296, ""5%"": -3.4401743774814815, ""10%"": -3.144468408888889}",4498.725425300047,raiz unitária,estacionariedade em torno de tendência determinística,,5.112333452622979e-13,True
+Geo37,difference,KPSS,ct,155,155,154,Hobijn et al.; nlags=auto,0.4999999999999855,0.01,p_le_0.01,0.01,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.15558338323405002,False
+Geo38,level,ADF,c,156,155,0,AIC; maxlag=14,-12.655192022629114,1.3414914490693788e-23,exact_approximation,1.3414914490693788e-23,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4356.165140917611,raiz unitária,estacionariedade em torno de constante,,2.550946178314872e-22,True
+Geo38,level,KPSS,c,156,156,5,Hobijn et al.; nlags=auto,0.18019089713084252,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo38,level,ADF,ct,156,155,0,AIC; maxlag=14,-12.678206111598401,3.6571762538343887e-20,exact_approximation,3.6571762538343887e-20,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4357.3493774487515,raiz unitária,estacionariedade em torno de tendência determinística,,6.258954401202615e-19,True
+Geo38,level,KPSS,ct,156,156,6,Hobijn et al.; nlags=auto,0.06946091271409945,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo38,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-12.655192022629112,1.3414914490693788e-23,exact_approximation,1.3414914490693788e-23,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2806.1561280060946,raiz unitária,estacionariedade em torno de constante,,2.550946178314872e-22,True
+Geo38,per_1000,KPSS,c,156,156,5,Hobijn et al.; nlags=auto,0.18019089713084122,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo38,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-12.678206111591019,3.657176253920964e-20,exact_approximation,3.657176253920964e-20,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2807.3403645372346,raiz unitária,estacionariedade em torno de tendência determinística,,6.258954401350781e-19,True
+Geo38,per_1000,KPSS,ct,156,156,6,Hobijn et al.; nlags=auto,0.06946091271410028,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo38,difference,ADF,c,155,149,5,AIC; maxlag=14,-10.064782800730345,1.3049317585898664e-17,exact_approximation,1.3049317585898664e-17,True,"{""1%"": -3.4750180242954167, ""5%"": -2.8811408028842043, ""10%"": -2.577221358046935}",4338.818011660826,raiz unitária,estacionariedade em torno de constante,,3.7221377946677844e-16,True
+Geo38,difference,KPSS,c,155,155,154,Hobijn et al.; nlags=auto,0.500000000000015,0.04166666666666329,interpolated,0.04166666666666329,True,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo38,difference,ADF,ct,155,149,5,AIC; maxlag=14,-10.067087780760172,1.6646769283048429e-15,exact_approximation,1.6646769283048429e-15,True,"{""1%"": -4.020850098604906, ""5%"": -3.4403764971618362, ""10%"": -3.1445865794938195}",4340.80788006836,raiz unitária,estacionariedade em torno de tendência determinística,,4.74826125578445e-14,True
+Geo38,difference,KPSS,ct,155,155,154,Hobijn et al.; nlags=auto,0.4999999999999955,0.01,p_le_0.01,0.01,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.15558338323405002,False
+Geo39,level,ADF,c,156,155,0,AIC; maxlag=14,-10.797083367434347,2.0623724844831835e-19,exact_approximation,2.0623724844831835e-19,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4718.833151116724,raiz unitária,estacionariedade em torno de constante,,1.1765265916239258e-18,True
+Geo39,level,KPSS,c,156,156,5,Hobijn et al.; nlags=auto,0.14774352939738963,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo39,level,ADF,ct,156,155,0,AIC; maxlag=14,-10.86914704462171,3.9651606929251747e-17,exact_approximation,3.9651606929251747e-17,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4720.497583942212,raiz unitária,estacionariedade em torno de tendência determinística,,2.1890465394811797e-16,True
+Geo39,level,KPSS,ct,156,156,4,Hobijn et al.; nlags=auto,0.07947812240287057,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo39,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-10.797083367434347,2.0623724844831835e-19,exact_approximation,2.0623724844831835e-19,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2834.146859347467,raiz unitária,estacionariedade em torno de constante,,1.1765265916239258e-18,True
+Geo39,per_1000,KPSS,c,156,156,5,Hobijn et al.; nlags=auto,0.14774352939739044,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo39,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-10.869147044621856,3.9651606929226614e-17,exact_approximation,3.9651606929226614e-17,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2835.811292172955,raiz unitária,estacionariedade em torno de tendência determinística,,2.189046539479792e-16,True
+Geo39,per_1000,KPSS,ct,156,156,4,Hobijn et al.; nlags=auto,0.07947812240287033,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo39,difference,ADF,c,155,145,9,AIC; maxlag=14,-6.359466107392028,2.4951362133971045e-08,exact_approximation,2.4951362133971045e-08,True,"{""1%"": -3.476273058920005, ""5%"": -2.881687616548444, ""10%"": -2.5775132580261593}",4704.581837250291,raiz unitária,estacionariedade em torno de constante,,1.3774900228423546e-07,True
+Geo39,difference,KPSS,c,155,155,31,Hobijn et al.; nlags=auto,0.115576246844832,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo39,difference,ADF,ct,155,145,9,AIC; maxlag=14,-6.34199984185872,4.0835795963860566e-07,exact_approximation,4.0835795963860566e-07,True,"{""1%"": -4.022601282135389, ""5%"": -3.441213278199188, ""10%"": -3.1450757476731313}",4706.5195798175055,raiz unitária,estacionariedade em torno de tendência determinística,,2.2544220717497005e-06,True
+Geo39,difference,KPSS,ct,155,155,31,Hobijn et al.; nlags=auto,0.10520381907029558,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo4,level,ADF,c,156,155,0,AIC; maxlag=14,-12.06440492636027,2.4274736361350865e-22,exact_approximation,2.4274736361350865e-22,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4492.5983248925195,raiz unitária,estacionariedade em torno de constante,,2.5965126070218368e-21,True
+Geo4,level,KPSS,c,156,156,0,Hobijn et al.; nlags=auto,0.5106050795003789,0.03927813524766241,interpolated,0.03927813524766241,True,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo4,level,ADF,ct,156,155,0,AIC; maxlag=14,-12.390545530647818,9.50109716387419e-20,exact_approximation,9.50109716387419e-20,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4491.203178524379,raiz unitária,estacionariedade em torno de tendência determinística,,1.161452946650059e-18,True
+Geo4,level,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.04370133606203905,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo4,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-12.064404926360274,2.427473636135052e-22,exact_approximation,2.427473636135052e-22,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2850.6227217611176,raiz unitária,estacionariedade em torno de constante,,2.5965126070218e-21,True
+Geo4,per_1000,KPSS,c,156,156,0,Hobijn et al.; nlags=auto,0.5106050795003768,0.03927813524766288,interpolated,0.03927813524766288,True,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo4,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-12.390545530646582,9.501097163914499e-20,exact_approximation,9.501097163914499e-20,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2849.227575392977,raiz unitária,estacionariedade em torno de tendência determinística,,1.1614529466549865e-18,True
+Geo4,per_1000,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.04370133606203862,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo4,difference,ADF,c,155,140,14,AIC; maxlag=14,-5.956769619097864,2.0842940349327742e-07,exact_approximation,2.0842940349327742e-07,True,"{""1%"": -3.4779446621720114, ""5%"": -2.8824156122448983, ""10%"": -2.577901887755102}",4478.410520107311,raiz unitária,estacionariedade em torno de constante,,9.640801874873764e-07,True
+Geo4,difference,KPSS,c,155,155,44,Hobijn et al.; nlags=auto,0.1572800480979092,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo4,difference,ADF,ct,155,140,14,AIC; maxlag=14,-5.933389961505782,3.028933149231054e-06,exact_approximation,3.028933149231054e-06,True,"{""1%"": -4.024934298469388, ""5%"": -3.4423275561224487, ""10%"": -3.1457269825072887}",4480.392232329871,raiz unitária,estacionariedade em torno de tendência determinística,,1.4010184693022875e-05,True
+Geo4,difference,KPSS,ct,155,155,44,Hobijn et al.; nlags=auto,0.14692969343439982,0.049225255471333475,interpolated,0.049225255471333475,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,,0.38293158933952465,False
+Geo5,level,ADF,c,156,152,3,AIC; maxlag=14,-6.311160191284845,3.2320891923260774e-08,exact_approximation,3.2320891923260774e-08,True,"{""1%"": -3.474120870218417, ""5%"": -2.880749791423677, ""10%"": -2.5770126333102494}",4488.162034766031,raiz unitária,estacionariedade em torno de constante,,1.4949873205457549e-07,True
+Geo5,level,KPSS,c,156,156,4,Hobijn et al.; nlags=auto,0.29146476061371657,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo5,level,ADF,ct,156,152,3,AIC; maxlag=14,-6.581340209515033,1.2214954476694543e-07,exact_approximation,1.2214954476694543e-07,True,"{""1%"": -4.019598505829475, ""5%"": -3.4397782320445764, ""10%"": -3.1442367831043154}",4486.426072976581,raiz unitária,estacionariedade em torno de tendência determinística,,5.649968480776882e-07,True
+Geo5,level,KPSS,ct,156,156,4,Hobijn et al.; nlags=auto,0.09679046775889516,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo5,per_1000,ADF,c,156,152,3,AIC; maxlag=14,-6.3111601912848485,3.232089192326018e-08,exact_approximation,3.232089192326018e-08,True,"{""1%"": -3.474120870218417, ""5%"": -2.880749791423677, ""10%"": -2.5770126333102494}",2846.4192043332305,raiz unitária,estacionariedade em torno de constante,,1.4949873205457273e-07,True
+Geo5,per_1000,KPSS,c,156,156,4,Hobijn et al.; nlags=auto,0.29146476061371485,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo5,per_1000,ADF,ct,156,152,3,AIC; maxlag=14,-6.581340209515037,1.2214954476694318e-07,exact_approximation,1.2214954476694318e-07,True,"{""1%"": -4.019598505829475, ""5%"": -3.4397782320445764, ""10%"": -3.1442367831043154}",2844.683242543779,raiz unitária,estacionariedade em torno de tendência determinística,,5.649968480776778e-07,True
+Geo5,per_1000,KPSS,ct,156,156,4,Hobijn et al.; nlags=auto,0.09679046775890145,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo5,difference,ADF,c,155,148,6,AIC; maxlag=14,-8.302998704838654,3.9717966512918645e-13,exact_approximation,3.9717966512918645e-13,True,"{""1%"": -3.4753253063120644, ""5%"": -2.881274703275226, ""10%"": -2.5772928360116873}",4470.843656310101,raiz unitária,estacionariedade em torno de constante,,5.228770127524804e-12,True
+Geo5,difference,KPSS,c,155,155,2,Hobijn et al.; nlags=auto,0.028356638226541265,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo5,difference,ADF,ct,155,148,6,AIC; maxlag=14,-8.294779310906085,1.4894400548046046e-11,exact_approximation,1.4894400548046046e-11,True,"{""1%"": -4.02127882271287, ""5%"": -3.440581388836791, ""10%"": -3.144706364874736}",4472.327553603283,raiz unitária,estacionariedade em torno de tendência determinística,,1.9608102702760784e-10,True
+Geo5,difference,KPSS,ct,155,155,2,Hobijn et al.; nlags=auto,0.01695312367309736,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo6,level,ADF,c,156,155,0,AIC; maxlag=14,-13.274954759292923,7.899658397434332e-25,exact_approximation,7.899658397434332e-25,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4395.1987535815215,raiz unitária,estacionariedade em torno de constante,,2.7039222757054357e-23,True
+Geo6,level,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.43778559013354645,0.060868280114850674,interpolated,0.060868280114850674,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo6,level,ADF,ct,156,155,0,AIC; maxlag=14,-13.638993582468228,2.4612461098591136e-21,exact_approximation,2.4612461098591136e-21,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4392.44962148361,raiz unitária,estacionariedade em torno de tendência determinística,,1.3733772275891956e-19,True
+Geo6,level,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.04494704067417,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo6,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-13.274954759292921,7.899658397434332e-25,exact_approximation,7.899658397434332e-25,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2875.596233891826,raiz unitária,estacionariedade em torno de constante,,2.7039222757054357e-23,True
+Geo6,per_1000,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.4377855901335489,0.06086828011484962,interpolated,0.06086828011484962,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo6,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-13.638993582445815,2.461246109991407e-21,exact_approximation,2.461246109991407e-21,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2872.847101793914,raiz unitária,estacionariedade em torno de tendência determinística,,1.3733772275899453e-19,True
+Geo6,per_1000,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.044947040674170095,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo6,difference,ADF,c,155,145,9,AIC; maxlag=14,-7.393453948527321,7.889771274491128e-11,exact_approximation,7.889771274491128e-11,True,"{""1%"": -3.476273058920005, ""5%"": -2.881687616548444, ""10%"": -2.5775132580261593}",4382.656648000584,raiz unitária,estacionariedade em torno de constante,,7.501494658949821e-10,True
+Geo6,difference,KPSS,c,155,155,32,Hobijn et al.; nlags=auto,0.225874609829612,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo6,difference,ADF,ct,155,145,9,AIC; maxlag=14,-7.363922833578758,2.0931254524759935e-09,exact_approximation,2.0931254524759935e-09,True,"{""1%"": -4.022601282135389, ""5%"": -3.441213278199188, ""10%"": -3.1450757476731313}",4384.649210623246,raiz unitária,estacionariedade em torno de tendência determinística,,1.990117185402603e-08,True
+Geo6,difference,KPSS,ct,155,155,32,Hobijn et al.; nlags=auto,0.10911466550140711,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo7,level,ADF,c,156,154,1,AIC; maxlag=14,-10.455613609199533,1.4012578974262491e-18,exact_approximation,1.4012578974262491e-18,True,"{""1%"": -3.473542528196209, ""5%"": -2.880497674144038, ""10%"": -2.576878053634677}",4696.899576939231,raiz unitária,estacionariedade em torno de constante,,7.267081482166911e-18,True
+Geo7,level,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.033366180138723174,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo7,level,ADF,ct,156,145,10,AIC; maxlag=14,-6.800485284758878,3.974943221178271e-08,exact_approximation,3.974943221178271e-08,True,"{""1%"": -4.022601282135389, ""5%"": -3.441213278199188, ""10%"": -3.1450757476731313}",4696.078825307256,raiz unitária,estacionariedade em torno de tendência determinística,,1.8896628499044028e-07,True
+Geo7,level,KPSS,ct,156,156,1,Hobijn et al.; nlags=auto,0.029090886111309878,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo7,per_1000,ADF,c,156,154,1,AIC; maxlag=14,-10.455613609199528,1.4012578974262994e-18,exact_approximation,1.4012578974262994e-18,True,"{""1%"": -3.473542528196209, ""5%"": -2.880497674144038, ""10%"": -2.576878053634677}",2836.1240419066376,raiz unitária,estacionariedade em torno de constante,,7.267081482167172e-18,True
+Geo7,per_1000,KPSS,c,156,156,1,Hobijn et al.; nlags=auto,0.03336618013872351,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo7,per_1000,ADF,ct,156,145,10,AIC; maxlag=14,-6.80048528475887,3.974943221178422e-08,exact_approximation,3.974943221178422e-08,True,"{""1%"": -4.022601282135389, ""5%"": -3.441213278199188, ""10%"": -3.1450757476731313}",2835.303290274662,raiz unitária,estacionariedade em torno de tendência determinística,,1.8896628499044748e-07,True
+Geo7,per_1000,KPSS,ct,156,156,1,Hobijn et al.; nlags=auto,0.02909088611130977,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo7,difference,ADF,c,155,141,13,AIC; maxlag=14,-6.553535609225076,8.730252907650938e-09,exact_approximation,8.730252907650938e-09,True,"{""1%"": -3.4776006742422374, ""5%"": -2.882265832283648, ""10%"": -2.5778219289774156}",4686.9125232983315,raiz unitária,estacionariedade em torno de constante,,5.336108972311998e-08,True
+Geo7,difference,KPSS,c,155,155,19,Hobijn et al.; nlags=auto,0.06843397287616837,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo7,difference,ADF,ct,155,141,13,AIC; maxlag=14,-6.521282639934618,1.656887040004616e-07,exact_approximation,1.656887040004616e-07,True,"{""1%"": -4.024454148377884, ""5%"": -3.442098279332953, ""10%"": -3.145592997002377}",4688.894551608888,raiz unitária,estacionariedade em torno de tendência determinística,,9.778017256987096e-07,True
+Geo7,difference,KPSS,ct,155,155,19,Hobijn et al.; nlags=auto,0.06669917871493818,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo8,level,ADF,c,156,155,0,AIC; maxlag=14,-11.365023685682004,9.272102339240186e-21,exact_approximation,9.272102339240186e-21,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4521.57151128892,raiz unitária,estacionariedade em torno de constante,,6.347374227177885e-20,True
+Geo8,level,KPSS,c,156,156,2,Hobijn et al.; nlags=auto,0.08802298879082109,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo8,level,ADF,ct,156,155,0,AIC; maxlag=14,-11.36317436917857,4.7272932933953186e-18,exact_approximation,4.7272932933953186e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4523.244077312087,raiz unitária,estacionariedade em torno de tendência determinística,,2.9964337501432824e-17,True
+Geo8,level,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.06257995905797031,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo8,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-11.365023685682004,9.272102339240186e-21,exact_approximation,9.272102339240186e-21,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2911.5763895316795,raiz unitária,estacionariedade em torno de constante,,6.347374227177885e-20,True
+Geo8,per_1000,KPSS,c,156,156,2,Hobijn et al.; nlags=auto,0.08802298879081916,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo8,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-11.363174369174915,4.727293293466993e-18,exact_approximation,4.727293293466993e-18,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2913.2489555548464,raiz unitária,estacionariedade em torno de tendência determinística,,2.996433750188714e-17,True
+Geo8,per_1000,KPSS,ct,156,156,2,Hobijn et al.; nlags=auto,0.06257995905796983,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo8,difference,ADF,c,155,147,7,AIC; maxlag=14,-8.022406839096996,2.0594915045613908e-12,exact_approximation,2.0594915045613908e-12,True,"{""1%"": -3.4756368462466662, ""5%"": -2.8814104466172608, ""10%"": -2.5773652982553568}",4510.0919405366985,raiz unitária,estacionariedade em torno de constante,,2.517606583025641e-11,True
+Geo8,difference,KPSS,c,155,155,133,Hobijn et al.; nlags=auto,0.4177810672371099,0.0694909192943492,interpolated,0.0694909192943492,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,,1.0,False
+Geo8,difference,ADF,ct,155,147,7,AIC; maxlag=14,-8.005347154270954,6.944521010698996e-11,exact_approximation,6.944521010698996e-11,True,"{""1%"": -4.021713510530224, ""5%"": -3.44078910993876, ""10%"": -3.144827798366327}",4511.98087349809,raiz unitária,estacionariedade em torno de tendência determinística,,8.489266294021029e-10,True
+Geo8,difference,KPSS,ct,155,155,131,Hobijn et al.; nlags=auto,0.41766779653465974,0.01,p_le_0.01,0.01,True,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.15558338323405002,False
+Geo9,level,ADF,c,156,155,0,AIC; maxlag=14,-12.328749852236953,6.498851760417986e-23,exact_approximation,6.498851760417986e-23,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",4649.322813387982,raiz unitária,estacionariedade em torno de constante,,8.555574449420241e-22,True
+Geo9,level,KPSS,c,156,156,2,Hobijn et al.; nlags=auto,0.20412533367818794,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo9,level,ADF,ct,156,155,0,AIC; maxlag=14,-12.41892937569291,8.622243151563539e-20,exact_approximation,8.622243151563539e-20,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",4650.585708345678,raiz unitária,estacionariedade em torno de tendência determinística,,1.1350965666504313e-18,True
+Geo9,level,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.022392728753488397,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo9,per_1000,ADF,c,156,155,0,AIC; maxlag=14,-12.328749852236955,6.498851760417986e-23,exact_approximation,6.498851760417986e-23,True,"{""1%"": -3.4732590518613002, ""5%"": -2.880374082105334, ""10%"": -2.5768120811654525}",2889.1831160545444,raiz unitária,estacionariedade em torno de constante,,8.555574449420241e-22,True
+Geo9,per_1000,KPSS,c,156,156,2,Hobijn et al.; nlags=auto,0.20412533367818753,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo9,per_1000,ADF,ct,156,155,0,AIC; maxlag=14,-12.41892937569207,8.622243151588152e-20,exact_approximation,8.622243151588152e-20,True,"{""1%"": -4.018396389849284, ""5%"": -3.4392034541304417, ""10%"": -3.1439006716793663}",2890.44601101224,raiz unitária,estacionariedade em torno de tendência determinística,,1.1350965666536715e-18,True
+Geo9,per_1000,KPSS,ct,156,156,3,Hobijn et al.; nlags=auto,0.02239272875348832,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo9,difference,ADF,c,155,142,12,AIC; maxlag=14,-6.208363165693155,5.585629030278337e-08,exact_approximation,5.585629030278337e-08,True,"{""1%"": -3.477261624048995, ""5%"": -2.8821181874544233, ""10%"": -2.5777431104939494}",4635.434923059162,raiz unitária,estacionariedade em torno de constante,,2.811571083009214e-07,True
+Geo9,difference,KPSS,c,155,155,29,Hobijn et al.; nlags=auto,0.12638701395202437,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.347, ""5%"": 0.463, ""2.5%"": 0.574, ""1%"": 0.739}",,estacionariedade em torno de constante,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False
+Geo9,difference,ADF,ct,155,142,12,AIC; maxlag=14,-6.1844489062958985,8.924273660458179e-07,exact_approximation,8.924273660458179e-07,True,"{""1%"": -4.023980918147249, ""5%"": -3.4418722820477714, ""10%"": -3.1454609207316904}",4637.432217903759,raiz unitária,estacionariedade em torno de tendência determinística,,4.363758736859039e-06,True
+Geo9,difference,KPSS,ct,155,155,29,Hobijn et al.; nlags=auto,0.10222562489155124,0.1,p_ge_0.10,1.0,False,"{""10%"": 0.119, ""5%"": 0.146, ""2.5%"": 0.176, ""1%"": 0.216}",,estacionariedade em torno de tendência determinística,não estacionariedade,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",1.0,False

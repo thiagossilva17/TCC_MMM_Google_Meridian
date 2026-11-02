@@ -1,0 +1,780 @@
+{
+  "rtol": 1e-07,
+  "atol": 1e-07,
+  "tables": [
+    {
+      "file": "activity_intensity_summary.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "activity_runs.csv",
+      "status": "equivalent",
+      "rows": 8417,
+      "byte_equal": true
+    },
+    {
+      "file": "activity_streaks.csv",
+      "status": "equivalent",
+      "rows": 10,
+      "byte_equal": true
+    },
+    {
+      "file": "activity_support_by_geo.csv",
+      "status": "equivalent",
+      "rows": 200,
+      "byte_equal": true
+    },
+    {
+      "file": "channel_activity.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "channel_geo_concentration.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "channel_geo_interpretation.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "channel_integrated_review.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "channel_summary.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "control_detailed_profile.csv",
+      "status": "equivalent",
+      "rows": 3,
+      "byte_equal": true
+    },
+    {
+      "file": "control_relationship_review.csv",
+      "status": "equivalent",
+      "rows": 3,
+      "byte_equal": true
+    },
+    {
+      "file": "control_temporal_summary.csv",
+      "status": "equivalent",
+      "rows": 4,
+      "byte_equal": true
+    },
+    {
+      "file": "correlation_national_pearson.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "correlation_national_spearman.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "correlation_overall_pearson.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "correlation_overall_spearman.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "correlation_summary.csv",
+      "status": "equivalent",
+      "rows": 840,
+      "byte_equal": true
+    },
+    {
+      "file": "correlation_two_way_pearson.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "correlation_two_way_spearman.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "correlation_within_pearson.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "correlation_within_spearman.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "cost_per_media_unit.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "custom_official_scale_comparison.csv",
+      "status": "equivalent",
+      "rows": 72,
+      "byte_equal": true
+    },
+    {
+      "file": "custom_vs_meridian.csv",
+      "status": "equivalent",
+      "rows": 7,
+      "byte_equal": true
+    },
+    {
+      "file": "data_audit.csv",
+      "status": "equivalent",
+      "rows": 29,
+      "byte_equal": true
+    },
+    {
+      "file": "data_dictionary.csv",
+      "status": "equivalent",
+      "rows": 19,
+      "byte_equal": true
+    },
+    {
+      "file": "duplicate_summary.csv",
+      "status": "equivalent",
+      "rows": 0,
+      "byte_equal": true
+    },
+    {
+      "file": "exploratory_lags.csv",
+      "status": "equivalent",
+      "rows": 45,
+      "byte_equal": true
+    },
+    {
+      "file": "geo_allocation.csv",
+      "status": "equivalent",
+      "rows": 40,
+      "byte_equal": true
+    },
+    {
+      "file": "geo_cpmu.csv",
+      "status": "equivalent",
+      "rows": 200,
+      "byte_equal": true
+    },
+    {
+      "file": "geo_kpi_correlation.csv",
+      "status": "equivalent",
+      "rows": 40,
+      "byte_equal": true
+    },
+    {
+      "file": "geo_kpi_summary.csv",
+      "status": "equivalent",
+      "rows": 40,
+      "byte_equal": true
+    },
+    {
+      "file": "geo_media_summary.csv",
+      "status": "equivalent",
+      "rows": 40,
+      "byte_equal": true
+    },
+    {
+      "file": "geo_plot_selection.csv",
+      "status": "equivalent",
+      "rows": 7,
+      "byte_equal": true
+    },
+    {
+      "file": "geo_synchronization_pairs.csv",
+      "status": "equivalent",
+      "rows": 780,
+      "byte_equal": true
+    },
+    {
+      "file": "geo_synchronization_summary.csv",
+      "status": "equivalent",
+      "rows": 1,
+      "byte_equal": true
+    },
+    {
+      "file": "geo_time_r2.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "geo_time_r2_per_capita.csv",
+      "status": "equivalent",
+      "rows": 12,
+      "byte_equal": true
+    },
+    {
+      "file": "impression_correlation_national_pearson.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "impression_correlation_national_spearman.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "impression_correlation_overall_pearson.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "impression_correlation_overall_spearman.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "impression_correlation_two_way_pearson.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "impression_correlation_two_way_spearman.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "impression_correlation_within_pearson.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "impression_correlation_within_spearman.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "kpi_acf.csv",
+      "status": "equivalent",
+      "rows": 53,
+      "byte_equal": true
+    },
+    {
+      "file": "kpi_concentration.csv",
+      "status": "equivalent",
+      "rows": 40,
+      "byte_equal": true
+    },
+    {
+      "file": "kpi_level_changes.csv",
+      "status": "equivalent",
+      "rows": 156,
+      "byte_equal": true
+    },
+    {
+      "file": "kpi_stl_52.csv",
+      "status": "equivalent",
+      "rows": 156,
+      "byte_equal": true
+    },
+    {
+      "file": "media_mix.csv",
+      "status": "equivalent",
+      "rows": 40,
+      "byte_equal": true
+    },
+    {
+      "file": "meridian_data_adequacy.csv",
+      "status": "equivalent",
+      "rows": 1,
+      "byte_equal": true
+    },
+    {
+      "file": "meridian_eda_checks.csv",
+      "status": "equivalent",
+      "rows": 16,
+      "byte_equal": true
+    },
+    {
+      "file": "meridian_warnings.csv",
+      "status": "equivalent",
+      "rows": 2,
+      "byte_equal": true
+    },
+    {
+      "file": "missing_by_channel.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "missing_by_geo.csv",
+      "status": "equivalent",
+      "rows": 40,
+      "byte_equal": true
+    },
+    {
+      "file": "missing_by_time.csv",
+      "status": "equivalent",
+      "rows": 156,
+      "byte_equal": true
+    },
+    {
+      "file": "missing_summary.csv",
+      "status": "equivalent",
+      "rows": 19,
+      "byte_equal": true
+    },
+    {
+      "file": "national_cpmu.csv",
+      "status": "equivalent",
+      "rows": 156,
+      "byte_equal": true
+    },
+    {
+      "file": "national_descriptive.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "national_timeseries.csv",
+      "status": "equivalent",
+      "rows": 156,
+      "byte_equal": true
+    },
+    {
+      "file": "national_zero_media_weeks.csv",
+      "status": "equivalent",
+      "rows": 4,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_cost_per_media_unit_0_cost_media_unit_inconsistency_df.csv",
+      "status": "equivalent",
+      "rows": 0,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_cost_per_media_unit_0_cost_per_media_unit_da.csv",
+      "status": "equivalent",
+      "rows": 31200,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_cost_per_media_unit_0_outlier_df.csv",
+      "status": "equivalent",
+      "rows": 200,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_pairwise_corr_0_corr_matrix.csv",
+      "status": "equivalent",
+      "rows": 81,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_pairwise_corr_0_extreme_corr_var_pairs.csv",
+      "status": "equivalent",
+      "rows": 0,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_pairwise_corr_1_corr_matrix.csv",
+      "status": "equivalent",
+      "rows": 3240,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_pairwise_corr_1_extreme_corr_var_pairs.csv",
+      "status": "equivalent",
+      "rows": 0,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_std_0_outlier_df.csv",
+      "status": "equivalent",
+      "rows": 36,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_std_0_std_ds.csv",
+      "status": "equivalent",
+      "rows": 40,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_std_1_outlier_df.csv",
+      "status": "equivalent",
+      "rows": 1461,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_std_1_std_ds.csv",
+      "status": "equivalent",
+      "rows": 360,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_vif_0_outlier_df.csv",
+      "status": "equivalent",
+      "rows": 0,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_vif_0_vif_da.csv",
+      "status": "equivalent",
+      "rows": 9,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_vif_1_outlier_df.csv",
+      "status": "equivalent",
+      "rows": 0,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_geo_vif_1_vif_da.csv",
+      "status": "equivalent",
+      "rows": 360,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_national_cost_per_media_unit_0_cost_media_unit_inconsistency_df.csv",
+      "status": "equivalent",
+      "rows": 0,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_national_cost_per_media_unit_0_cost_per_media_unit_da.csv",
+      "status": "equivalent",
+      "rows": 780,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_national_cost_per_media_unit_0_outlier_df.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_national_pairwise_corr_0_corr_matrix.csv",
+      "status": "equivalent",
+      "rows": 81,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_national_pairwise_corr_0_extreme_corr_var_pairs.csv",
+      "status": "equivalent",
+      "rows": 0,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_national_std_0_outlier_df.csv",
+      "status": "equivalent",
+      "rows": 1,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_national_std_0_std_ds.csv",
+      "status": "equivalent",
+      "rows": 1,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_national_std_1_outlier_df.csv",
+      "status": "equivalent",
+      "rows": 21,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_national_std_1_std_ds.csv",
+      "status": "equivalent",
+      "rows": 9,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_national_vif_0_outlier_df.csv",
+      "status": "equivalent",
+      "rows": 0,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_national_vif_0_vif_da.csv",
+      "status": "equivalent",
+      "rows": 9,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_overall_kpi_invariability_0_kpi_da.csv",
+      "status": "equivalent",
+      "rows": 6240,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_overall_kpi_invariability_0_kpi_stdev.csv",
+      "status": "equivalent",
+      "rows": 1,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_population_corr_raw_media_0_correlation_ds.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_population_corr_scaled_treatment_control_0_correlation_ds.csv",
+      "status": "equivalent",
+      "rows": 10,
+      "byte_equal": true
+    },
+    {
+      "file": "official_check_variable_geo_time_collinearity_0_rsquared_ds.csv",
+      "status": "equivalent",
+      "rows": 9,
+      "byte_equal": false
+    },
+    {
+      "file": "official_correlation_reconciliation.csv",
+      "status": "equivalent",
+      "rows": 72,
+      "byte_equal": true
+    },
+    {
+      "file": "official_cpmu_cases_geo.csv",
+      "status": "equivalent",
+      "rows": 200,
+      "byte_equal": true
+    },
+    {
+      "file": "official_cpmu_cases_national.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "official_outlier_cases.csv",
+      "status": "equivalent",
+      "rows": 1519,
+      "byte_equal": true
+    },
+    {
+      "file": "official_outlier_reconciliation.csv",
+      "status": "equivalent",
+      "rows": 4,
+      "byte_equal": true
+    },
+    {
+      "file": "official_outlier_selected_cases.csv",
+      "status": "equivalent",
+      "rows": 35,
+      "byte_equal": true
+    },
+    {
+      "file": "official_r2_reconciliation.csv",
+      "status": "equivalent",
+      "rows": 9,
+      "byte_equal": false
+    },
+    {
+      "file": "official_review_resolution.csv",
+      "status": "equivalent",
+      "rows": 6,
+      "byte_equal": true
+    },
+    {
+      "file": "official_thresholds.csv",
+      "status": "equivalent",
+      "rows": 10,
+      "byte_equal": true
+    },
+    {
+      "file": "official_vif_reconciliation.csv",
+      "status": "equivalent",
+      "rows": 18,
+      "byte_equal": true
+    },
+    {
+      "file": "outlier_case_review.csv",
+      "status": "equivalent",
+      "rows": 45,
+      "byte_equal": true
+    },
+    {
+      "file": "outlier_case_windows.csv",
+      "status": "equivalent",
+      "rows": 225,
+      "byte_equal": true
+    },
+    {
+      "file": "outlier_coincidence.csv",
+      "status": "equivalent",
+      "rows": 2918,
+      "byte_equal": true
+    },
+    {
+      "file": "outlier_group_review.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "outliers.csv",
+      "status": "equivalent",
+      "rows": 6039,
+      "byte_equal": true
+    },
+    {
+      "file": "per_capita_panel.csv",
+      "status": "equivalent",
+      "rows": 6240,
+      "byte_equal": true
+    },
+    {
+      "file": "population_kpi_correlation.csv",
+      "status": "equivalent",
+      "rows": 2,
+      "byte_equal": true
+    },
+    {
+      "file": "population_media_correlation.csv",
+      "status": "equivalent",
+      "rows": 10,
+      "byte_equal": true
+    },
+    {
+      "file": "population_summary.csv",
+      "status": "equivalent",
+      "rows": 40,
+      "byte_equal": true
+    },
+    {
+      "file": "predictor_kpi_comparison.csv",
+      "status": "equivalent",
+      "rows": 72,
+      "byte_equal": true
+    },
+    {
+      "file": "readiness_actions.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "readiness_report.csv",
+      "status": "equivalent",
+      "rows": 18,
+      "byte_equal": true
+    },
+    {
+      "file": "spend_correlation_national_pearson.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "spend_correlation_national_spearman.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "spend_correlation_overall_pearson.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "spend_correlation_overall_spearman.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "spend_correlation_two_way_pearson.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "spend_correlation_two_way_spearman.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "spend_correlation_within_pearson.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "spend_correlation_within_spearman.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "spend_share.csv",
+      "status": "equivalent",
+      "rows": 5,
+      "byte_equal": true
+    },
+    {
+      "file": "substantive_pair_comparison.csv",
+      "status": "equivalent",
+      "rows": 72,
+      "byte_equal": true
+    },
+    {
+      "file": "temporal_interpretation.csv",
+      "status": "equivalent",
+      "rows": 1,
+      "byte_equal": true
+    },
+    {
+      "file": "vif_summary.csv",
+      "status": "equivalent",
+      "rows": 36,
+      "byte_equal": true
+    },
+    {
+      "file": "within_between_variance.csv",
+      "status": "equivalent",
+      "rows": 15,
+      "byte_equal": true
+    },
+    {
+      "file": "within_geo_cv.csv",
+      "status": "equivalent",
+      "rows": 200,
+      "byte_equal": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "migrated_utc": "2026-11-01T20:26:44.533108+00:00",
+  "historical_repository_commit": "ef39d0a7629e849d31582cea6cefccb581f7a445",
+  "destination_initial_commit": "d9f4dca12574901608af4907a91ac796f0b22f6b",
+  "notebook_input_sha256": "c184cd07d2313fd0f84c2f5a5b805e9a881e006dfe1804da04bb95dea198387d",
+  "historical_metadata_preserved": true,
+  "original_acquisition_utc": "2026-10-03T10:29:33.864348+00:00",
+  "consolidation_date_as_reported_in_input": "2026-10-21",
+  "temporal_execution_manifest": "outputs/temporal_complement/logs/tc_execution_manifest.json",
+  "processed_schema": [
+    {
+      "column": "geo",
+      "dtype": "object"
+    },
+    {
+      "column": "time",
+      "dtype": "datetime64[ns]"
+    },
+    {
+      "column": "Channel0_impression",
+      "dtype": "int64"
+    },
+    {
+      "column": "Channel1_impression",
+      "dtype": "int64"
+    },
+    {
+      "column": "Channel2_impression",
+      "dtype": "int64"
+    },
+    {
+      "column": "Channel3_impression",
+      "dtype": "int64"
+    },
+    {
+      "column": "Channel4_impression",
+      "dtype": "int64"
+    },
+    {
+      "column": "competitor_sales_control",
+      "dtype": "float64"
+    },
+    {
+      "column": "sentiment_score_control",
+      "dtype": "float64"
+    },
+    {
+      "column": "Channel0_spend",
+      "dtype": "float64"
+    },
+    {
+      "column": "Channel1_spend",
+      "dtype": "float64"
+    },
+    {
+      "column": "Channel2_spend",
+      "dtype": "float64"
+    },
+    {
+      "column": "Channel3_spend",
+      "dtype": "float64"
+    },
+    {
+      "column": "Channel4_spend",
+      "dtype": "float64"
+    },
+    {
+      "column": "Organic_channel0_impression",
+      "dtype": "int64"
+    },
+    {
+      "column": "Promo",
+      "dtype": "float64"
+    },
+    {
+      "column": "conversions",
+      "dtype": "float64"
+    },
+    {
+      "column": "revenue_per_conversion",
+      "dtype": "float64"
+    },
+    {
+      "column": "population",
+      "dtype": "float64"
+    }
+  ],
+  "processed_order": "geo, time ascending; reset integer index",
+  "raw_transformations": [
+    "validate exported index 0..6239",
+    "drop Unnamed: 0",
+    "parse time",
+    "sort geo/time",
+    "export without index"
+  ]
+}
