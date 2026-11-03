@@ -1,0 +1,6 @@
+Command: OPENBLAS_NUM_THREADS=1 /tmp/planning-venv/bin/python -m pytest -q repo/tests
+.........................                                                [100%]
+25 passed in 7.12s
+
+Scope: preserved files/sections/tables, historical notebook and outputs, aggregation, masks, ranks, YAML references and source fields, KPI isolation helper, metrics, draws, gaps, classifications, generated matrix.
+No MCMC; no Meridian runtime integration; no Colab validation.

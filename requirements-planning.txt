@@ -1,0 +1,7 @@
+# Isolated preparation/test environment; does not change the pinned Meridian.
+numpy==2.3.5
+pandas==2.2.3
+PyYAML==6.0.2
+pytest==8.4.2
+nbformat==5.10.4
+Pillow==11.3.0

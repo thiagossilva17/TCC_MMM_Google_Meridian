@@ -1,0 +1,57 @@
+id: HOLDOUT-V1
+temporal_ref: TEMPORAL-V1
+aggregation_ref: AGG-V1
+seed: 20261103
+boolean_semantics: true = KPI excluded from likelihood; media retained
+status: requires_validation
+A:
+  id: HOLDOUT-A
+  file: configs/holdouts/holdout_geo_distribuido.csv
+  algorithm: PCG64 permutes geo order and week order. In permuted week j, hold out
+    8 cyclic geo positions (8*j+[0..7]) mod 40.
+  shape:
+  - 40
+  - 156
+  reserved_per_week: 8
+  purpose: GEO cell reconstruction; not a national comparator
+B:
+  id: HOLDOUT-B
+  file: configs/holdouts/holdout_semanas_comuns.csv
+  algorithm: 'PCG64 seed+1: select one interior position from each of 31 five-week
+    strata; candidate positions start+1,start+2,start+3; endpoints remain training'
+  shape_geo:
+  - 40
+  - 156
+  shape_national:
+  - 156
+  n_test_weeks: 31
+  purpose: National weekly total comparison; interpolation conditional on observed
+    covariates
+development:
+  id: DEV-B
+  algorithm: one available interior week per 10-week stratum, seed+2, excluding B-test
+    and endpoints; no KPI access
+  purpose: select only within development pool; final B used once
+  file: configs/holdouts/holdout_semanas_comuns.csv
+api:
+  primary: ModelSpec.holdout = HoldoutSpec(spec=tuple(GeoHoldoutSpec(...))) for A;
+    tuple(DateRange(...)) for B
+  legacy: holdout_id boolean array supported but deprecated; never combine both
+  validation: static signature verified; require compiled mask roundtrip in Meridian
+    before sampling
+leakage:
+  aks: disabled
+  kpi_scaling: upstream KpiTransformer uses all KPI; must isolate reserved outcomes
+    before constructing model
+  mitigation: keep truth separately; replace all validation/test KPI input cells with
+    training-only per-geo means, preserve holdout; coefficient priors only; compare
+    perturbed hidden truths to model transforms and priors before fitting
+  gate: runtime input/transform/prior invariance test required; no clean-holdout claim
+    until passed
+  covariates: all-period X allowed only for conditional interpolation; not an operational
+    forecast
+  historical_eda: whole dataset already explored; test is prospective to fitting but
+    not blind to research design
+selection_rule: MCMC and structural gates first; compare development errors, residuals
+  and contribution uncertainty; use parsimony for practically indistinguishable alternatives;
+  freeze model before final test

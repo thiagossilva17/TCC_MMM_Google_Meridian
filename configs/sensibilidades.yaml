@@ -1,0 +1,759 @@
+id: SENS-V1
+temporal_ref: TEMPORAL-V1
+holdout_ref: HOLDOUT-V1
+diagnostics_ref: DIAG-V1
+status: not_executed
+reference_prior: PRIOR-0
+stability:
+  id: STABILITY-V1
+  summaries:
+  - mean
+  - median
+  - 90pct credible interval
+  - absolute difference
+  - relative difference only above substantive floor
+  - interval width
+  - ranking probabilities
+  - baseline change
+  - development error
+  relative_denominator_floor: null
+  relative_floor_policy: Specify substantive floor in conversions before results;
+    otherwise suppress relative percentages.
+  probability_policy: P(C_alt>C_ref) under explicitly independent product of posteriors;
+    resample independent indices, never pair draw i across fits; not a jointly identified
+    causal contrast
+  classification:
+    stable: substantive interpretation preserved across eligible specifications, with
+      uncertainty
+    moderate: magnitudes vary but main qualitative conclusion persists
+    high: conclusion or probability ordering changes among eligible specifications
+    inconclusive: uncertainty or computational/identification failure prevents judgment
+    not_comparable: different population, period or counterfactual without harmonized
+      estimand
+  threshold_policy: no arbitrary percentage cutoffs; report numerical changes and
+    uncertainty
+experiments:
+- id: BASE-A
+  family: BASE
+  hypothesis: Internal reconstruction with per-week temporal effects
+  model: GEO-A
+  reference: null
+  alternative:
+    temporal: GEO-K156
+    prior: PRIOR-0
+  factor: BASE
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-A
+  development_ref: null
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 1
+  cost: medium
+  essential: true
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: BASE-B
+  family: BASE
+  hypothesis: Compare geographic hierarchy and aggregation with matched knot positions
+  model: paired
+  reference: null
+  alternative:
+    GEO: GEO-K13
+    NAT: NAT-K13
+    prior: PRIOR-0
+  factor: BASE
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 1
+  cost: medium
+  essential: true
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: TIME-N1
+  family: TIME
+  hypothesis: National default as rigid temporal benchmark
+  model: NAT
+  reference: BASE-B
+  alternative:
+    NAT: NAT-K1
+  factor: TIME
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 1
+  cost: medium
+  essential: true
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: TIME-GEO26
+  family: TIME
+  hypothesis: Does temporal flexibility change prediction or contribution?
+  model: GEO
+  reference: BASE-B
+  alternative:
+    temporal: GEO-K26
+  factor: TIME
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 1
+  cost: medium
+  essential: true
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: TIME-GEO52
+  family: TIME
+  hypothesis: Does temporal flexibility change prediction or contribution?
+  model: GEO
+  reference: BASE-B
+  alternative:
+    temporal: GEO-K52
+  factor: TIME
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 1
+  cost: medium
+  essential: false
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: TIME-NAT4
+  family: TIME
+  hypothesis: Does temporal flexibility change prediction or contribution?
+  model: NAT
+  reference: BASE-B
+  alternative:
+    temporal: NAT-K4
+  factor: TIME
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 1
+  cost: medium
+  essential: true
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: TIME-NAT8
+  family: TIME
+  hypothesis: Does temporal flexibility change prediction or contribution?
+  model: NAT
+  reference: BASE-B
+  alternative:
+    temporal: NAT-K8
+  factor: TIME
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 1
+  cost: medium
+  essential: false
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: TIME-AKS
+  family: TIME
+  hypothesis: Data-driven knots under verified training-only selection
+  model: paired
+  reference: BASE-B
+  alternative:
+    temporal: AKS-OPTIONAL
+  factor: TIME
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 3
+  cost: high
+  essential: false
+  status: conditional
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: PRIOR-1
+  family: PRIOR
+  hypothesis: More concentrated hierarchical log-media coefficient prior
+  model: paired
+  reference: BASE-B
+  alternative:
+    prior_patch:
+      beta_m:
+        family: Normal
+        loc: 0.0
+        scale: 0.5
+  factor: PRIOR
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 1
+  cost: medium
+  essential: true
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: PRIOR-2
+  family: PRIOR
+  hypothesis: More dispersed hierarchical log-media coefficient prior
+  model: paired
+  reference: BASE-B
+  alternative:
+    prior_patch:
+      beta_m:
+        family: Normal
+        loc: 0.0
+        scale: 2.0
+  factor: PRIOR
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 1
+  cost: medium
+  essential: true
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: PRIOR-3
+  family: PRIOR
+  hypothesis: Alternative coefficient prior family with matched log-space variance
+  model: paired
+  reference: BASE-B
+  alternative:
+    prior_patch:
+      beta_m:
+        family: StudentT
+        df: 5.0
+        loc: 0.0
+        scale: 0.7745966692414834
+  factor: PRIOR
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 3
+  cost: medium
+  essential: false
+  status: conditional
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: CTRL-COMP
+  family: CTRL
+  hypothesis: Stress test omission; not automatically a valid causal model
+  model: paired
+  reference: BASE-B
+  alternative:
+    remove_control: competitor_sales_control
+  factor: CTRL
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 1
+  cost: medium
+  essential: true
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: CTRL-SENT
+  family: CTRL
+  hypothesis: Stress test omission; not automatically a valid causal model
+  model: paired
+  reference: BASE-B
+  alternative:
+    remove_control: sentiment_score_control
+  factor: CTRL
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 1
+  cost: medium
+  essential: true
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: CTRL-AGG
+  family: CTRL
+  hypothesis: Dependence on index aggregation assumption
+  model: NAT
+  reference: BASE-B
+  alternative:
+    aggregate_indices: unweighted_mean
+  factor: aggregation assumption
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 2
+  cost: medium
+  essential: false
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: ADSTOCK-BIN
+  family: ADSTOCK
+  hypothesis: Alternative lag weight shape
+  model: paired
+  reference: BASE-B
+  alternative:
+    model_spec_patch:
+      adstock_decay_spec: binomial
+  factor: ADSTOCK
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 2
+  cost: medium
+  essential: false
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: LAG-4
+  family: LAG
+  hypothesis: Dependence on finite memory horizon
+  model: paired
+  reference: BASE-B
+  alternative:
+    model_spec_patch:
+      max_lag: 4
+  factor: LAG
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 2
+  cost: medium
+  essential: false
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: LAG-10
+  family: LAG
+  hypothesis: Dependence on finite memory horizon
+  model: paired
+  reference: BASE-B
+  alternative:
+    model_spec_patch:
+      max_lag: 10
+  factor: LAG
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 2
+  cost: medium
+  essential: false
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: HILL-EC
+  family: HILL
+  hypothesis: Half-saturation prior sensitivity
+  model: paired
+  reference: BASE-B
+  alternative:
+    prior_patch:
+      ec_m:
+        family: TruncatedNormal
+        loc: 0.8
+        scale: 0.4
+        low: 0.1
+        high: 10.0
+  factor: HILL
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 2
+  cost: medium
+  essential: false
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: HILL-SLOPE
+  family: HILL
+  hypothesis: Allow non-unit slope with median one
+  model: paired
+  reference: BASE-B
+  alternative:
+    prior_patch:
+      slope_m:
+        family: LogNormal
+        loc: 0.0
+        scale: 0.3
+  factor: HILL
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 2
+  cost: medium
+  essential: false
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: HILL-ORDER
+  family: HILL
+  hypothesis: Transformation order sensitivity
+  model: paired
+  reference: BASE-B
+  alternative:
+    model_spec_patch:
+      hill_before_adstock: true
+  factor: HILL
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 2
+  cost: medium
+  essential: false
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: GEO-POOL
+  family: GEO
+  hypothesis: Stronger partial pooling
+  model: GEO
+  reference: BASE-B
+  alternative:
+    prior_patch:
+      eta_m:
+        family: HalfNormal
+        scale: 0.5
+  factor: GEO
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 3
+  cost: medium
+  essential: false
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: GEO-FAMILY
+  family: GEO
+  hypothesis: Normal effects allow negative local coefficients and change support
+  model: GEO
+  reference: BASE-B
+  alternative:
+    model_spec_patch:
+      media_effects_dist: normal
+    prior_patch:
+      beta_m:
+        family: HalfNormal
+        scale: 1.0
+  factor: joint family/support change, not dispersion-only
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 3
+  cost: medium
+  essential: false
+  status: conditional
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: INFLUENCE-GEO
+  family: INFLUENCE
+  hypothesis: Influence of largest population; fixed rule, not best/worst model outcome
+  model: paired
+  reference: BASE-B
+  alternative:
+    remove_geos: one largest population; lexical tie break
+    reaggregate: true
+    estimand_changed: true
+  factor: INFLUENCE
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 3
+  cost: medium
+  essential: false
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: INFLUENCE-TREND
+  family: INFLUENCE
+  hypothesis: Influence of opposite descriptive trajectories
+  model: paired
+  reference: BASE-B
+  alternative:
+    subset_rule: opposite to national in frozen tc_geo_trend_profile.csv
+    estimand_changed: true
+  factor: INFLUENCE
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 3
+  cost: medium
+  essential: false
+  status: conditional
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: INFLUENCE-EDGE
+  family: INFLUENCE
+  hypothesis: Missing prehistory and edge effects
+  model: paired
+  reference: BASE-B
+  alternative:
+    exclude_evaluation_weeks: first 10 and last 10, report separately
+    training_unchanged: true
+    estimand_changed: true
+  factor: INFLUENCE
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 3
+  cost: medium
+  essential: false
+  status: not_executed
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: INFLUENCE-EXTREME
+  family: INFLUENCE
+  hypothesis: Influence of already flagged extremes
+  model: paired
+  reference: BASE-B
+  alternative:
+    cases_ref: outputs/tables/outlier_case_review.csv
+    action: case-by-case leave-one-out after predeclared case list; no winsorization
+    estimand_changed: true
+  factor: INFLUENCE
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 3
+  cost: medium
+  essential: false
+  status: conditional
+  depends_on: []
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: JOINT-TIME-CTRL
+  family: JOINT
+  hypothesis: Temporal flexibility and omitted control interaction
+  model: paired
+  reference: BASE-B
+  alternative:
+    combine:
+    - TIME-GEO26
+    - CTRL-COMP
+  factor: JOINT
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 3
+  cost: high
+  essential: false
+  status: not_executed
+  depends_on:
+  - TIME-GEO26
+  - CTRL-COMP
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: JOINT-LAG-DECAY
+  family: JOINT
+  hypothesis: Lag horizon and decay shape interaction
+  model: paired
+  reference: BASE-B
+  alternative:
+    combine:
+    - LAG-10
+    - ADSTOCK-BIN
+  factor: JOINT
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 3
+  cost: high
+  essential: false
+  status: not_executed
+  depends_on:
+  - LAG-10
+  - ADSTOCK-BIN
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review
+- id: JOINT-PRIOR-POOL
+  family: JOINT
+  hypothesis: Mean-prior and pooling interaction
+  model: GEO
+  reference: BASE-B
+  alternative:
+    combine:
+    - PRIOR-1
+    - GEO-POOL
+  factor: JOINT
+  fixed: all except declared factor; data, masks and versions fixed unless influence
+    explicitly changes estimand
+  data_ref: AGG-V1
+  mask_ref: HOLDOUT-B
+  development_ref: DEV-B
+  estimand: incremental synthetic conversions under declared counterfactual
+  metrics_ref: STABILITY-V1
+  diagnostics_ref: DIAG-V1
+  priority: 3
+  cost: high
+  essential: false
+  status: not_executed
+  depends_on:
+  - PRIOR-1
+  - GEO-POOL
+  eligibility: MCMC-GATE, temporal rank, leakage invariance, matched scale and counterfactual;
+    prior predictive review

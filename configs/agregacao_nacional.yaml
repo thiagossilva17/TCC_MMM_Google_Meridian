@@ -1,0 +1,41 @@
+id: AGG-V1
+source: data/processed/geo_time_panel.csv
+source_sha256: 3aa1bc0ee293b7c6d46ccc5ad7c74583ec670a78153432be183d338ad11f4abc
+output: data/processed/national_weekly.csv
+status: conditional
+semantic_limit: Control and Promo units are undocumented synthetic scales. Population
+  weighting is an explicit working assumption inherited from descriptive EDA, not
+  verified population-index semantics.
+operators:
+  sum:
+  - conversions
+  - Channel0_impression
+  - Channel0_spend
+  - Channel1_impression
+  - Channel1_spend
+  - Channel2_impression
+  - Channel2_spend
+  - Channel3_impression
+  - Channel3_spend
+  - Channel4_impression
+  - Channel4_spend
+  - Organic_channel0_impression
+  population_weighted_mean:
+  - competitor_sales_control
+  - sentiment_score_control
+  - Promo
+  population: sum unique geo populations once; repeat total per week only as metadata
+  revenue_per_conversion: omit from modeling table; KPI-weighted formula only for
+    descriptive revenue reconciliation outside fitting
+conservation_rtol: 1.0e-12
+conservation_atol: 1.0e-06
+national_loader_population: 1.0
+controls:
+- competitor_sales_control
+- sentiment_score_control
+non_media:
+- Promo
+organic:
+- Organic_channel0_impression
+kpi_type: non_revenue
+revenue_per_kpi: null

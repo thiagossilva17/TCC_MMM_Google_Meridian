@@ -24,6 +24,9 @@ def test_original_cells_and_scientific_functions():
 
 def test_migrated_hashes():
     for row in json.loads((ROOT/'docs/proveniencia/manifesto_migracao.json').read_text()):
+        if row['destination'] in {'tcc/03_material_e_metodos.md','tcc/04_resultados_eda.md'}:
+            # Authorized scientific edits now checked section-by-section below.
+            continue
         assert digest(ROOT/row['destination'])==row['sha256_final'],row['destination']
     historical=json.loads((ROOT/'outputs/logs/run_manifest.json').read_text())
     for stage in historical['stages'].values():
@@ -35,8 +38,18 @@ def test_academic_preservation():
     hashes={r['name']:r['sha256'] for r in inv['attachments']}
     mapping={'01_Introducao_Revisada_ABNT(4).md':'tcc/01_introducao.md','02_Referencial_Teorico_Revisado_ABNT(4).md':'tcc/02_referencial_teorico.md','03_Referencias_Bibliograficas_Revisadas_ABNT(4).md':'tcc/referencias.md'}
     for name,path in mapping.items():assert digest(ROOT/path)==hashes[name]
-    reconstructed=b''.join((ROOT/p).read_bytes() for p in ['tcc/03_material_e_metodos.md','tcc/04_resultados_eda.md','docs/proveniencia/referencias_auxiliares_capitulos_3_4.md'])
-    assert hashlib.sha256(reconstructed).hexdigest()==hashes['04_EDA_Metodologia(5).md']
+    # Preserve initial provenance; replace obsolete whole-chapter freeze with scoped hashes.
+    manifest=json.loads((ROOT/'docs/planejamento/preservation_manifest.json').read_text())
+    for path,record in manifest['academic'].items():
+        chunks=re.split(r'(?=^## \d+\.\d+ )',(ROOT/path).read_text(),flags=re.M)
+        parts={re.match(r'## (\d+\.\d+)',v)[1] if v.startswith('## ') else 'header':hashlib.sha256(v.encode()).hexdigest() for v in chunks}
+        assert parts.keys()==record['initial_sections'].keys()
+        for key,value in record['initial_sections'].items():
+            if key not in record['allowed_sections']:assert parts[key]==value,(path,key)
+        # First-task text must survive the second-task revision exactly.
+        for key in (['3.3'] if '/03_' in path else parts.keys()):
+            assert parts[key]==record['after_task1_sections'][key],(path,key)
+
 
 def test_data_contract_and_transformations():
     assert digest(ROOT/'data/raw/geo_all_channels.csv')=='d9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6'
@@ -54,7 +67,13 @@ def test_editorial_figures_and_tables():
     assert len(elements)==12 and sum(x['tipo']=='figura' for x in elements)==7
     for row in elements:
         assert (ROOT/row['caminho_editorial']).exists()
-        assert digest(ROOT/row['caminho_editorial'])==row['hash_destino']
+        if row['caminho_editorial'] in {'tcc/03_material_e_metodos.md','tcc/04_resultados_eda.md'}:
+            record=json.loads((ROOT/'docs/planejamento/preservation_manifest.json').read_text())['academic'][row['caminho_editorial']]
+            assert row['hash_destino']==record['initial_sha256']
+            tables=re.findall(r'^\|.*(?:\n\|.*)*',(ROOT/row['caminho_editorial']).read_text(),flags=re.M)
+            assert [hashlib.sha256(t.encode()).hexdigest() for t in tables]==record['initial_table_hashes']
+        else:
+            assert digest(ROOT/row['caminho_editorial'])==row['hash_destino']
         if row['tipo']=='figura':assert digest(ROOT/row['origem_tecnica'])==row['hash_origem']
     raw=pd.read_csv(ROOT/'outputs/tables/within_between_variance.csv').set_index('variable')
     pc=pd.read_csv(ROOT/'outputs/tables/geo_time_r2_per_capita.csv').set_index('variable')

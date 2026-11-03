@@ -1,0 +1,114 @@
+id: DIAG-V1
+holdout_ref: HOLDOUT-V1
+status: not_executed
+scale: original synthetic conversions
+mcmc:
+  id: MCMC-GATE
+  chains: 4
+  seed: 20261104
+  rhat_max: 1.01
+  bulk_ess_min: 400
+  tail_ess_min: 400
+  divergences_target: 0
+  other:
+  - trace
+  - rank
+  - MCSE
+  - energy if available
+  - tree depth if available
+  parameters:
+  - media
+  - hierarchical scales
+  - knots
+  - geo intercepts
+  - controls
+  - adstock
+  - Hill
+  - sigma
+  failure_action: block substantive interpretation; retain failure and investigate;
+    thresholds are heuristics, not convergence proof
+prediction:
+  id: PRED-GATE
+  metrics:
+  - MAE
+  - RMSE
+  - wMAPE_pct
+  - R2
+  - coverage
+  - interval_width
+  interval_level: 0.9
+  zero_denominator: undefined; return null
+  geo_aggregation: sum matching chain/draw across geo BEFORE quantiles
+  expected_vs_predictive: expected_outcome is not a new-observation draw; predictive
+    intervals require observation noise and inverse transform
+temporal:
+  id: TEMP-GATE
+  lags:
+  - 1
+  - 4
+  - 8
+  - 13
+  - 26
+  seasonal_lag: 52
+  seasonal_min_pairs: 100
+  acf: calendar-aligned pairwise correlation with pair counts when missing; full-series
+    ACF separately
+  pacf: only complete regular series or contiguous segments; max lag <= min(13, n//2-1)
+  ljung_box: only contiguous segments; lag <= min(26,n//5); approximate descriptive
+    calibration after Bayesian fit; no naive parameter-count subtraction
+  multiple_testing: BY within geo families per lag; also report effect magnitude and
+    visual/PPC evidence
+  residual: observed minus posterior expected outcome; keep calendar gaps; do not
+    concatenate geos
+  geographic:
+  - local residual trends
+  - cross-geo residual correlation on aligned dates
+  - dispersion versus population
+  - persistent error runs
+  baseline:
+  - full counterfactual reference trajectory
+  - edge behavior
+  - uncertainty
+  - media trade-off
+  - excessive oscillations
+ppc:
+  id: PPC-GATE
+  level:
+  - mean
+  - median
+  - sd
+  - quantiles
+  - extremes
+  temporal:
+  - ACF
+  - trend
+  - window changes
+  - runs
+  - seasonal amplitude
+  geo:
+  - between
+  - within
+  - local trends
+  - cross-geo dependence
+  national:
+  - weekly totals
+  - dispersion
+  - trajectory
+  implementation: construct new observations from verified likelihood; expected_outcome
+    alone insufficient; validate dimensions and scale before use
+classification:
+- SATISFATORIO
+- REQUER_INVESTIGACAO
+- PROBLEMATICO
+- INCONCLUSIVO
+- NAO_APLICAVEL
+- NAO_EXECUTADO
+decision_order:
+- MCMC-GATE
+- PRED-GATE
+- TEMP-GATE
+- geographic residuals
+- baseline
+- PPC-GATE
+sensitivity_eligibility: finite estimates, passed computational gates, comparable
+  estimand, leakage gate; never select by favorable ROI

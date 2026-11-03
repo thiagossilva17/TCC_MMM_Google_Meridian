@@ -11,3 +11,11 @@ Status em 01/11/2026: planejamento; nenhum modelo estimado nesta migração. O p
 | 5 — Consolidação acadêmica | Discutir achados, limites da base sintética, conclusões e diagramação | Resultados efetivamente obtidos incorporados à monografia, citações harmonizadas e posterior projeto LaTeX |
 
 A seção 08 informa essas decisões, mas não escolhe automaticamente transformações nem comprova causalidade. Não iniciar estimação só porque a migração está pronta.
+
+## Estado atualizado em 03/11/2026
+
+A entrega de desenho agora está especificada no [protocolo científico integrado](PROTOCOLO_CIENTIFICO_INTEGRADO.md), com [matriz experimental gerada](MATRIZ_EXPERIMENTAL.md), cinco configurações YAML, preparação nacional sob hipótese explícita e máscaras congeladas. As Seções 3.3/4.6 incorporam evidências da seção 08; 3.5–3.7 sintetizam o planejamento.
+
+O próximo passo é validar os objetos de entrada na versão fixada, a equivalência das máscaras, a invariância ao KPI reservado e as distribuições preditivas da prior. Somente depois dessas portas será admissível estimar os modelos. As hipóteses substantivas de agregação dos índices e de posição causal dos controles continuam condicionais. Nenhum modelo, diagnóstico posterior ou resultado de robustez foi executado nesta entrega.
+
+Ordem de leitura para esta etapa: protocolo → matriz → auditoria. Os documentos da EDA e seus manifestos históricos foram preservados; não há uma segunda EDA nem quatro protocolos concorrentes.
